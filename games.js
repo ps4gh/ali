@@ -978,7 +978,7 @@ window.SHOP = {
    "id": "g40",
    "name": "Hitman 2 Gold Edition",
    "genre": "تسلل، أكشن",
-   "sizeGB": 70,
+   "sizeGB": 110,
    "releaseDate": "2018-11-13",
    "developer": "IO Interactive",
    "players": "لاعب واحد + أونلاين",
