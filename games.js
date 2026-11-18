@@ -183,7 +183,7 @@ window.SHOP = {
    "id": "g36",
    "name": "Call of Duty: Black Ops 6",
    "genre": "تصويب، أكشن",
-   "sizeGB": 110,
+   "sizeGB": 75,
    "releaseDate": "2024-10-25",
    "developer": "Treyarch, Raven",
    "players": "لاعب واحد + أونلاين",
