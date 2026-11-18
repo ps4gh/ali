@@ -1268,7 +1268,7 @@ window.SHOP = {
    "developer": "Playdead",
    "players": "لاعب واحد",
    "rating": "PEGI 18",
-   "arabic": false,
+   "arabic": true,
    "desc": "صبي يهرب في عالم غامض ومظلم، ألغاز بدون كلام.",
    "note": "",
    "cover": "covers/g86.jpg",
