@@ -15,6 +15,21 @@ window.SHOP = {
  },
  "games": [
   {
+   "id": "n-gow-sparta",
+   "name": "God of War: Sons of Sparta",
+   "genre": "أكشن، مغامرة",
+   "sizeGB": 10,
+   "releaseDate": "2026-11-15",
+   "developer": "Javaground",
+   "players": "لاعب واحد",
+   "rating": "PEGI 12",
+   "arabic": true,
+   "desc": "كريتوس وأخوه ديموس بمغامرة كلاسيكية قصيرة بأسلوب ثنائي الأبعاد من أيام سبارطة.",
+   "note": "من الاعاب الجديد نزولان على ps 4",
+   "cover": "covers/n-gow-sparta.jpg",
+   "addedAt": "2026-11-18"
+  },
+  {
    "id": "n-avengers",
    "name": "Marvel's Avengers Deluxe Edition",
    "genre": "أكشن، أبطال خارقين",
@@ -27,21 +42,6 @@ window.SHOP = {
    "desc": "كابتن أمريكا وآيرون مان وهالك وثور وبلاك ويدو وكامالا خان بمغامرة الأفنجرز، النسخة الديلوكس.",
    "note": "",
    "cover": "covers/n-avengers.jpg",
-   "addedAt": "2026-11-18"
-  },
-  {
-   "id": "n-gow-sparta",
-   "name": "God of War: Sons of Sparta",
-   "genre": "أكشن، مغامرة",
-   "sizeGB": 1,
-   "releaseDate": "2010-04-01",
-   "developer": "Javaground",
-   "players": "لاعب واحد",
-   "rating": "PEGI 12",
-   "arabic": false,
-   "desc": "كريتوس وأخوه ديموس بمغامرة كلاسيكية قصيرة بأسلوب ثنائي الأبعاد من أيام سبارطة.",
-   "note": "نسخة كلاسيك محوّلة تعمل على PS4",
-   "cover": "covers/n-gow-sparta.jpg",
    "addedAt": "2026-11-18"
   },
   {
