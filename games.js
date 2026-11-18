@@ -198,7 +198,7 @@ window.SHOP = {
    "id": "g41",
    "name": "Call of Duty: Modern Warfare III",
    "genre": "تصويب، أكشن",
-   "sizeGB": 125,
+   "sizeGB": 140,
    "releaseDate": "2023-11-10",
    "developer": "Sledgehammer Games",
    "players": "لاعب واحد + أونلاين",
