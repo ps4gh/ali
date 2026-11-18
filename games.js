@@ -15,6 +15,21 @@ window.SHOP = {
  },
  "games": [
   {
+   "id": "g76",
+   "name": "Toy Story 3",
+   "genre": "مغامرة، عائلية",
+   "sizeGB": 5,
+   "releaseDate": "2010-06-15",
+   "developer": "Avalanche Software",
+   "players": "لاعب واحد",
+   "rating": "PEGI 7",
+   "arabic": true,
+   "desc": "وودي وباز في مغامرة قصة لعبة 3، مناسبة للأطفال.",
+   "note": "نسخة كلاسيك محوّلة تعمل على PS4",
+   "cover": "covers/g76.jpg",
+   "addedAt": "2026-11-18"
+  },
+  {
    "id": "g55",
    "name": "Grand Theft Auto: San Andreas",
    "genre": "أكشن، عالم مفتوح",
@@ -1137,21 +1152,6 @@ window.SHOP = {
    "desc": "النينجا كورينوسوكي تنتقم لوالدها بسلاح التيتسوجين.",
    "note": "نسخة PS2 كلاسيك",
    "cover": "covers/g81.jpg",
-   "addedAt": "2026-11-18"
-  },
-  {
-   "id": "g76",
-   "name": "Toy Story 3",
-   "genre": "مغامرة، عائلية",
-   "sizeGB": 5,
-   "releaseDate": "2010-06-15",
-   "developer": "Avalanche Software",
-   "players": "لاعب واحد",
-   "rating": "PEGI 7",
-   "arabic": false,
-   "desc": "وودي وباز في مغامرة قصة لعبة 3، مناسبة للأطفال.",
-   "note": "نسخة كلاسيك محوّلة تعمل على PS4",
-   "cover": "covers/g76.jpg",
    "addedAt": "2026-11-18"
   },
   {
