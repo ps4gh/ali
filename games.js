@@ -498,7 +498,7 @@ window.SHOP = {
    "id": "g17",
    "name": "WWE 2K25",
    "genre": "رياضة، مصارعة",
-   "sizeGB": 60,
+   "sizeGB": 75,
    "releaseDate": "2025-03-14",
    "developer": "Visual Concepts",
    "players": "لاعب واحد + أونلاين",
