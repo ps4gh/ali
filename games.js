@@ -1298,7 +1298,7 @@ window.SHOP = {
    "developer": "PlatinumGames",
    "players": "لاعب واحد",
    "rating": "PEGI 12",
-   "arabic": false,
+   "arabic": true,
    "desc": "كورا تتحكم بالعناصر الأربعة في قتال سريع.",
    "note": "",
    "cover": "covers/g61.jpg",
