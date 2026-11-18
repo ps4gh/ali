@@ -1133,7 +1133,7 @@ window.SHOP = {
    "developer": "Tranji",
    "players": "لاعب واحد",
    "rating": "PEGI 16",
-   "arabic": false,
+   "arabic": true,
    "desc": "النينجا كورينوسوكي تنتقم لوالدها بسلاح التيتسوجين.",
    "note": "نسخة PS2 كلاسيك",
    "cover": "covers/g81.jpg",
