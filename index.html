@@ -1,0 +1,458 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>AXIS معرض علي اكرم</title>
+<meta name="description" content="معرض علي اكرم للالكترونيات AXIS - الخالص. تنزيل ألعاب PS4 وبيع جميع الأجهزة. اختر ألعابك وأرسل الطلب على واتساب.">
+<meta property="og:title" content="AXIS معرض علي اكرم للالكترونيات">
+<meta property="og:description" content="اختر ألعاب PS4 وأرسل الطلب على واتساب">
+<meta property="og:image" content="logo.jpg">
+<link rel="icon" href="logo.jpg">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Changa:wght@500;700;800&family=Readex+Pro:wght@300;400;500;600&display=swap">
+<style>
+/* Layout: neon shop hero (logo + identity + contact) → sticky search bar → cover grid → contact footer; floating WhatsApp basket. Single dark neon look matching the AXIS sign. */
+:root{
+  color-scheme:dark;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);
+  --bg:#070a14; --surface:#0e1324; --surface-2:#161d34; --fg:#eef1fb; --muted:#8f9bbd; --line:#232c47;
+  --cyan:#35d6ff; --pink:#ff3d73; --accent:#35d6ff; --accent-fg:#04121a; --wa:#22c065; --danger:#ff6b7a;
+  --f-display:"Changa","Readex Pro",system-ui,sans-serif;
+  --f-body:"Readex Pro",system-ui,"Segoe UI",Tahoma,sans-serif;
+  --r:14px;
+}
+*{box-sizing:border-box}img{max-width:100%}[hidden]{display:none!important}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--f-body);font-size:15px;line-height:1.6;direction:rtl}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+.wrap{max-width:1180px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+button,input,select,textarea{font:inherit;color:inherit}
+button{cursor:pointer}
+a{color:var(--cyan)}
+:focus-visible{outline:2px solid var(--cyan);outline-offset:2px}
+
+/* hero */
+.hero{position:relative;overflow:hidden;border-bottom:1px solid var(--line);background:
+  radial-gradient(600px 300px at 85% 10%, rgb(255 61 115 / .18), transparent 70%),
+  radial-gradient(700px 360px at 10% 90%, rgb(53 214 255 / .16), transparent 70%), var(--bg)}
+.hero::after{content:"";position:absolute;inset:0;pointer-events:none;opacity:.35;background-image:linear-gradient(var(--line) 1px,transparent 1px),linear-gradient(90deg,var(--line) 1px,transparent 1px);background-size:44px 44px;mask-image:linear-gradient(180deg,transparent,#000 40%,transparent)}
+.hero .wrap{position:relative;z-index:1;display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:36px;align-items:center;padding-block:36px 40px}
+@media (max-width:820px){.hero .wrap{grid-template-columns:1fr;gap:22px;padding-block:22px 28px}}
+.logo-frame{border-radius:28px;padding:3px;background:linear-gradient(135deg,var(--cyan),var(--pink));box-shadow:0 0 40px rgb(53 214 255 / .25),0 0 60px rgb(255 61 115 / .18);max-width:460px;width:100%;justify-self:center}
+.logo-frame img{display:block;width:100%;border-radius:25px;aspect-ratio:1;object-fit:cover}
+.eyebrow{font-size:13px;letter-spacing:.04em;color:var(--muted)}
+.hero h1{font-family:var(--f-display);font-weight:800;font-size:clamp(28px,5vw,48px);line-height:1.15;margin:6px 0 0;text-wrap:balance}
+.axis{font-family:var(--f-display);font-weight:800;font-size:clamp(46px,9vw,92px);line-height:1;letter-spacing:.06em;direction:ltr;text-align:right;background:linear-gradient(90deg,var(--pink),#c56bff 45%,var(--cyan));-webkit-background-clip:text;background-clip:text;color:transparent;margin:6px 0 10px;filter:drop-shadow(0 0 18px rgb(53 214 255 / .25))}
+.addr{display:flex;gap:8px;align-items:flex-start;color:var(--fg);font-size:16px}
+.addr svg{flex-shrink:0;margin-top:4px}
+.svc{display:flex;flex-wrap:wrap;gap:8px;margin:16px 0 4px}
+.svc span{border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:4px 12px;font-size:13px;direction:ltr}
+.svc-l{font-size:13px;color:var(--muted);margin-top:14px}
+.dl{margin-top:14px;font-weight:600;font-size:17px;color:var(--cyan)}
+.mgr{color:var(--muted);font-size:14px;margin-top:2px}
+.cta{display:flex;flex-wrap:wrap;gap:10px;margin-top:20px;align-items:center}
+.phone{font-family:var(--f-display);font-weight:700;font-size:22px;direction:ltr;letter-spacing:.04em;user-select:all}
+.stats{display:flex;gap:22px;flex-wrap:wrap;margin-top:22px;padding-top:18px;border-top:1px solid var(--line)}
+.stats b{display:block;font-family:var(--f-display);font-size:28px;line-height:1;font-variant-numeric:tabular-nums}
+.stats span{font-size:12.5px;color:var(--muted)}
+
+.btn{border:1px solid var(--line);background:var(--surface);border-radius:12px;padding:9px 16px;display:inline-flex;align-items:center;justify-content:center;gap:8px;white-space:nowrap;text-decoration:none;color:var(--fg)}
+.btn:hover{border-color:var(--cyan)}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:var(--accent-fg);font-weight:600}
+.btn.wa{background:var(--wa);border-color:var(--wa);color:#fff;font-weight:600}
+.btn.danger{color:var(--danger)}
+.btn.sm{padding:6px 12px;font-size:13.5px}
+.btn:disabled{opacity:.55;cursor:default}
+
+/* sticky bar */
+.bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:rgb(7 10 20 / .92);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.bar .wrap{display:flex;gap:10px;flex-wrap:wrap;align-items:center;padding-block:10px}
+.bar .mini-logo{display:flex;align-items:center;gap:8px;font-family:var(--f-display);font-weight:800;letter-spacing:.06em;direction:ltr}
+.bar .mini-logo img{width:34px;height:34px;border-radius:9px;object-fit:cover}
+.search{flex:1 1 220px;min-width:0;border:1px solid var(--line);background:var(--surface);border-radius:12px;padding:9px 14px}
+.bar select{border:1px solid var(--line);background:var(--surface);border-radius:12px;padding:9px 10px;max-width:100%}
+.toggle{display:inline-flex;align-items:center;gap:6px;font-size:13.5px;border:1px solid var(--line);border-radius:12px;padding:8px 12px;background:var(--surface)}
+.owner{display:flex;gap:8px}
+@media (max-width:600px){.bar .mini-logo{display:none}.bar .wrap{gap:8px}.bar select,.toggle{flex:1 1 30%;font-size:13px;padding:8px}.basket .wrap{gap:8px}.basket .sum strong{font-size:15px}}
+
+.sec-h{display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap;padding-block:26px 12px}
+.sec-h h2{font-family:var(--f-display);font-weight:800;font-size:clamp(24px,3.4vw,32px);margin:0}
+.sec-h p{margin:0;color:var(--muted);font-size:13.5px}
+
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(178px,1fr));gap:16px;padding-bottom:40px}
+@media (max-width:440px){.grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);overflow:hidden;display:flex;flex-direction:column;position:relative;transition:border-color .15s, box-shadow .15s, transform .15s}
+.card:hover{transform:translateY(-2px)}
+.card.sel{border-color:var(--cyan);box-shadow:0 0 0 2px var(--cyan),0 0 22px rgb(53 214 255 / .3)}
+.cover{aspect-ratio:4/5;max-width:100%;background:var(--surface-2);position:relative;display:block;width:100%;border:0;padding:0}
+.cover img{width:100%;height:100%;object-fit:cover;display:block}
+.ph{position:absolute;inset:0;display:grid;place-items:center;text-align:center;padding:12px;font-family:var(--f-display);font-size:20px;line-height:1.2;color:var(--muted);background:linear-gradient(160deg,var(--surface-2),var(--bg))}
+.tick{position:absolute;top:8px;inset-inline-start:8px;width:32px;height:32px;border-radius:50%;background:rgb(7 10 20 / .75);border:2px solid rgb(255 255 255 / .7);display:grid;place-items:center;font-weight:700;color:transparent}
+.card.sel .tick{background:var(--cyan);border-color:var(--cyan);color:var(--accent-fg)}
+.badge{position:absolute;bottom:8px;inset-inline-start:8px;inset-inline-end:8px;width:max-content;max-width:calc(100% - 16px);background:rgb(7 10 20 / .85);color:var(--fg);border-radius:7px;font-size:11px;padding:2px 8px;border:1px solid var(--pink)}
+.info{padding:10px 12px 12px;display:flex;flex-direction:column;gap:6px;flex:1;min-width:0}
+.info h3{margin:0;font-size:14.5px;font-weight:600;line-height:1.35;overflow-wrap:anywhere;direction:ltr;text-align:right}
+.meta{display:grid;grid-template-columns:auto 1fr;gap:2px 8px;font-size:12.5px;color:var(--muted)}
+.meta b{font-weight:500;color:var(--fg);font-variant-numeric:tabular-nums}
+.chips{display:flex;flex-wrap:wrap;gap:4px}
+.chip{font-size:11px;border-radius:999px;padding:1px 8px;background:var(--surface-2);color:var(--fg)}
+.chip.ar{background:rgb(34 192 101 / .16);color:#7ce3a6}
+.more{margin-top:auto;font-size:12.5px;background:none;border:0;color:var(--cyan);padding:0;text-align:start}
+
+.empty{grid-column:1/-1;text-align:center;color:var(--muted);padding:48px 16px;border:1px dashed var(--line);border-radius:var(--r)}
+
+footer{border-top:1px solid var(--line);background:var(--surface);padding-bottom:120px}
+footer .wrap{display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:24px;align-items:center;padding-block:26px}
+@media (max-width:720px){footer .wrap{grid-template-columns:1fr}}
+footer img.f-logo{width:96px;height:96px;border-radius:18px;object-fit:cover}
+footer h3{margin:0;font-family:var(--f-display);font-size:20px}
+footer p{margin:2px 0;color:var(--muted)}
+.soc{display:flex;gap:8px;flex-wrap:wrap}
+
+.basket{position:fixed;left:0;right:0;bottom:0;z-index:6;background:var(--surface);border-top:1px solid var(--cyan);padding-bottom:env(safe-area-inset-bottom,0px);box-shadow:0 -8px 30px rgb(0 0 0 / .5)}
+.basket .wrap{display:flex;align-items:center;gap:12px;padding-block:12px;flex-wrap:wrap}
+.basket .sum{flex:1;min-width:0}
+.basket .sum strong{font-size:16px}
+.basket .sum div{color:var(--muted);font-size:13px;font-variant-numeric:tabular-nums}
+
+/* dialogs */
+.veil{position:fixed;inset:0;z-index:20;background:rgb(2 4 10 / .7);display:flex;justify-content:center;align-items:flex-start;overflow-y:auto;padding:max(16px,env(safe-area-inset-top,0px)) max(12px,env(safe-area-inset-right,0px)) 24px max(12px,env(safe-area-inset-left,0px))}
+.sheet{background:var(--surface);border:1px solid var(--line);border-radius:18px;width:100%;max-width:640px;padding:20px;display:flex;flex-direction:column;gap:14px;margin-block:auto}
+.sheet h2{font-family:var(--f-display);font-weight:800;font-size:24px;margin:0;line-height:1.25;min-width:0;overflow-wrap:anywhere}
+.sheet .row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.sheet .x{margin-inline-start:auto}
+.field{display:flex;flex-direction:column;gap:4px;flex:1 1 180px;min-width:0}
+.field label{font-size:12.5px;color:var(--muted)}
+.field input,.field textarea,.field select{border:1px solid var(--line);background:var(--bg);border-radius:10px;padding:9px 11px;width:100%}
+.field textarea{min-height:84px;resize:vertical}
+.hint{font-size:12.5px;color:var(--muted)}
+.status{font-size:13px;min-height:1.4em}
+.status.err{color:var(--danger)}
+.drop{display:flex;gap:14px;align-items:center;flex-wrap:wrap}
+.drop .pv{width:96px;aspect-ratio:4/5;border-radius:10px;background:var(--surface-2);overflow:hidden;flex-shrink:0;position:relative}
+.drop .pv.sq{aspect-ratio:1}
+.drop .pv img{width:100%;height:100%;object-fit:cover}
+.alist{display:flex;flex-direction:column;gap:6px;max-height:300px;overflow-y:auto}
+.aitem{display:flex;align-items:center;gap:10px;border:1px solid var(--line);border-radius:10px;padding:6px 8px}
+.aitem img,.aitem .mini{width:36px;height:45px;object-fit:cover;border-radius:5px;background:var(--surface-2);flex-shrink:0}
+.aitem span{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.detail{display:grid;grid-template-columns:180px minmax(0,1fr);gap:16px;align-items:start}
+@media (max-width:520px){.detail{grid-template-columns:1fr}}
+.detail-cover{width:100%;max-width:220px;aspect-ratio:4/5;border-radius:12px;overflow:hidden;background:var(--surface-2);position:relative;justify-self:center}
+.detail-cover img{width:100%;height:100%;object-fit:cover}
+.copybox{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.copybox code{background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:6px 10px;direction:ltr;user-select:all}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<div id="app"></div>
+<script src="games.js"></script>
+<script id="appjs">
+(function(){
+"use strict";
+var RESET = (document.head && document.head.querySelector("style")) ? document.head.querySelector("style").textContent : "";
+var keepBefore = Array.prototype.filter.call(document.querySelectorAll("[data-keep]"), function(e){ return e.id !== "appjs"; }).map(function(e){ return e.outerHTML; }).join("\n");
+var keepScript = document.getElementById("appjs").outerHTML;
+
+var S;
+S = window.SHOP || {settings:{},games:[]};
+S.settings = S.settings || {}; S.games = S.games || [];
+
+var app = document.getElementById("app");
+var isOwner = false, artifactNS = null, sampleNS = null, readOnly = false;
+var sel = loadSel();
+var q = "", genreF = "", sortBy = "shop", arOnly = false;
+
+function loadSel(){ try { return new Set(JSON.parse(localStorage.getItem("axissel")||"[]")); } catch(e){ return new Set(); } }
+function saveSel(){ try { localStorage.setItem("axissel", JSON.stringify(Array.from(sel))); } catch(e){} }
+function esc(s){ return String(s==null?"":s).replace(/[&<>"']/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c];}); }
+function fmtDate(d){ if(!d) return "—"; var p=String(d).split("-"); if(p.length<3) return d; return p[2]+"/"+p[1]+"/"+p[0]; }
+function fmtSize(n){ n=Number(n); if(!n) return "—"; return "⁦"+(Math.round(n*10)/10)+" GB⁩"; }
+function byId(id){ for(var i=0;i<S.games.length;i++) if(S.games[i].id===id) return S.games[i]; return null; }
+function genres(){ var m={}; S.games.forEach(function(g){ String(g.genre||"").split(/[،,]/).forEach(function(x){ x=x.trim(); if(x) m[x]=(m[x]||0)+1; }); }); return Object.keys(m).sort(function(a,b){return m[b]-m[a];}); }
+function cleanSel(){ sel.forEach(function(id){ if(!byId(id)) sel.delete(id); }); }
+function waNum(){ return String(S.settings.whatsapp||"").replace(/\D/g,""); }
+function plural(n){ return n===1?"لعبة":(n===2?"لعبتين":(n>2&&n<11?"ألعاب":"لعبة")); }
+var PIN='<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 22s7-6.2 7-12a7 7 0 1 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg>';
+var WA='<svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.7-1.2 2.2 2.2 0 0 0 .2-1.2c-.1-.1-.3-.2-.5-.3z"/></svg>';
+
+// ---------- render ----------
+function heroHTML(){
+  var s=S.settings, num=waNum();
+  var h='<section class="hero"><div class="wrap"><div>';
+  h+='<div class="eyebrow">ألعاب وأجهزة بلايستيشن وإكس بوكس</div>';
+  h+='<h1>'+esc(s.shopName||"")+'</h1>';
+  if(s.brand) h+='<div class="axis">'+esc(s.brand)+'</div>';
+  if(s.address) h+='<div class="addr">'+PIN+'<span>'+esc(s.address)+'</span></div>';
+  h+='<div class="svc-l">بيع جميع الأجهزة</div><div class="svc"><span>PS5</span><span>PS4</span><span>PS3 · PS2</span><span>Xbox 360</span><span>Xbox Series X|S</span></div>';
+  if(s.subtitle) h+='<div class="dl">'+esc(s.subtitle)+'</div>';
+  if(s.manager) h+='<div class="mgr">'+esc(s.manager)+'</div>';
+  h+='<div class="cta"><a class="btn primary" href="#games">تصفح الألعاب ↓</a>';
+  if(num) h+='<a class="btn wa" target="_blank" rel="noopener" href="https://wa.me/'+num+'">'+WA+' راسلنا واتساب</a>';
+  if(s.phone) h+='<span class="phone">'+esc(s.phone)+'</span>';
+  h+='</div>';
+  h+='<div class="stats"><div><b>'+S.games.length+'</b><span>لعبة PS4 متوفرة</span></div><div><b>'+S.games.filter(function(g){return g.arabic;}).length+'</b><span>لعبة تدعم العربي</span></div><div><b>5</b><span>أنواع أجهزة</span></div></div>';
+  h+='</div>';
+  if(s.logo) h+='<div class="logo-frame"><img src="'+s.logo+'" alt="شعار '+esc(s.shopName||"")+'"></div>';
+  h+='</div></section>';
+  return h;
+}
+function footerHTML(){
+  var s=S.settings, num=waNum();
+  var h='<footer><div class="wrap">'+(s.logo?'<img class="f-logo" src="'+s.logo+'" alt="">':'<span></span>')+'<div><h3>'+esc(s.shopName||"")+(s.brand?' · '+esc(s.brand):'')+'</h3>';
+  if(s.address) h+='<p>'+esc(s.address)+'</p>';
+  if(s.phone) h+='<p>هاتف وواتساب: <span class="phone" style="font-size:17px">'+esc(s.phone)+'</span></p>';
+  h+='</div><div class="soc">';
+  if(num) h+='<a class="btn wa sm" target="_blank" rel="noopener" href="https://wa.me/'+num+'">'+WA+' واتساب</a>';
+  if(s.tiktok) h+='<a class="btn sm" target="_blank" rel="noopener" href="'+esc(s.tiktok)+'">تيك توك</a>';
+  if(s.facebook) h+='<a class="btn sm" target="_blank" rel="noopener" href="'+esc(s.facebook)+'">فيسبوك</a>';
+  h+='</div></div></footer>';
+  return h;
+}
+function render(){
+  cleanSel();
+  var list = S.games.filter(function(g){
+    var t=(g.name+" "+(g.genre||"")+" "+(g.developer||"")+" "+(g.note||"")).toLowerCase();
+    if(q && t.indexOf(q.toLowerCase())<0) return false;
+    if(genreF && String(g.genre||"").indexOf(genreF)<0) return false;
+    if(arOnly && !g.arabic) return false;
+    return true;
+  });
+  if(sortBy!=="shop") list.sort(function(a,b){
+    if(sortBy==="release") return String(b.releaseDate||"").localeCompare(String(a.releaseDate||""));
+    if(sortBy==="size") return (Number(a.sizeGB)||0)-(Number(b.sizeGB)||0);
+    if(sortBy==="name") return String(a.name).localeCompare(String(b.name));
+    return 0;
+  });
+  var gs = genres(), s=S.settings;
+  var h = heroHTML();
+  h += '<div class="bar" id="games"><div class="wrap">';
+  h += '<div class="mini-logo">'+(s.logo?'<img src="'+s.logo+'" alt="">':'')+'<span>'+esc(s.brand||"")+'</span></div>';
+  h += '<input class="search" id="q" type="search" placeholder="ابحث عن لعبة… مثلاً GTA أو Call of Duty" value="'+esc(q)+'" aria-label="بحث">';
+  h += '<select id="genre" aria-label="النوع"><option value="">كل الأنواع</option>'+gs.map(function(x){return '<option'+(x===genreF?' selected':'')+'>'+esc(x)+'</option>';}).join("")+'</select>';
+  h += '<select id="sort" aria-label="الترتيب">'+[["shop","الأكثر طلباً"],["release","الأحدث إصداراً"],["size","الأصغر حجماً"],["name","حسب الاسم"]].map(function(o){return '<option value="'+o[0]+'"'+(o[0]===sortBy?' selected':'')+'>'+o[1]+'</option>';}).join("")+'</select>';
+  h += '<label class="toggle"><input type="checkbox" id="ar"'+(arOnly?' checked':'')+'> يدعم العربي</label>';
+  if(isOwner) h += '<div class="owner"><button class="btn primary sm" id="b-add">＋ إضافة لعبة</button><button class="btn sm" id="b-admin">إدارة المحل</button></div>';
+  h += '</div></div>';
+  h += '<main class="wrap"><div class="sec-h"><h2>ألعاب PS4 المتوفرة</h2><p>'+(list.length!==S.games.length?'يظهر '+list.length+' من '+S.games.length+' · ':'')+'اضغط على الغلاف لاختيار اللعبة، ثم أرسل الطلب على واتساب</p></div>';
+  h += '<div class="grid">';
+  if(!S.games.length) h += '<div class="empty">لا توجد ألعاب بعد.'+(isOwner?' اضغط «إضافة لعبة» واكتب اسمها، والذكاء يملأ المعلومات.':'')+'</div>';
+  else if(!list.length) h += '<div class="empty">لا توجد نتائج. جرّب اسماً آخر أو راسلنا واتساب نجيبها لك.</div>';
+  list.forEach(function(g){
+    var on = sel.has(g.id);
+    h += '<article class="card'+(on?' sel':'')+'">';
+    h += '<button class="cover" data-tog="'+esc(g.id)+'" aria-pressed="'+on+'" aria-label="اختيار '+esc(g.name)+'">'+(g.cover?'<img src="'+g.cover+'" alt="" loading="lazy">':'<span class="ph">'+esc(g.name)+'</span>')+'<span class="tick">✓</span>'+(g.note?'<span class="badge">'+esc(g.note)+'</span>':'')+'</button>';
+    h += '<div class="info"><h3>'+esc(g.name)+'</h3>';
+    h += '<div class="meta"><span>الحجم</span><b>'+fmtSize(g.sizeGB)+'</b><span>الإصدار</span><b>'+fmtDate(g.releaseDate)+'</b></div>';
+    var chips = ''; if(g.genre) chips+='<span class="chip">'+esc(String(g.genre).split(/[،,]/)[0].trim())+'</span>'; if(g.arabic) chips+='<span class="chip ar">عربي</span>';
+    if(chips) h += '<div class="chips">'+chips+'</div>';
+    h += '<button class="more" data-det="'+esc(g.id)+'">المواصفات ←</button></div></article>';
+  });
+  h += '</div></main>';
+  h += footerHTML();
+  var n = sel.size, tot = 0; sel.forEach(function(id){ var g=byId(id); if(g) tot += Number(g.sizeGB)||0; });
+  if(n) h += '<div class="basket"><div class="wrap"><div class="sum"><strong>اخترت '+(n===1?'لعبة واحدة':n===2?'لعبتين':n+' '+plural(n))+'</strong><div>الحجم الكلي تقريباً '+fmtSize(tot)+'</div></div><button class="btn" id="b-clear">مسح</button><button class="btn wa" id="b-send">'+WA+' إرسال الطلب واتساب</button></div></div>';
+  app.innerHTML = h;
+  wire();
+}
+
+function wire(){
+  var qi=document.getElementById("q");
+  qi.addEventListener("input",function(){ q=qi.value; var pos=qi.selectionStart, y=window.scrollY; render(); window.scrollTo(0,y); var n=document.getElementById("q"); n.focus({preventScroll:true}); try{n.setSelectionRange(pos,pos);}catch(e){} });
+  document.getElementById("genre").onchange=function(e){ genreF=e.target.value; keep(render); };
+  document.getElementById("sort").onchange=function(e){ sortBy=e.target.value; keep(render); };
+  document.getElementById("ar").onchange=function(e){ arOnly=e.target.checked; keep(render); };
+  app.querySelectorAll("[data-tog]").forEach(function(b){ b.onclick=function(){ var id=b.getAttribute("data-tog"); if(sel.has(id)) sel.delete(id); else sel.add(id); saveSel(); keep(render); }; });
+  app.querySelectorAll("[data-det]").forEach(function(b){ b.onclick=function(){ showDetail(b.getAttribute("data-det")); }; });
+  var c=document.getElementById("b-clear"); if(c) c.onclick=function(){ sel.clear(); saveSel(); keep(render); };
+  var s=document.getElementById("b-send"); if(s) s.onclick=showSend;
+  var a=document.getElementById("b-add"); if(a) a.onclick=function(){ showEditor(null); };
+  var m=document.getElementById("b-admin"); if(m) m.onclick=showAdmin;
+}
+function keep(fn){ var y=window.scrollY; fn(); window.scrollTo(0,y); }
+
+// ---------- dialogs ----------
+function openSheet(html){
+  closeSheet();
+  var v=document.createElement("div"); v.className="veil"; v.id="veil";
+  v.innerHTML='<div class="sheet" role="dialog" aria-modal="true">'+html+'</div>';
+  v.addEventListener("click",function(e){ if(e.target===v) closeSheet(); });
+  document.body.appendChild(v);
+  v.querySelectorAll("[data-close]").forEach(function(b){ b.onclick=closeSheet; });
+  document.addEventListener("keydown",escClose);
+  return v;
+}
+function escClose(e){ if(e.key==="Escape") closeSheet(); }
+function closeSheet(){ var v=document.getElementById("veil"); if(v) v.remove(); document.removeEventListener("keydown",escClose); }
+
+function showDetail(id){
+  var g=byId(id); if(!g) return;
+  var rows=[["النوع",g.genre],["الحجم",fmtSize(g.sizeGB)],["تاريخ الإصدار",fmtDate(g.releaseDate)],["المطوّر",g.developer],["عدد اللاعبين",g.players],["التصنيف العمري",g.rating],["اللغة العربية",g.arabic?"مدعومة":"غير مدعومة"]];
+  if(g.note) rows.push(["ملاحظة",g.note]);
+  var on=sel.has(id);
+  var v=openSheet('<div class="row" style="flex-wrap:nowrap;align-items:flex-start"><h2 dir="ltr" style="text-align:right;flex:1">'+esc(g.name)+'</h2><button class="btn x sm" data-close>إغلاق</button></div>'+
+    '<div class="detail"><div class="detail-cover">'+(g.cover?'<img src="'+g.cover+'" alt="">':'<span class="ph">'+esc(g.name)+'</span>')+'</div><div style="display:flex;flex-direction:column;gap:12px;min-width:0">'+
+    (g.desc?'<p style="margin:0">'+esc(g.desc)+'</p>':'')+
+    '<div class="meta" style="font-size:14px;gap:6px 14px">'+rows.map(function(r){return '<span>'+r[0]+'</span><b>'+esc(r[1]||"—")+'</b>';}).join("")+'</div></div></div>'+
+    '<div class="row"><button class="btn primary" id="d-tog">'+(on?'إزالة من طلبي':'أضف إلى طلبي')+'</button>'+(isOwner?'<button class="btn" id="d-edit">تعديل</button>':'')+'</div>');
+  v.querySelector("#d-tog").onclick=function(){ if(sel.has(id)) sel.delete(id); else sel.add(id); saveSel(); closeSheet(); keep(render); };
+  var e=v.querySelector("#d-edit"); if(e) e.onclick=function(){ showEditor(id); };
+}
+
+function orderText(name){
+  var lines=[], tot=0, i=0;
+  sel.forEach(function(id){ var g=byId(id); if(!g) return; i++; tot+=Number(g.sizeGB)||0; lines.push(i+"- "+g.name+(g.sizeGB?" ("+(Math.round(g.sizeGB*10)/10)+" GB)":"")); });
+  return "السلام عليكم "+(S.settings.brand||"")+"، أريد تنزيل هذه الألعاب على PS4:\n"+lines.join("\n")+"\n\nعدد الألعاب: "+i+"\nالحجم الكلي تقريباً: "+(Math.round(tot*10)/10)+" GB"+(name?"\nالاسم: "+name:"");
+}
+function showSend(){
+  var num=waNum();
+  var v=openSheet('<div class="row"><h2>إرسال الطلب</h2><button class="btn x sm" data-close>إغلاق</button></div>'+
+    '<div class="field"><label for="c-name">اسمك (اختياري)</label><input id="c-name" autocomplete="name"></div>'+
+    '<div class="field"><label for="c-msg">نص الرسالة</label><textarea id="c-msg" readonly style="min-height:160px"></textarea></div>'+
+    (num?'<a class="btn wa" id="c-go" target="_blank" rel="noopener">'+WA+' فتح واتساب وإرسال</a>':'<div class="status err">رقم الواتساب غير مضاف بعد.</div>')+
+    '<div class="copybox"><button class="btn sm" id="c-copy">نسخ الرسالة</button>'+(S.settings.phone?'<span class="hint">أو أرسلها إلى</span><code>'+esc(S.settings.phone)+'</code>':'')+'</div><div class="status" id="c-st"></div>');
+  var ni=v.querySelector("#c-name"), mi=v.querySelector("#c-msg"), go=v.querySelector("#c-go");
+  try{ ni.value=localStorage.getItem("axisname")||""; }catch(e){}
+  function upd(){ var t=orderText(ni.value.trim()); mi.value=t; if(go) go.href="https://wa.me/"+num+"?text="+encodeURIComponent(t); try{localStorage.setItem("axisname",ni.value);}catch(e){} }
+  ni.oninput=upd; upd();
+  v.querySelector("#c-copy").onclick=function(){
+    var st=v.querySelector("#c-st");
+    navigator.clipboard.writeText(mi.value).then(function(){ st.textContent="تم نسخ الرسالة."; },function(){ mi.focus(); mi.select(); st.textContent="حدّد النص وانسخه يدوياً."; });
+  };
+}
+
+// ---------- admin ----------
+function readImage(file, maxW){
+  return new Promise(function(res,rej){
+    var fr=new FileReader();
+    fr.onload=function(){ var im=new Image(); im.onload=function(){
+      var w=im.naturalWidth, h=im.naturalHeight, sc=Math.min(1,maxW/w);
+      var c=document.createElement("canvas"); c.width=Math.round(w*sc); c.height=Math.round(h*sc);
+      var x=c.getContext("2d"); x.fillStyle="#fff"; x.fillRect(0,0,c.width,c.height); x.drawImage(im,0,0,c.width,c.height);
+      res({url:c.toDataURL("image/jpeg",0.74), canvas:c});
+    }; im.onerror=rej; im.src=fr.result; };
+    fr.onerror=rej; fr.readAsDataURL(file);
+  });
+}
+function canvasBlob(c){ return new Promise(function(r){ c.toBlob(function(b){ r(b); },"image/jpeg",0.85); }); }
+
+var FIELDS=[["name","اسم اللعبة (بالإنكليزي كما على الغلاف)","text"],["genre","النوع","text"],["sizeGB","الحجم (GB)","number"],["releaseDate","تاريخ الإصدار","date"],["developer","المطوّر","text"],["players","عدد اللاعبين","text"],["rating","التصنيف العمري","text"],["note","ملاحظة على الغلاف (اختياري)","text"]];
+
+function aiPrompt(name, fromImage){
+  return (fromImage?"الصورة المرفقة غلاف لعبة بلايستيشن 4. تعرّف على اللعبة"+(name?" (اسمها المكتوب: "+name+")":"")+".":"أريد معلومات لعبة بلايستيشن 4 اسمها: \""+name+"\".")+
+  "\nأنت تساعد محل يبيع وينزّل ألعاب PS4. أعطني معلومات نسخة PS4 من اللعبة بدقة حسب معرفتك."+
+  "\nأعد JSON فقط بهذا الشكل بدون أي نص آخر:"+
+  "\n{\"found\":true,\"name\":\"الاسم الرسمي بالإنكليزي\",\"genre\":\"النوع بالعربي، نوع ثاني\",\"sizeGB\":رقم حجم التثبيت على PS4 بالجيجا مع آخر التحديثات تقريباً,\"releaseDate\":\"YYYY-MM-DD تاريخ إصدار نسخة PS4\",\"developer\":\"اسم المطوّر\",\"players\":\"مثل: لاعب واحد، أو لاعب واحد + أونلاين\",\"rating\":\"مثل PEGI 18\",\"arabic\":true أو false (هل تدعم اللغة العربية واجهة أو ترجمة),\"desc\":\"وصف قصير جذاب بالعربي البسيط، جملة أو جملتان\"}"+
+  "\nإذا لم تعرف اللعبة أعد {\"found\":false}. إذا لم تتأكد من رقم ضع أفضل تقدير.";
+}
+
+function showEditor(id){
+  var g = id ? JSON.parse(JSON.stringify(byId(id))) : {id:"g"+Date.now().toString(36),name:"",cover:"",arabic:false,addedAt:new Date().toISOString().slice(0,10)};
+  var coverCanvas=null;
+  var html='<div class="row"><h2>'+(id?'تعديل لعبة':'إضافة لعبة')+'</h2><button class="btn x sm" data-close>إغلاق</button></div>'+
+    '<div class="drop"><div class="pv" id="e-pv"></div><div class="field" style="flex:1 1 200px"><label for="e-img">صورة الغلاف</label><input type="file" id="e-img" accept="image/*"><span class="hint">صورة الغلاف من الإنترنت أو صورة علبة اللعبة.</span></div></div>'+
+    '<div class="row"><div class="field" style="flex:1 1 260px"><label for="e-name">'+FIELDS[0][1]+'</label><input id="e-name" value="'+esc(g.name)+'" placeholder="مثلاً: Red Dead Redemption 2"></div></div>'+
+    '<div class="row"><button class="btn primary" id="e-ai">✦ املأ المعلومات بالذكاء</button><button class="btn" id="e-aiimg" hidden>✦ تعرّف من الغلاف</button></div><div class="status" id="e-st"></div>'+
+    '<div class="row">'+FIELDS.slice(1).map(function(f){return '<div class="field"><label for="e-'+f[0]+'">'+f[1]+'</label><input id="e-'+f[0]+'" type="'+f[2]+'"'+(f[2]==="number"?' step="0.1" min="0"':'')+' value="'+esc(g[f[0]]||"")+'"></div>';}).join("")+'</div>'+
+    '<label class="row" style="gap:8px"><input type="checkbox" id="e-arabic"'+(g.arabic?' checked':'')+'> تدعم اللغة العربية</label>'+
+    '<div class="field"><label for="e-desc">الوصف</label><textarea id="e-desc">'+esc(g.desc||"")+'</textarea></div>'+
+    '<div class="row"><button class="btn primary" id="e-save">حفظ ونشر</button>'+(id?'<button class="btn danger" id="e-del">حذف اللعبة</button>':'')+'<span class="status" id="e-st2"></span></div>';
+  var v=openSheet(html);
+  var pv=v.querySelector("#e-pv"), st=v.querySelector("#e-st");
+  function showPv(){ pv.innerHTML = g.cover?'<img src="'+g.cover+'" alt="">':'<span class="ph" style="font-size:13px">بدون صورة</span>'; }
+  showPv();
+  if(sampleNS) sampleNS.limits().then(function(l){ if(l && l.images) v.querySelector("#e-aiimg").hidden=false; }).catch(function(){});
+  if(!sampleNS){ v.querySelector("#e-ai").disabled=true; st.textContent="الملء بالذكاء غير متوفر في هذه النافذة. اكتب المعلومات يدوياً."; }
+  v.querySelector("#e-img").onchange=function(e){
+    var f=e.target.files&&e.target.files[0]; if(!f) return;
+    readImage(f,340).then(function(r){ g.cover=r.url; coverCanvas=r.canvas; showPv(); }).catch(function(){ st.textContent="تعذّر قراءة الصورة."; st.className="status err"; });
+  };
+  function fill(d){
+    if(d.name) v.querySelector("#e-name").value=d.name;
+    FIELDS.slice(1).forEach(function(f){ if(d[f[0]]!=null && d[f[0]]!=="") v.querySelector("#e-"+f[0]).value=d[f[0]]; });
+    if(typeof d.arabic==="boolean") v.querySelector("#e-arabic").checked=d.arabic;
+    if(d.desc) v.querySelector("#e-desc").value=d.desc;
+  }
+  function runAI(fromImage){
+    var name=v.querySelector("#e-name").value.trim();
+    if(!fromImage && !name){ st.textContent="اكتب اسم اللعبة أولاً."; st.className="status err"; return; }
+    st.className="status"; st.textContent="الذكاء يبحث عن معلومات اللعبة… (قد يأخذ نصف دقيقة)";
+    var btns=v.querySelectorAll("#e-ai,#e-aiimg"); btns.forEach(function(b){b.disabled=true;});
+    var p = fromImage ? canvasBlob(coverCanvas).then(function(b){ return sampleNS.json(aiPrompt(name,true),{images:[b]}); }) : sampleNS.json(aiPrompt(name,false));
+    p.then(function(d){
+      if(!d || d.found===false){ st.className="status err"; st.textContent="الذكاء لم يتعرّف على اللعبة. تأكد من الاسم أو املأ يدوياً."; return; }
+      fill(d); st.textContent="تم ملء المعلومات. راجعها قبل الحفظ، خصوصاً الحجم.";
+    }).catch(function(e){
+      st.className="status err";
+      st.textContent = e&&e.code==="not_granted" ? "لم تسمح باستخدام الذكاء. املأ المعلومات يدوياً." : e&&e.code==="rate_limited" ? "طلبات كثيرة. انتظر قليلاً ثم حاول." : "تعذّر الحصول على المعلومات. حاول مرة ثانية أو املأ يدوياً.";
+    }).then(function(){ btns.forEach(function(b){b.disabled=false;}); });
+  }
+  v.querySelector("#e-ai").onclick=function(){ runAI(false); };
+  v.querySelector("#e-aiimg").onclick=function(){ if(!coverCanvas){ st.className="status err"; st.textContent="ارفع صورة الغلاف أولاً."; return; } runAI(true); };
+  v.querySelector("#e-save").onclick=function(){
+    var name=v.querySelector("#e-name").value.trim();
+    var st2=v.querySelector("#e-st2");
+    if(!name){ st2.className="status err"; st2.textContent="اسم اللعبة مطلوب."; return; }
+    g.name=name;
+    FIELDS.slice(1).forEach(function(f){ var val=v.querySelector("#e-"+f[0]).value.trim(); g[f[0]] = f[2]==="number" ? (val?Number(val):"") : val; });
+    g.arabic=v.querySelector("#e-arabic").checked; g.desc=v.querySelector("#e-desc").value.trim();
+    var idx=S.games.findIndex(function(x){return x.id===g.id;});
+    var next=S.games.slice(); if(idx>=0) next[idx]=g; else next.unshift(g);
+    persist({settings:S.settings,games:next}, st2);
+  };
+  var del=v.querySelector("#e-del");
+  if(del) del.onclick=function(){
+    if(del.dataset.armed!=="1"){ del.dataset.armed="1"; del.textContent="اضغط مرة ثانية للتأكيد"; return; }
+    persist({settings:S.settings,games:S.games.filter(function(x){return x.id!==g.id;})}, v.querySelector("#e-st2"));
+  };
+}
+
+var SFIELDS=[["shopName","اسم المحل"],["brand","العلامة (تظهر كبيرة)"],["subtitle","الخدمة الرئيسية"],["address","العنوان"],["manager","سطر الإدارة"],["phone","رقم الهاتف (يظهر للزبائن)"],["whatsapp","رقم الواتساب مع رمز الدولة، مثل 9647826236661"],["tiktok","رابط تيك توك"],["facebook","رابط فيسبوك"]];
+function showAdmin(){
+  var s=S.settings, logo=s.logo||"";
+  var v=openSheet('<div class="row"><h2>إدارة المحل</h2><button class="btn x sm" data-close>إغلاق</button></div>'+
+    '<div class="drop"><div class="pv sq" id="a-pv">'+(logo?'<img src="'+logo+'" alt="">':'')+'</div><div class="field"><label for="a-logo">شعار المحل</label><input type="file" id="a-logo" accept="image/*"></div></div>'+
+    '<div class="row">'+SFIELDS.map(function(f){return '<div class="field"><label for="a-'+f[0]+'">'+f[1]+'</label><input id="a-'+f[0]+'"'+(/whatsapp|phone|tiktok|facebook/.test(f[0])?' dir="ltr"':'')+' value="'+esc(s[f[0]]||"")+'"></div>';}).join("")+'</div>'+
+    '<div class="row"><button class="btn primary" id="a-save">حفظ</button><span class="status" id="a-st"></span></div>'+
+    '<h3 style="margin:8px 0 0;font-size:15px">الألعاب ('+S.games.length+')</h3><div class="alist">'+
+    S.games.map(function(g){return '<div class="aitem">'+(g.cover?'<img src="'+g.cover+'" alt="">':'<span class="mini"></span>')+'<span dir="ltr" style="text-align:right">'+esc(g.name)+'</span><button class="btn sm" data-ed="'+esc(g.id)+'">تعديل</button></div>';}).join("")+'</div>'+
+    '<span class="hint">حجم الصفحة الآن '+(Math.round(JSON.stringify(S).length/1024))+' KB من أصل 16000 KB تقريباً.</span>');
+  v.querySelector("#a-logo").onchange=function(e){ var f=e.target.files&&e.target.files[0]; if(!f) return; readImage(f,560).then(function(r){ logo=r.url; v.querySelector("#a-pv").innerHTML='<img src="'+logo+'" alt="">'; }); };
+  v.querySelector("#a-save").onclick=function(){
+    var ns={logo:logo}; SFIELDS.forEach(function(f){ ns[f[0]]=v.querySelector("#a-"+f[0]).value.trim(); });
+    ns.whatsapp=ns.whatsapp.replace(/\D/g,"");
+    ["tiktok","facebook"].forEach(function(k){ if(ns[k] && !/^https?:\/\//.test(ns[k])) ns[k]="https://"+ns[k]; });
+    persist({settings:ns,games:S.games}, v.querySelector("#a-st"));
+  };
+  v.querySelectorAll("[data-ed]").forEach(function(b){ b.onclick=function(){ showEditor(b.getAttribute("data-ed")); }; });
+}
+
+// ---------- persist: republish page with new state ----------
+function buildDoc(state){
+  var json=JSON.stringify(state).replace(/</g,"\\u003c");
+  return '<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>'+RESET+'</style></head><body>'+
+    keepBefore+'\n<div id="app"></div>\n<script type="application/json" id="state">'+json+'<\/script>\n'+keepScript+'</body></html>';
+}
+function persist(state, stEl){
+  if(!artifactNS || readOnly){ if(stEl){ stEl.className="status err"; stEl.textContent="لا يمكن الحفظ من هذه النافذة."; } return; }
+  if(stEl){ stEl.className="status"; stEl.textContent="جارٍ الحفظ والنشر…"; }
+  document.querySelectorAll("#veil button").forEach(function(b){ b.disabled=true; });
+  artifactNS.publish(buildDoc(state)).then(function(){
+    if(stEl) stEl.textContent="تم الحفظ. الصفحة تتحدث الآن…";
+  }).catch(function(e){
+    document.querySelectorAll("#veil button").forEach(function(b){ b.disabled=false; });
+    if(!stEl) return; stEl.className="status err";
+    if(e&&e.code==="conflict") stEl.textContent="تم تعديل الصفحة من مكان آخر. ستتحدث الآن، أعد التعديل بعدها.";
+    else if(e&&(e.code==="not_writer"||e.code==="not_granted")){ readOnly=true; stEl.textContent="ليست لديك صلاحية التعديل."; }
+    else if(e&&e.code==="too_large") stEl.textContent="الصفحة كبيرة جداً. احذف بعض الألعاب أو استخدم صوراً أصغر.";
+    else stEl.textContent="تعذّر الحفظ. حاول مرة ثانية.";
+  });
+}
+
+render();
+
+})();
+</script>
+
+</body>
+</html>
