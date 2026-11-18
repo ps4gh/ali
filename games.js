@@ -1313,7 +1313,7 @@ window.SHOP = {
    "developer": "LKA",
    "players": "لاعب واحد",
    "rating": "PEGI 18",
-   "arabic": false,
+   "arabic": true,
    "desc": "رعب نفسي في إيطاليا أثناء الحرب العالمية الثانية.",
    "note": "",
    "cover": "covers/g11.jpg",
