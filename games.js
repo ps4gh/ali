@@ -1328,7 +1328,7 @@ window.SHOP = {
    "developer": "Flying Wild Hog",
    "players": "لاعب واحد",
    "rating": "PEGI 18",
-   "arabic": false,
+   "arabic": true,
    "desc": "تصويب وسيوف بأسلوب سريع ومجنون.",
    "note": "",
    "cover": "covers/g06.jpg",
