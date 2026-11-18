@@ -204,7 +204,7 @@ function gh(path, opts){
 }
 function errText(e){
   if(e.status===401) return "الرمز (Token) غلط أو انتهت صلاحيته. سجّل دخول من جديد.";
-  if(e.status===403||e.status===404) return "الرمز ما عنده صلاحية على مشروع "+REPO+". تأكد إنك اخترت المشروع وأعطيت صلاحية Contents: Read and write.";
+  if(e.status===403||e.status===404) return "الرمز يقرأ بس وما عنده صلاحية كتابة على مشروع "+REPO+". عدّل الرمز من GitHub وخلي Contents على Read and write. (رد GitHub: "+e.message+")";
   if(e.status===409) return "صار تعديل ثاني بنفس الوقت. سوّي تحديث للصفحة وأعد المحاولة.";
   return "صار خطأ: "+e.message;
 }
