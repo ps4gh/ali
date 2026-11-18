@@ -228,7 +228,7 @@ window.SHOP = {
    "id": "g43",
    "name": "Call of Duty: Black Ops Cold War",
    "genre": "تصويب، أكشن",
-   "sizeGB": 120,
+   "sizeGB": 175,
    "releaseDate": "2020-11-13",
    "developer": "Treyarch, Raven",
    "players": "لاعب واحد + أونلاين",
