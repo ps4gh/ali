@@ -243,7 +243,7 @@ window.SHOP = {
    "id": "g91",
    "name": "Call of Duty: Modern Warfare (2019)",
    "genre": "تصويب، أكشن",
-   "sizeGB": 100,
+   "sizeGB": 120,
    "releaseDate": "2019-10-25",
    "developer": "Infinity Ward",
    "players": "لاعب واحد + أونلاين",
