@@ -1238,7 +1238,7 @@ window.SHOP = {
    "developer": "Team Cherry",
    "players": "لاعب واحد",
    "rating": "PEGI 7",
-   "arabic": false,
+   "arabic": true,
    "desc": "هورنت في مملكة جديدة، تكملة هولو نايت المنتظرة.",
    "note": "",
    "cover": "covers/g64.jpg",
