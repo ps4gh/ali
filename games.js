@@ -15,6 +15,21 @@ window.SHOP = {
  },
  "games": [
   {
+   "id": "n-avengers",
+   "name": "Marvel's Avengers Deluxe Edition",
+   "genre": "أكشن، أبطال خارقين",
+   "sizeGB": 85,
+   "releaseDate": "2020-09-04",
+   "developer": "Crystal Dynamics",
+   "players": "لاعب واحد + تعاوني أونلاين (4 لاعبين)",
+   "rating": "PEGI 16",
+   "arabic": true,
+   "desc": "كابتن أمريكا وآيرون مان وهالك وثور وبلاك ويدو وكامالا خان بمغامرة الأفنجرز، النسخة الديلوكس.",
+   "note": "",
+   "cover": "covers/n-avengers.jpg",
+   "addedAt": "2026-11-18"
+  },
+  {
    "id": "n-gow-sparta",
    "name": "God of War: Sons of Sparta",
    "genre": "أكشن، مغامرة",
@@ -27,21 +42,6 @@ window.SHOP = {
    "desc": "كريتوس وأخوه ديموس بمغامرة كلاسيكية قصيرة بأسلوب ثنائي الأبعاد من أيام سبارطة.",
    "note": "من الاعاب الجديد نزولان على ps 4",
    "cover": "covers/n-gow-sparta.jpg",
-   "addedAt": "2026-11-18"
-  },
-  {
-   "id": "n-avengers",
-   "name": "Marvel's Avengers Deluxe Edition",
-   "genre": "أكشن، أبطال خارقين",
-   "sizeGB": 85,
-   "releaseDate": "2020-09-04",
-   "developer": "Crystal Dynamics",
-   "players": "لاعب واحد + تعاوني أونلاين (4 لاعبين)",
-   "rating": "PEGI 16",
-   "arabic": false,
-   "desc": "كابتن أمريكا وآيرون مان وهالك وثور وبلاك ويدو وكامالا خان بمغامرة الأفنجرز، النسخة الديلوكس.",
-   "note": "",
-   "cover": "covers/n-avengers.jpg",
    "addedAt": "2026-11-18"
   },
   {
