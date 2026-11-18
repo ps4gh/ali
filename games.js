@@ -558,7 +558,7 @@ window.SHOP = {
    "id": "g84",
    "name": "Need for Speed Payback",
    "genre": "سباق، أكشن",
-   "sizeGB": 30,
+   "sizeGB": 60,
    "releaseDate": "2017-11-10",
    "developer": "Ghost Games",
    "players": "لاعب واحد + أونلاين",
