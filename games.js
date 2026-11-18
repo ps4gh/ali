@@ -168,7 +168,7 @@ window.SHOP = {
    "id": "g44",
    "name": "Elden Ring",
    "genre": "تقمص أدوار، أكشن، عالم مفتوح",
-   "sizeGB": 50,
+   "sizeGB": 85,
    "releaseDate": "2022-02-25",
    "developer": "FromSoftware",
    "players": "لاعب واحد + أونلاين",
