@@ -189,7 +189,7 @@ var REPO = /\.github\.io$/.test(host) && parts.length && !/\.html$/.test(parts[0
 var API="https://api.github.com/repos/"+OWNER+"/"+REPO+"/contents/";
 var TK="axis_admin_token";
 var token=""; try{ token=localStorage.getItem(TK)||""; }catch(e){}
-var S=null, sha=null, q="";
+var S=null, sha=null, q="", who="";
 var root=document.getElementById("adm");
 
 function esc(s){ return String(s==null?"":s).replace(/[&<>"']/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c];}); }
@@ -213,21 +213,22 @@ function errText(e){
 function showLogin(msg){
   root.innerHTML=topHTML(false)+'<div class="wrap"><div class="panel"><h2>دخول صاحب المحل</h2>'+
   '<p style="margin:0;color:var(--muted)">هاي الصفحة تعدل ألعاب الموقع مباشرة. تحتاج <b>رمز دخول (Token)</b> من حساب GitHub مالتك، تسويه مرة وحدة وينحفظ على هذا الجهاز.</p>'+
-  '<div class="field"><label for="tk">الرمز (Token)</label><input id="tk" dir="ltr" autocomplete="off" placeholder="github_pat_..."></div>'+
+  '<div class="field"><label for="tk">الرمز (Token)</label><input id="tk" dir="ltr" autocomplete="off" placeholder="ghp_... أو github_pat_..."></div>'+
   '<div class="row" style="display:flex;gap:10px;align-items:center;flex-wrap:wrap"><button class="btn primary" id="tk-go">دخول</button><span class="status'+(msg?' err':'')+'" id="tk-st">'+esc(msg||"")+'</span></div>'+
   '<p class="hint" style="margin:0">لا تعطي هذا الرمز لأي أحد. منو عنده الرمز يكدر يعدل الموقع.</p></div></div>';
   var inp=document.getElementById("tk");
   document.getElementById("tk-go").onclick=function(){
     token=inp.value.trim(); if(!token) return;
     var st=document.getElementById("tk-st"); st.className="status"; st.textContent="جارٍ التحقق…";
-    load().then(function(){ try{ localStorage.setItem(TK,token); }catch(e){} showMain(); }).catch(function(e){ showLogin(errText(e)); });
+    load().then(whoami).then(function(){ try{ localStorage.setItem(TK,token); }catch(e){} showMain(); }).catch(function(e){ showLogin(errText(e)); });
   };
 }
 function topHTML(logged){
-  return '<header class="adm-top"><div class="wrap"><img src="logo.jpg" alt=""><h1>لوحة تحكم AXIS</h1><a class="btn sm" href="./" target="_blank" rel="noopener">فتح الموقع</a>'+(logged?'<button class="btn sm" id="b-out">خروج</button>':'')+'</div></header>';
+  return '<header class="adm-top"><div class="wrap"><img src="logo.jpg" alt=""><h1>لوحة تحكم AXIS</h1><a class="btn sm" href="./" target="_blank" rel="noopener">فتح الموقع</a>'+(logged&&who?'<span class="hint" dir="ltr">'+esc(who)+'</span>':'')+(logged?'<button class="btn sm" id="b-out">خروج</button>':'')+'</div></header>';
 }
 
 // ---------- data ----------
+function whoami(){ return gh("https://api.github.com/user").then(function(u){ who=u.login||""; }).catch(function(){ who=""; }); }
 function load(){
   return gh("games.js?ref=main&t="+Date.now()).then(function(j){
     var txt=b64dec(j.content), i=txt.indexOf("{"), k=txt.lastIndexOf("}");
@@ -247,7 +248,7 @@ function uploadImage(path, dataURL, msg){
 function showMain(){
   var list=S.games.filter(function(g){ return !q || (g.name+" "+(g.genre||"")).toLowerCase().indexOf(q.toLowerCase())>=0; });
   var L=S.settings.launch||"";
-  var h=topHTML(true)+'<main class="wrap"><div class="tools2"><button class="btn primary" id="b-add">＋ إضافة لعبة جديدة</button><button class="btn" id="b-set">معلومات المحل</button>'+
+  var h=topHTML(true)+(who&&who.toLowerCase()!==OWNER.toLowerCase()?'<div class="wrap"><p class="status err" style="margin:12px 0 0">هذا الرمز مسوّى من حساب «'+esc(who)+'» مو من حساب «'+esc(OWNER)+'». سوّي الرمز وإنت مسجّل بحساب '+esc(OWNER)+'.</p></div>':'')+'<main class="wrap"><div class="tools2"><button class="btn primary" id="b-add">＋ إضافة لعبة جديدة</button><button class="btn" id="b-set">معلومات المحل</button>'+
     '<input class="search" id="q" type="search" placeholder="ابحث بالألعاب…" value="'+esc(q)+'"></div>'+
     '<p class="hint" style="margin:0 0 10px">'+S.games.length+' لعبة · بعد أي حفظ، الموقع يتحدث خلال دقيقة أو دقيقتين.</p><div class="rows">';
   list.forEach(function(g){
@@ -355,7 +356,7 @@ function showSettings(){
   };
 }
 
-if(token){ root.innerHTML=topHTML(false)+'<p class="wrap" style="padding-block:30px;color:var(--muted)">جارٍ التحميل…</p>'; load().then(showMain).catch(function(e){ showLogin(errText(e)); }); }
+if(token){ root.innerHTML=topHTML(false)+'<p class="wrap" style="padding-block:30px;color:var(--muted)">جارٍ التحميل…</p>'; load().then(whoami).then(showMain).catch(function(e){ showLogin(errText(e)); }); }
 else showLogin();
 })();
 </script>
