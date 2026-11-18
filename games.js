@@ -93,7 +93,7 @@ window.SHOP = {
    "id": "g85",
    "name": "The Last of Us Part II",
    "genre": "أكشن، رعب، قصة",
-   "sizeGB": 80,
+   "sizeGB": 100,
    "releaseDate": "2020-06-19",
    "developer": "Naughty Dog",
    "players": "لاعب واحد",
