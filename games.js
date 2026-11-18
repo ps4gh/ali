@@ -678,7 +678,7 @@ window.SHOP = {
    "id": "g52",
    "name": "Dragon Ball Z: Kakarot",
    "genre": "أكشن، تقمص أدوار",
-   "sizeGB": 40,
+   "sizeGB": 110,
    "releaseDate": "2020-01-17",
    "developer": "CyberConnect2",
    "players": "لاعب واحد",
