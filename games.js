@@ -15,6 +15,21 @@ window.SHOP = {
  },
  "games": [
   {
+   "id": "g55",
+   "name": "Grand Theft Auto: San Andreas",
+   "genre": "أكشن، عالم مفتوح",
+   "sizeGB": 25,
+   "releaseDate": "2015-12-05",
+   "developer": "Rockstar North",
+   "players": "لاعب واحد",
+   "rating": "PEGI 18",
+   "arabic": true,
+   "desc": "سي جي وغروف ستريت، الكلاسيكية الأشهر على PS4.",
+   "note": "نسخة PS2 كلاسيك",
+   "cover": "covers/g55.jpg",
+   "addedAt": "2026-11-18"
+  },
+  {
    "id": "g77",
    "name": "Tekken 7",
    "genre": "قتال",
@@ -1062,21 +1077,6 @@ window.SHOP = {
    "desc": "الجزء الثاني الكلاسيكي من إله الحرب باللغة العربية.",
    "note": "نسخة كلاسيك محوّلة تعمل على PS4",
    "cover": "covers/g21.jpg",
-   "addedAt": "2026-11-18"
-  },
-  {
-   "id": "g55",
-   "name": "Grand Theft Auto: San Andreas",
-   "genre": "أكشن، عالم مفتوح",
-   "sizeGB": 3,
-   "releaseDate": "2015-12-05",
-   "developer": "Rockstar North",
-   "players": "لاعب واحد",
-   "rating": "PEGI 18",
-   "arabic": false,
-   "desc": "سي جي وغروف ستريت، الكلاسيكية الأشهر على PS4.",
-   "note": "نسخة PS2 كلاسيك",
-   "cover": "covers/g55.jpg",
    "addedAt": "2026-11-18"
   },
   {
