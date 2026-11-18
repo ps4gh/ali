@@ -15,6 +15,21 @@ window.SHOP = {
  },
  "games": [
   {
+   "id": "n-watchdogs",
+   "name": "Watch Dogs",
+   "genre": "أكشن، عالم مفتوح",
+   "sizeGB": 20,
+   "releaseDate": "2014-05-27",
+   "developer": "Ubisoft Montreal",
+   "players": "لاعب واحد + أونلاين",
+   "rating": "PEGI 18",
+   "arabic": true,
+   "desc": "الهاكر أيدن بيرس يتحكم بمدينة شيكاغو كلها من موبايله وياخذ ثأره.",
+   "note": "",
+   "cover": "covers/n-watchdogs.jpg",
+   "addedAt": "2026-11-18"
+  },
+  {
    "id": "n-mkxl",
    "name": "Mortal Kombat XL",
    "genre": "قتال",
@@ -57,21 +72,6 @@ window.SHOP = {
    "desc": "كريتوس وأخوه ديموس بمغامرة كلاسيكية قصيرة بأسلوب ثنائي الأبعاد من أيام سبارطة.",
    "note": "من الاعاب الجديد نزولان على ps 4",
    "cover": "covers/n-gow-sparta.jpg",
-   "addedAt": "2026-11-18"
-  },
-  {
-   "id": "n-watchdogs",
-   "name": "Watch Dogs",
-   "genre": "أكشن، عالم مفتوح",
-   "sizeGB": 20,
-   "releaseDate": "2014-05-27",
-   "developer": "Ubisoft Montreal",
-   "players": "لاعب واحد + أونلاين",
-   "rating": "PEGI 18",
-   "arabic": false,
-   "desc": "الهاكر أيدن بيرس يتحكم بمدينة شيكاغو كلها من موبايله وياخذ ثأره.",
-   "note": "",
-   "cover": "covers/n-watchdogs.jpg",
    "addedAt": "2026-11-18"
   },
   {
