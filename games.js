@@ -1358,7 +1358,7 @@ window.SHOP = {
    "developer": "Neopica",
    "players": "لاعب واحد",
    "rating": "PEGI 16",
-   "arabic": false,
+   "arabic": true,
    "desc": "محاكاة صيد في أمريكا وأوروبا مع كلب الصيد.",
    "note": "",
    "cover": "covers/g05.jpg",
