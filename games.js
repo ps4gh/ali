@@ -303,7 +303,7 @@ window.SHOP = {
    "id": "g92",
    "name": "Call of Duty: Black Ops I & II",
    "genre": "تصويب، أكشن",
-   "sizeGB": 20,
+   "sizeGB": 60,
    "releaseDate": "2012-11-13",
    "developer": "Treyarch",
    "players": "لاعب واحد",
