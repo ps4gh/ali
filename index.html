@@ -8,7 +8,14 @@
 <meta property="og:title" content="AXIS معرض علي اكرم للالكترونيات">
 <meta property="og:description" content="اختر ألعاب PS4 وأرسل الطلب على واتساب">
 <meta property="og:image" content="logo.jpg">
-<link rel="icon" href="logo.jpg">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#070a14">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="AXIS">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Changa:wght@500;700;800&family=Readex+Pro:wght@300;400;500;600&display=swap">
 <style>
 /* Layout: neon shop hero (logo + identity + contact) → sticky search bar → cover grid → contact footer; floating WhatsApp basket. Single dark neon look matching the AXIS sign. */
@@ -114,6 +121,22 @@ footer p{margin:2px 0;color:var(--muted)}
 .basket .sum strong{font-size:16px}
 .basket .sum div{color:var(--muted);font-size:13px;font-variant-numeric:tabular-nums}
 
+
+/* install bar */
+.inst{background:linear-gradient(90deg,rgb(255 61 115 / .22),rgb(53 214 255 / .2));border-bottom:1px solid var(--line)}
+.inst .wrap{display:flex;align-items:center;gap:12px;padding-block:9px;flex-wrap:wrap}
+.inst img{width:38px;height:38px;border-radius:10px;object-fit:cover;flex-shrink:0}
+.inst .t{flex:1;min-width:0;font-size:14px;line-height:1.4}
+.inst .t b{display:block;font-size:14.5px}
+.inst .t span{color:var(--muted);font-size:12.5px}
+.inst .x{background:none;border:0;color:var(--muted);font-size:20px;padding:4px 8px;line-height:1}
+.steps{margin:0;padding-inline-start:20px;display:flex;flex-direction:column;gap:10px;font-size:15px}
+.steps b{color:var(--cyan)}
+/* new arrivals */
+.new-sec{padding-top:6px}
+.strip{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(150px,170px);gap:12px;overflow-x:auto;padding-bottom:10px;scroll-snap-type:x proximity}
+.strip .card{scroll-snap-align:start}
+.newb{position:absolute;top:8px;inset-inline-end:8px;background:var(--pink);color:#fff;font-weight:600;font-size:11px;border-radius:6px;padding:1px 8px;box-shadow:0 0 12px rgb(255 61 115 / .6)}
 /* dialogs */
 .veil{position:fixed;inset:0;z-index:20;background:rgb(2 4 10 / .7);display:flex;justify-content:center;align-items:flex-start;overflow-y:auto;padding:max(16px,env(safe-area-inset-top,0px)) max(12px,env(safe-area-inset-right,0px)) 24px max(12px,env(safe-area-inset-left,0px))}
 .sheet{background:var(--surface);border:1px solid var(--line);border-radius:18px;width:100%;max-width:640px;padding:20px;display:flex;flex-direction:column;gap:14px;margin-block:auto}
@@ -171,6 +194,36 @@ function fmtSize(n){ n=Number(n); if(!n) return "—"; return "⁦"+(Math.round(
 function byId(id){ for(var i=0;i<S.games.length;i++) if(S.games[i].id===id) return S.games[i]; return null; }
 function genres(){ var m={}; S.games.forEach(function(g){ String(g.genre||"").split(/[،,]/).forEach(function(x){ x=x.trim(); if(x) m[x]=(m[x]||0)+1; }); }); return Object.keys(m).sort(function(a,b){return m[b]-m[a];}); }
 function cleanSel(){ sel.forEach(function(id){ if(!byId(id)) sel.delete(id); }); }
+function isNew(g){ var L=S.settings.launch||"2026-11-18"; if(!g.addedAt||g.addedAt<=L) return false; return (Date.now()-new Date(g.addedAt+"T00:00:00").getTime())<NEW_DAYS*864e5; }
+var NEW_DAYS=30;
+function newGames(){ return S.games.filter(isNew).sort(function(a,b){ return String(b.addedAt).localeCompare(String(a.addedAt)); }).slice(0,16); }
+function cardHTML(g){
+  var on = sel.has(g.id), h='';
+  h += '<article class="card'+(on?' sel':'')+'">';
+  h += '<button class="cover" data-tog="'+esc(g.id)+'" aria-pressed="'+on+'" aria-label="اختيار '+esc(g.name)+'">'+(g.cover?'<img src="'+g.cover+'" alt="" loading="lazy">':'<span class="ph">'+esc(g.name)+'</span>')+'<span class="tick">✓</span>'+(isNew(g)?'<span class="newb">جديد</span>':'')+(g.note?'<span class="badge">'+esc(g.note)+'</span>':'')+'</button>';
+  h += '<div class="info"><h3>'+esc(g.name)+'</h3>';
+  h += '<div class="meta"><span>الحجم</span><b>'+fmtSize(g.sizeGB)+'</b><span>الإصدار</span><b>'+fmtDate(g.releaseDate)+'</b></div>';
+  var chips = ''; if(g.genre) chips+='<span class="chip">'+esc(String(g.genre).split(/[،,]/)[0].trim())+'</span>'; if(g.arabic) chips+='<span class="chip ar">عربي</span>';
+  if(chips) h += '<div class="chips">'+chips+'</div>';
+  h += '<button class="more" data-det="'+esc(g.id)+'">المواصفات ←</button></div></article>';
+  return h;
+}
+// ---------- install as app ----------
+var deferredPrompt=null;
+var isIOS=/iphone|ipad|ipod/i.test(navigator.userAgent)||(navigator.platform==="MacIntel"&&navigator.maxTouchPoints>1);
+var standalone=(window.matchMedia&&window.matchMedia("(display-mode: standalone)").matches)||navigator.standalone===true;
+function instDismissed(){ try{ return localStorage.getItem("axisinst")==="1"; }catch(e){ return false; } }
+window.addEventListener("beforeinstallprompt",function(e){ e.preventDefault(); deferredPrompt=e; keep(render); });
+window.addEventListener("appinstalled",function(){ deferredPrompt=null; standalone=true; keep(render); });
+function installHTML(){
+  if(standalone||instDismissed()||(!deferredPrompt&&!isIOS)) return "";
+  return '<div class="inst"><div class="wrap"><img src="icons/icon-192.png" alt=""><div class="t"><b>نزّل تطبيق '+esc(S.settings.brand||"AXIS")+' على موبايلك</b><span>تفتح الألعاب بضغطة من الشاشة الرئيسية</span></div><button class="btn primary sm" id="b-inst">تنزيل</button><button class="x" id="b-instx" aria-label="إخفاء">×</button></div></div>';
+}
+function doInstall(){
+  if(deferredPrompt){ deferredPrompt.prompt(); deferredPrompt.userChoice.then(function(){ deferredPrompt=null; keep(render); }); return; }
+  openSheet('<div class="row"><h2>تنزيل التطبيق على الآيفون</h2><button class="btn x sm" data-close>إغلاق</button></div>'+
+    '<ol class="steps"><li>افتح الموقع من متصفح <b>Safari</b>.</li><li>اضغط زر <b>المشاركة</b> <span aria-hidden="true">⬆️</span> (المربع بيه سهم لفوك) أسفل الشاشة.</li><li>انزل بالقائمة واختار <b>إضافة إلى الشاشة الرئيسية</b> (Add to Home Screen).</li><li>اضغط <b>إضافة</b> (Add) بالأعلى. يطلع شعار AXIS على شاشتك مثل أي تطبيق.</li></ol>');
+}
 function waNum(){ return String(S.settings.whatsapp||"").replace(/\D/g,""); }
 function plural(n){ return n===1?"لعبة":(n===2?"لعبتين":(n>2&&n<11?"ألعاب":"لعبة")); }
 var PIN='<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 22s7-6.2 7-12a7 7 0 1 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg>';
@@ -219,35 +272,31 @@ function render(){
     return true;
   });
   if(sortBy!=="shop") list.sort(function(a,b){
+    if(sortBy==="added") return String(b.addedAt||"").localeCompare(String(a.addedAt||"")) || S.games.indexOf(a)-S.games.indexOf(b);
     if(sortBy==="release") return String(b.releaseDate||"").localeCompare(String(a.releaseDate||""));
     if(sortBy==="size") return (Number(a.sizeGB)||0)-(Number(b.sizeGB)||0);
     if(sortBy==="name") return String(a.name).localeCompare(String(b.name));
     return 0;
   });
   var gs = genres(), s=S.settings;
-  var h = heroHTML();
+  var h = installHTML() + heroHTML();
   h += '<div class="bar" id="games"><div class="wrap">';
   h += '<div class="mini-logo">'+(s.logo?'<img src="'+s.logo+'" alt="">':'')+'<span>'+esc(s.brand||"")+'</span></div>';
   h += '<input class="search" id="q" type="search" placeholder="ابحث عن لعبة… مثلاً GTA أو Call of Duty" value="'+esc(q)+'" aria-label="بحث">';
   h += '<select id="genre" aria-label="النوع"><option value="">كل الأنواع</option>'+gs.map(function(x){return '<option'+(x===genreF?' selected':'')+'>'+esc(x)+'</option>';}).join("")+'</select>';
-  h += '<select id="sort" aria-label="الترتيب">'+[["shop","الأكثر طلباً"],["release","الأحدث إصداراً"],["size","الأصغر حجماً"],["name","حسب الاسم"]].map(function(o){return '<option value="'+o[0]+'"'+(o[0]===sortBy?' selected':'')+'>'+o[1]+'</option>';}).join("")+'</select>';
+  h += '<select id="sort" aria-label="الترتيب">'+[["shop","الأكثر طلباً"],["added","الأحدث إضافة"],["release","الأحدث إصداراً"],["size","الأصغر حجماً"],["name","حسب الاسم"]].map(function(o){return '<option value="'+o[0]+'"'+(o[0]===sortBy?' selected':'')+'>'+o[1]+'</option>';}).join("")+'</select>';
   h += '<label class="toggle"><input type="checkbox" id="ar"'+(arOnly?' checked':'')+'> يدعم العربي</label>';
   if(isOwner) h += '<div class="owner"><button class="btn primary sm" id="b-add">＋ إضافة لعبة</button><button class="btn sm" id="b-admin">إدارة المحل</button></div>';
   h += '</div></div>';
-  h += '<main class="wrap"><div class="sec-h"><h2>ألعاب PS4 المتوفرة</h2><p>'+(list.length!==S.games.length?'يظهر '+list.length+' من '+S.games.length+' · ':'')+'اضغط على الغلاف لاختيار اللعبة، ثم أرسل الطلب على واتساب</p></div>';
+  var ng=newGames();
+  h += '<main class="wrap">';
+  if(ng.length && !q && !genreF && !arOnly) h += '<section class="new-sec"><div class="sec-h"><h2>🔥 وصلت حديثاً</h2><p>آخر الألعاب المضافة للمحل</p></div><div class="strip">'+ng.map(cardHTML).join("")+'</div></section>';
+  h += '<div class="sec-h"><h2>ألعاب PS4 المتوفرة</h2><p>'+(list.length!==S.games.length?'يظهر '+list.length+' من '+S.games.length+' · ':'')+'اضغط على الغلاف لاختيار اللعبة، ثم أرسل الطلب على واتساب</p></div>';
   h += '<div class="grid">';
   if(!S.games.length) h += '<div class="empty">لا توجد ألعاب بعد.'+(isOwner?' اضغط «إضافة لعبة» واكتب اسمها، والذكاء يملأ المعلومات.':'')+'</div>';
   else if(!list.length) h += '<div class="empty">لا توجد نتائج. جرّب اسماً آخر أو راسلنا واتساب نجيبها لك.</div>';
-  list.forEach(function(g){
-    var on = sel.has(g.id);
-    h += '<article class="card'+(on?' sel':'')+'">';
-    h += '<button class="cover" data-tog="'+esc(g.id)+'" aria-pressed="'+on+'" aria-label="اختيار '+esc(g.name)+'">'+(g.cover?'<img src="'+g.cover+'" alt="" loading="lazy">':'<span class="ph">'+esc(g.name)+'</span>')+'<span class="tick">✓</span>'+(g.note?'<span class="badge">'+esc(g.note)+'</span>':'')+'</button>';
-    h += '<div class="info"><h3>'+esc(g.name)+'</h3>';
-    h += '<div class="meta"><span>الحجم</span><b>'+fmtSize(g.sizeGB)+'</b><span>الإصدار</span><b>'+fmtDate(g.releaseDate)+'</b></div>';
-    var chips = ''; if(g.genre) chips+='<span class="chip">'+esc(String(g.genre).split(/[،,]/)[0].trim())+'</span>'; if(g.arabic) chips+='<span class="chip ar">عربي</span>';
-    if(chips) h += '<div class="chips">'+chips+'</div>';
-    h += '<button class="more" data-det="'+esc(g.id)+'">المواصفات ←</button></div></article>';
-  });
+  list.forEach(function(g){ h += cardHTML(g); });
+
   h += '</div></main>';
   h += footerHTML();
   var n = sel.size, tot = 0; sel.forEach(function(id){ var g=byId(id); if(g) tot += Number(g.sizeGB)||0; });
@@ -268,6 +317,8 @@ function wire(){
   var s=document.getElementById("b-send"); if(s) s.onclick=showSend;
   var a=document.getElementById("b-add"); if(a) a.onclick=function(){ showEditor(null); };
   var m=document.getElementById("b-admin"); if(m) m.onclick=showAdmin;
+  var ib=document.getElementById("b-inst"); if(ib) ib.onclick=doInstall;
+  var ix=document.getElementById("b-instx"); if(ix) ix.onclick=function(){ try{localStorage.setItem("axisinst","1");}catch(e){} keep(render); };
 }
 function keep(fn){ var y=window.scrollY; fn(); window.scrollTo(0,y); }
 
@@ -450,7 +501,7 @@ function persist(state, stEl){
 }
 
 render();
-
+if('serviceWorker' in navigator){ window.addEventListener('load',function(){ navigator.serviceWorker.register('sw.js').catch(function(){}); }); }
 })();
 </script>
 

@@ -1,4 +1,4 @@
-// بيانات المحل والألعاب. عدّل هنا واحفظ، والموقع يتحدث تلقائياً.
+// بيانات المحل والألعاب. تتعدل من لوحة التحكم admin.html
 window.SHOP = {
  "settings": {
   "shopName": "معرض علي اكرم للالكترونيات",
@@ -10,7 +10,8 @@ window.SHOP = {
   "whatsapp": "9647826236661",
   "tiktok": "",
   "facebook": "",
-  "logo": "logo.jpg"
+  "logo": "logo.jpg",
+  "launch": "2026-11-18"
  },
  "games": [
   {
