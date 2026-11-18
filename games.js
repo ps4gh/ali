@@ -528,7 +528,7 @@ window.SHOP = {
    "id": "g35",
    "name": "MotoGP 25",
    "genre": "سباق، دراجات",
-   "sizeGB": 20,
+   "sizeGB": 30,
    "releaseDate": "2025-04-30",
    "developer": "Milestone",
    "players": "لاعب واحد + أونلاين",
