@@ -138,7 +138,7 @@ window.SHOP = {
    "id": "g01",
    "name": "Cyberpunk 2077",
    "genre": "أكشن، تقمص أدوار، عالم مفتوح",
-   "sizeGB": 70,
+   "sizeGB": 85,
    "releaseDate": "2020-12-10",
    "developer": "CD Projekt Red",
    "players": "لاعب واحد",
