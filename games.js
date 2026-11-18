@@ -1253,7 +1253,7 @@ window.SHOP = {
    "developer": "Team Cherry",
    "players": "لاعب واحد",
    "rating": "PEGI 7",
-   "arabic": false,
+   "arabic": true,
    "desc": "فارس صغير يستكشف مملكة الحشرات المدمرة، مع كل الإضافات.",
    "note": "",
    "cover": "covers/g65.jpg",
