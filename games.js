@@ -1283,7 +1283,7 @@ window.SHOP = {
    "developer": "NExT Studios",
    "players": "لاعب أو لاعبين تعاوني",
    "rating": "PEGI 3",
-   "arabic": false,
+   "arabic": true,
    "desc": "روبوتان صغيران يحلان ألغازاً بالتعاون، مناسبة للعائلة.",
    "note": "تدعم لاعبين",
    "cover": "covers/g70.jpg",
