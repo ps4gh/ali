@@ -48,7 +48,7 @@ window.SHOP = {
    "id": "g45",
    "name": "Marvel's Spider-Man",
    "genre": "أكشن، عالم مفتوح",
-   "sizeGB": 46,
+   "sizeGB": 95,
    "releaseDate": "2018-09-07",
    "developer": "Insomniac Games",
    "players": "لاعب واحد",
