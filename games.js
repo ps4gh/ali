@@ -15,6 +15,21 @@ window.SHOP = {
  },
  "games": [
   {
+   "id": "n-mkxl",
+   "name": "Mortal Kombat XL",
+   "genre": "قتال",
+   "sizeGB": 45,
+   "releaseDate": "2016-03-01",
+   "developer": "NetherRealm Studios",
+   "players": "لاعب واحد + أونلاين + لعب جماعي",
+   "rating": "PEGI 18",
+   "arabic": true,
+   "desc": "مورتال كومبات X بالنسخة الكاملة ويا كل الشخصيات الإضافية وأزياء المقاتلين.",
+   "note": "يدعم لاعبين على نفس الجهاز",
+   "cover": "covers/n-mkxl.jpg",
+   "addedAt": "2026-11-18"
+  },
+  {
    "id": "n-avengers",
    "name": "Marvel's Avengers Deluxe Edition",
    "genre": "أكشن، أبطال خارقين",
@@ -42,21 +57,6 @@ window.SHOP = {
    "desc": "كريتوس وأخوه ديموس بمغامرة كلاسيكية قصيرة بأسلوب ثنائي الأبعاد من أيام سبارطة.",
    "note": "من الاعاب الجديد نزولان على ps 4",
    "cover": "covers/n-gow-sparta.jpg",
-   "addedAt": "2026-11-18"
-  },
-  {
-   "id": "n-mkxl",
-   "name": "Mortal Kombat XL",
-   "genre": "قتال",
-   "sizeGB": 45,
-   "releaseDate": "2016-03-01",
-   "developer": "NetherRealm Studios",
-   "players": "لاعب واحد + أونلاين",
-   "rating": "PEGI 18",
-   "arabic": false,
-   "desc": "مورتال كومبات X بالنسخة الكاملة ويا كل الشخصيات الإضافية وأزياء المقاتلين.",
-   "note": "يدعم لاعبين على نفس الجهاز",
-   "cover": "covers/n-mkxl.jpg",
    "addedAt": "2026-11-18"
   },
   {
