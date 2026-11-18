@@ -153,7 +153,7 @@ window.SHOP = {
    "id": "g02",
    "name": "The Witcher 3: Wild Hunt GOTY",
    "genre": "تقمص أدوار، عالم مفتوح",
-   "sizeGB": 50,
+   "sizeGB": 65,
    "releaseDate": "2016-08-30",
    "developer": "CD Projekt Red",
    "players": "لاعب واحد",
