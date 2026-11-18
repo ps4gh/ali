@@ -15,6 +15,21 @@ window.SHOP = {
  },
  "games": [
   {
+   "id": "g77",
+   "name": "Tekken 7",
+   "genre": "قتال",
+   "sizeGB": 90,
+   "releaseDate": "2017-06-02",
+   "developer": "Bandai Namco",
+   "players": "لاعب واحد + أونلاين",
+   "rating": "PEGI 16",
+   "arabic": true,
+   "desc": "صراع عائلة ميشيما في أشهر سلسلة قتال.",
+   "note": "يدعم لاعبين على نفس الجهاز",
+   "cover": "covers/g77.jpg",
+   "addedAt": "2026-11-18"
+  },
+  {
    "id": "g14",
    "name": "PES 2027 (باتش)",
    "genre": "رياضة، كرة قدم",
@@ -702,21 +717,6 @@ window.SHOP = {
    "desc": "لعبة القتال الشهيرة مع كل الشخصيات والإضافات.",
    "note": "يدعم لاعبين على نفس الجهاز",
    "cover": "covers/g51.jpg",
-   "addedAt": "2026-11-18"
-  },
-  {
-   "id": "g77",
-   "name": "Tekken 7",
-   "genre": "قتال",
-   "sizeGB": 60,
-   "releaseDate": "2017-06-02",
-   "developer": "Bandai Namco",
-   "players": "لاعب واحد + أونلاين",
-   "rating": "PEGI 16",
-   "arabic": true,
-   "desc": "صراع عائلة ميشيما في أشهر سلسلة قتال.",
-   "note": "يدعم لاعبين على نفس الجهاز",
-   "cover": "covers/g77.jpg",
    "addedAt": "2026-11-18"
   },
   {
