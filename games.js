@@ -15,6 +15,21 @@ window.SHOP = {
  },
  "games": [
   {
+   "id": "g14",
+   "name": "PES 2027 (باتش)",
+   "genre": "رياضة، كرة قدم",
+   "sizeGB": 100,
+   "releaseDate": "2026-07-01",
+   "developer": "Konami + باتش",
+   "players": "لاعب واحد + أونلاين",
+   "rating": "PEGI 3",
+   "arabic": true,
+   "desc": "بيس محدّثة بباتش موسم 2027 بالانتقالات والأطقم الجديدة.",
+   "note": "باتش محدّث على لعبة PES",
+   "cover": "covers/g14.jpg",
+   "addedAt": "2026-11-18"
+  },
+  {
    "id": "g28",
    "name": "Grand Theft Auto V",
    "genre": "أكشن، عالم مفتوح",
@@ -477,21 +492,6 @@ window.SHOP = {
    "desc": "بيس 2021 بتحديث الموسم، مع تعليق عربي وأطوار ماستر ليك.",
    "note": "",
    "cover": "covers/g34.jpg",
-   "addedAt": "2026-11-18"
-  },
-  {
-   "id": "g14",
-   "name": "PES 2027 (باتش)",
-   "genre": "رياضة، كرة قدم",
-   "sizeGB": 45,
-   "releaseDate": "2026-07-01",
-   "developer": "Konami + باتش",
-   "players": "لاعب واحد + أونلاين",
-   "rating": "PEGI 3",
-   "arabic": true,
-   "desc": "بيس محدّثة بباتش موسم 2027 بالانتقالات والأطقم الجديدة.",
-   "note": "باتش محدّث على لعبة PES",
-   "cover": "covers/g14.jpg",
    "addedAt": "2026-11-18"
   },
   {
