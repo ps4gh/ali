@@ -1193,7 +1193,7 @@ window.SHOP = {
    "developer": "Mob Entertainment",
    "players": "لاعب واحد",
    "rating": "PEGI 12",
-   "arabic": false,
+   "arabic": true,
    "desc": "مصنع ألعاب مهجور وهاغي واغي يطاردك.",
    "note": "",
    "cover": "covers/g87.jpg",
