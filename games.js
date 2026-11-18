@@ -1208,7 +1208,7 @@ window.SHOP = {
    "developer": "Ember Lab",
    "players": "لاعب واحد",
    "rating": "PEGI 12",
-   "arabic": false,
+   "arabic": true,
    "desc": "كينا ترشد الأرواح بمساعدة مخلوقات الروت الصغيرة.",
    "note": "",
    "cover": "covers/g89.jpg",
