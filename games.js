@@ -213,7 +213,7 @@ window.SHOP = {
    "id": "g48",
    "name": "Call of Duty: Modern Warfare II",
    "genre": "تصويب، أكشن",
-   "sizeGB": 100,
+   "sizeGB": 200,
    "releaseDate": "2022-10-28",
    "developer": "Infinity Ward",
    "players": "لاعب واحد + أونلاين",
