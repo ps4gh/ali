@@ -1388,7 +1388,7 @@ window.SHOP = {
    "developer": "—",
    "players": "لاعب واحد",
    "rating": "PEGI 16",
-   "arabic": false,
+   "arabic": true,
    "desc": "لعبة رعب ومغامرة. المعلومات تحتاج مراجعة.",
    "note": "راجع المعلومات",
    "cover": "covers/g10.jpg",
