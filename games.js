@@ -468,7 +468,7 @@ window.SHOP = {
    "id": "g34",
    "name": "eFootball PES 2021",
    "genre": "رياضة، كرة قدم",
-   "sizeGB": 40,
+   "sizeGB": 90,
    "releaseDate": "2020-09-15",
    "developer": "Konami",
    "players": "لاعب واحد + أونلاين",
