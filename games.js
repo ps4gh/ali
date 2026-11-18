@@ -1343,7 +1343,7 @@ window.SHOP = {
    "developer": "Warhorse Studios",
    "players": "لاعب واحد",
    "rating": "PEGI 18",
-   "arabic": false,
+   "arabic": true,
    "desc": "تقمص أدوار واقعي في بوهيميا العصور الوسطى.",
    "note": "",
    "cover": "covers/g09.jpg",
