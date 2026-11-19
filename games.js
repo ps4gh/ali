@@ -8,7 +8,7 @@ window.SHOP = {
   "manager": "بإدارة مقتدى AXIS",
   "phone": "07826236661",
   "whatsapp": "9647826236661",
-  "tiktok": "",
+  "tiktok": "https://www.tiktok.com/@axis.it?_r=1&_t=ZS-9BWjuiRT6Q8",
   "facebook": "",
   "logo": "logo.jpg",
   "launch": "2026-11-17"
