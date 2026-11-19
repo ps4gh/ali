@@ -15,6 +15,22 @@ window.SHOP = {
  },
  "games": [
   {
+   "id": "n-pt",
+   "name": "P.T. (Silent Hills)",
+   "genre": "رعب، ألغاز",
+   "sizeGB": 2,
+   "releaseDate": "2014-08-12",
+   "developer": "Kojima Productions",
+   "players": "لاعب واحد",
+   "rating": "PEGI 18",
+   "arabic": true,
+   "desc": "الديمو الأسطوري من هيديو كوجيما لـ Silent Hills، ممر بيت واحد يتكرر ويصير أرعب كل مرة. انحذف من متجر بلايستيشن.",
+   "note": "ديمو رعب قصير",
+   "youtube": "",
+   "cover": "covers/n-pt.jpg",
+   "addedAt": "2026-11-19"
+  },
+  {
    "id": "n-mafia3",
    "name": "Mafia III: Definitive Edition",
    "genre": "أكشن، عالم مفتوح",
@@ -44,22 +60,6 @@ window.SHOP = {
    "note": "نسخة كلاسيك محوّلة تعمل على PS4",
    "youtube": "",
    "cover": "covers/n-blur.jpg",
-   "addedAt": "2026-11-19"
-  },
-  {
-   "id": "n-pt",
-   "name": "P.T. (Silent Hills)",
-   "genre": "رعب، ألغاز",
-   "sizeGB": 2,
-   "releaseDate": "2014-08-12",
-   "developer": "Kojima Productions",
-   "players": "لاعب واحد",
-   "rating": "PEGI 18",
-   "arabic": false,
-   "desc": "الديمو الأسطوري من هيديو كوجيما لـ Silent Hills، ممر بيت واحد يتكرر ويصير أرعب كل مرة. انحذف من متجر بلايستيشن.",
-   "note": "ديمو رعب قصير",
-   "youtube": "",
-   "cover": "covers/n-pt.jpg",
    "addedAt": "2026-11-19"
   },
   {
