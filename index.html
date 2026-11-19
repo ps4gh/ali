@@ -79,7 +79,7 @@ a{color:var(--cyan)}
 .bar select{border:1px solid var(--line);background:var(--surface);border-radius:12px;padding:9px 10px;max-width:100%}
 .toggle{display:inline-flex;align-items:center;gap:6px;font-size:13.5px;border:1px solid var(--line);border-radius:12px;padding:8px 12px;background:var(--surface)}
 .owner{display:flex;gap:8px}
-@media (max-width:600px){.bar .mini-logo{display:none}.bar .wrap{gap:8px}.bar select,.toggle{flex:1 1 30%;font-size:13px;padding:8px}.basket .wrap{gap:8px}.basket .sum strong{font-size:15px}}
+@media (max-width:600px){.bar .mini-logo span{display:none}.bar .wrap{gap:8px}.bar select,.toggle{flex:1 1 30%;font-size:13px;padding:8px}.basket .wrap{gap:8px}.basket .sum strong{font-size:15px}}
 
 .sec-h{display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap;padding-block:26px 12px}
 .sec-h h2{font-family:var(--f-display);font-weight:800;font-size:clamp(24px,3.4vw,32px);margin:0}
@@ -142,6 +142,33 @@ footer p{margin:2px 0;color:var(--muted)}
 .vid-h{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap}
 .vid-h b{font-size:15px}
 .chip.vid{background:rgb(255 0 51 / .18);color:#ff8095}
+
+/* platform chooser */
+.chooser{padding-block:22px 26px;border-bottom:1px solid var(--line);background:radial-gradient(500px 260px at 80% 0%,rgb(255 61 115 / .16),transparent 70%),radial-gradient(520px 280px at 15% 100%,rgb(53 214 255 / .14),transparent 70%)}
+.ch-head{display:flex;align-items:center;gap:12px;margin-bottom:16px}
+.ch-head img{width:52px;height:52px;border-radius:13px;object-fit:cover}
+.ch-head b{display:block;font-family:var(--f-display);font-size:clamp(20px,3.6vw,28px);line-height:1.2}
+.ch-head span{color:var(--muted);font-size:14px}
+.tiles{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+@media (max-width:640px){.tiles{grid-template-columns:1fr;gap:12px}}
+.tile{--c:var(--cyan);position:relative;display:flex;align-items:center;gap:16px;width:100%;text-align:start;border:2px solid var(--c);border-radius:20px;padding:18px;background:linear-gradient(135deg,color-mix(in srgb,var(--c) 18%,var(--surface)),var(--surface) 70%);color:var(--fg);text-decoration:none;box-shadow:0 0 26px color-mix(in srgb,var(--c) 30%,transparent);transition:transform .15s,box-shadow .15s;min-height:150px;overflow:hidden}
+.tile:hover{transform:translateY(-3px);box-shadow:0 0 38px color-mix(in srgb,var(--c) 45%,transparent)}
+.tile.ps3{--c:var(--pink)}
+.t-covers{position:relative;width:118px;height:122px;flex-shrink:0}
+.t-covers img{position:absolute;width:72px;height:90px;object-fit:cover;border-radius:8px;border:2px solid rgb(255 255 255 / .85);box-shadow:0 6px 16px rgb(0 0 0 / .5);background:var(--surface-2)}
+.t-covers img:nth-child(1){right:0;top:22px;transform:rotate(8deg)}
+.t-covers img:nth-child(2){right:24px;top:10px;transform:rotate(-2deg);z-index:1}
+.t-covers img:nth-child(3){right:46px;top:26px;transform:rotate(-10deg)}
+.t-txt{flex:1;min-width:0;display:flex;flex-direction:column;gap:4px}
+.t-tag{font-family:var(--f-display);font-weight:800;font-size:clamp(34px,6vw,46px);line-height:1;direction:ltr;text-align:right;color:var(--c);text-shadow:0 0 18px color-mix(in srgb,var(--c) 60%,transparent)}
+.t-txt b{font-size:clamp(17px,2.6vw,20px)}
+.t-txt span.n{color:var(--muted);font-size:13.5px}
+.t-go{align-self:flex-end;background:var(--c);color:#04121a;font-weight:700;border-radius:999px;padding:7px 14px;font-size:14px;white-space:nowrap}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--surface)}
+.seg a{padding:8px 14px;text-decoration:none;color:var(--muted);font-family:var(--f-display);font-weight:700;direction:ltr}
+.seg a.on{background:var(--cyan);color:#04121a}
+.seg a.on.p3{background:var(--pink);color:#fff}
+a.mini-logo{text-decoration:none;color:var(--fg)}
 /* dialogs */
 .veil{position:fixed;inset:0;z-index:20;background:rgb(2 4 10 / .7);display:flex;justify-content:center;align-items:flex-start;overflow-y:auto;padding:max(16px,env(safe-area-inset-top,0px)) max(12px,env(safe-area-inset-right,0px)) 24px max(12px,env(safe-area-inset-left,0px))}
 .sheet{background:var(--surface);border:1px solid var(--line);border-radius:18px;width:100%;max-width:640px;padding:20px;display:flex;flex-direction:column;gap:14px;margin-block:auto}
@@ -190,6 +217,12 @@ var app = document.getElementById("app");
 var isOwner = false, artifactNS = null, sampleNS = null, readOnly = false;
 var sel = loadSel();
 var q = "", genreF = "", sortBy = "shop", arOnly = false;
+function hashPlat(){ var h=(location.hash||"").toLowerCase(); return h==="#ps3"?"ps3":h==="#ps4"?"ps4":""; }
+var plat = hashPlat();
+var PL={ps4:"PS4",ps3:"PS3"}, PLF={ps4:"بلايستيشن 4",ps3:"بلايستيشن 3"};
+function pf(g){ return g.platform==="ps3"?"ps3":"ps4"; }
+function pool(){ return plat?S.games.filter(function(g){ return pf(g)===plat; }):S.games; }
+window.addEventListener("hashchange",function(){ var np=hashPlat(); if(np===plat) return; plat=np; genreF=""; q=""; render(); window.scrollTo(0,0); });
 
 function loadSel(){ try { return new Set(JSON.parse(localStorage.getItem("axissel")||"[]")); } catch(e){ return new Set(); } }
 function saveSel(){ try { localStorage.setItem("axissel", JSON.stringify(Array.from(sel))); } catch(e){} }
@@ -197,11 +230,11 @@ function esc(s){ return String(s==null?"":s).replace(/[&<>"']/g,function(c){retu
 function fmtDate(d){ if(!d) return "—"; var p=String(d).split("-"); if(p.length<3) return d; return p[2]+"/"+p[1]+"/"+p[0]; }
 function fmtSize(n){ n=Number(n); if(!n) return "—"; return "⁦"+(Math.round(n*10)/10)+" GB⁩"; }
 function byId(id){ for(var i=0;i<S.games.length;i++) if(S.games[i].id===id) return S.games[i]; return null; }
-function genres(){ var m={}; S.games.forEach(function(g){ String(g.genre||"").split(/[،,]/).forEach(function(x){ x=x.trim(); if(x) m[x]=(m[x]||0)+1; }); }); return Object.keys(m).sort(function(a,b){return m[b]-m[a];}); }
+function genres(){ var m={}; pool().forEach(function(g){ String(g.genre||"").split(/[،,]/).forEach(function(x){ x=x.trim(); if(x) m[x]=(m[x]||0)+1; }); }); return Object.keys(m).sort(function(a,b){return m[b]-m[a];}); }
 function cleanSel(){ sel.forEach(function(id){ if(!byId(id)) sel.delete(id); }); }
 function isNew(g){ var L=S.settings.launch||"2026-11-18"; if(!g.addedAt||g.addedAt<=L) return false; return (Date.now()-new Date(g.addedAt+"T00:00:00").getTime())<NEW_DAYS*864e5; }
 var NEW_DAYS=30;
-function newGames(){ return S.games.filter(isNew).sort(function(a,b){ return String(b.addedAt).localeCompare(String(a.addedAt)); }).slice(0,16); }
+function newGames(){ return pool().filter(isNew).sort(function(a,b){ return String(b.addedAt).localeCompare(String(a.addedAt)); }).slice(0,16); }
 function cardHTML(g){
   var on = sel.has(g.id), h='';
   h += '<article class="card'+(on?' sel':'')+'">';
@@ -246,15 +279,24 @@ function heroHTML(){
   h+='<div class="svc-l">بيع جميع الأجهزة</div><div class="svc"><span>PS5</span><span>PS4</span><span>PS3 · PS2</span><span>Xbox 360</span><span>Xbox Series X|S</span></div>';
   if(s.subtitle) h+='<div class="dl">'+esc(s.subtitle)+'</div>';
   if(s.manager) h+='<div class="mgr">'+esc(s.manager)+'</div>';
-  h+='<div class="cta"><a class="btn primary" href="#games">تصفح الألعاب ↓</a>';
+  h+='<div class="cta">';
   if(num) h+='<a class="btn wa" target="_blank" rel="noopener" href="https://wa.me/'+num+'">'+WA+' راسلنا واتساب</a>';
   if(s.phone) h+='<span class="phone">'+esc(s.phone)+'</span>';
   h+='</div>';
-  h+='<div class="stats"><div><b>'+S.games.length+'</b><span>لعبة PS4 متوفرة</span></div><div><b>'+S.games.filter(function(g){return g.arabic;}).length+'</b><span>لعبة تدعم العربي</span></div><div><b>5</b><span>أنواع أجهزة</span></div></div>';
+  var c4=S.games.filter(function(g){return pf(g)==="ps4";}).length, c3=S.games.length-c4;
+  h+='<div class="stats"><div><b>'+c4+'</b><span>لعبة PS4</span></div><div><b>'+c3+'</b><span>لعبة PS3</span></div><div><b>5</b><span>أنواع أجهزة</span></div></div>';
   h+='</div>';
   if(s.logo) h+='<div class="logo-frame"><img src="'+s.logo+'" alt="شعار '+esc(s.shopName||"")+'"></div>';
   h+='</div></section>';
   return h;
+}
+function chooserHTML(){
+  var s=S.settings;
+  function tile(k){
+    var gs=S.games.filter(function(g){ return pf(g)===k && g.cover; }).slice(0,3);
+    return '<a class="tile '+k+'" href="#'+k+'"><div class="t-covers" aria-hidden="true">'+gs.map(function(g){ return '<img src="'+esc(g.cover)+'" alt="">'; }).join("")+'</div><div class="t-txt"><span class="t-tag">'+PL[k]+'</span><b>ألعاب '+PLF[k]+'</b><span class="n">'+S.games.filter(function(g){return pf(g)===k;}).length+' لعبة متوفرة</span><span class="t-go">دخول ←</span></div></a>';
+  }
+  return '<section class="chooser"><div class="wrap"><div class="ch-head">'+(s.logo?'<img src="'+s.logo+'" alt="">':'')+'<div><b>'+esc(s.shopName||"")+(s.brand?' · '+esc(s.brand):'')+'</b><span>اختار جهازك حتى تشوف ألعابه</span></div></div><div class="tiles">'+tile("ps4")+tile("ps3")+'</div></div></section>';
 }
 function footerHTML(){
   var s=S.settings, num=waNum();
@@ -268,9 +310,22 @@ function footerHTML(){
   h+='</div></div></footer>';
   return h;
 }
+function basketHTML(){
+  var h='';
+  var n = sel.size, tot = 0; sel.forEach(function(id){ var g=byId(id); if(g) tot += Number(g.sizeGB)||0; });
+  if(n) h += '<div class="basket"><div class="wrap"><div class="sum"><strong>اخترت '+(n===1?'لعبة واحدة':n===2?'لعبتين':n+' '+plural(n))+'</strong><div>الحجم الكلي تقريباً '+fmtSize(tot)+'</div></div><button class="btn" id="b-clear">مسح</button><button class="btn wa" id="b-send">'+WA+' إرسال الطلب واتساب</button></div></div>';
+  return h;
+}
+function wireBasket(){
+  var c=document.getElementById("b-clear"); if(c) c.onclick=function(){ sel.clear(); saveSel(); keep(render); };
+  var s=document.getElementById("b-send"); if(s) s.onclick=showSend;
+  var ib=document.getElementById("b-inst"); if(ib) ib.onclick=doInstall;
+  var ix=document.getElementById("b-instx"); if(ix) ix.onclick=function(){ try{localStorage.setItem("axisinst","1");}catch(e){} keep(render); };
+}
 function render(){
   cleanSel();
-  var list = S.games.filter(function(g){
+  var all = pool();
+  var list = all.filter(function(g){
     var t=(g.name+" "+(g.genre||"")+" "+(g.developer||"")+" "+(g.note||"")).toLowerCase();
     if(q && t.indexOf(q.toLowerCase())<0) return false;
     if(genreF && String(g.genre||"").indexOf(genreF)<0) return false;
@@ -285,9 +340,14 @@ function render(){
     return 0;
   });
   var gs = genres(), s=S.settings;
-  var h = installHTML() + heroHTML();
+  var h = installHTML();
+  if(!plat){
+    h += chooserHTML() + heroHTML() + footerHTML() + basketHTML();
+    app.innerHTML = h; wireBasket(); return;
+  }
   h += '<div class="bar" id="games"><div class="wrap">';
-  h += '<div class="mini-logo">'+(s.logo?'<img src="'+s.logo+'" alt="">':'')+'<span>'+esc(s.brand||"")+'</span></div>';
+  h += '<a class="mini-logo" href="#" title="الرئيسية">'+(s.logo?'<img src="'+s.logo+'" alt="">':'')+'<span>'+esc(s.brand||"")+'</span></a>';
+  h += '<div class="seg" role="tablist"><a href="#ps4" class="'+(plat==="ps4"?'on':'')+'">PS4</a><a href="#ps3" class="'+(plat==="ps3"?'on p3':'')+'">PS3</a></div>';
   h += '<input class="search" id="q" type="search" placeholder="ابحث عن لعبة… مثلاً GTA أو Call of Duty" value="'+esc(q)+'" aria-label="بحث">';
   h += '<select id="genre" aria-label="النوع"><option value="">كل الأنواع</option>'+gs.map(function(x){return '<option'+(x===genreF?' selected':'')+'>'+esc(x)+'</option>';}).join("")+'</select>';
   h += '<select id="sort" aria-label="الترتيب">'+[["shop","الأكثر طلباً"],["added","الأحدث إضافة"],["release","الأحدث إصداراً"],["size","الأصغر حجماً"],["name","حسب الاسم"]].map(function(o){return '<option value="'+o[0]+'"'+(o[0]===sortBy?' selected':'')+'>'+o[1]+'</option>';}).join("")+'</select>';
@@ -297,16 +357,15 @@ function render(){
   var ng=newGames();
   h += '<main class="wrap">';
   if(ng.length && !q && !genreF && !arOnly) h += '<section class="new-sec"><div class="sec-h"><h2>🔥 وصلت حديثاً</h2><p>آخر الألعاب المضافة للمحل</p></div><div class="strip">'+ng.map(cardHTML).join("")+'</div></section>';
-  h += '<div class="sec-h"><h2>ألعاب PS4 المتوفرة</h2><p>'+(list.length!==S.games.length?'يظهر '+list.length+' من '+S.games.length+' · ':'')+'اضغط على الغلاف لاختيار اللعبة، ثم أرسل الطلب على واتساب</p></div>';
+  h += '<div class="sec-h"><h2>ألعاب '+PL[plat]+' المتوفرة</h2><p>'+(list.length!==all.length?'يظهر '+list.length+' من '+all.length+' · ':'')+'اضغط على الغلاف لاختيار اللعبة، ثم أرسل الطلب على واتساب</p></div>';
   h += '<div class="grid">';
-  if(!S.games.length) h += '<div class="empty">لا توجد ألعاب بعد.'+(isOwner?' اضغط «إضافة لعبة» واكتب اسمها، والذكاء يملأ المعلومات.':'')+'</div>';
+  if(!all.length) h += '<div class="empty">لا توجد ألعاب بعد.'+(isOwner?' اضغط «إضافة لعبة» واكتب اسمها، والذكاء يملأ المعلومات.':'')+'</div>';
   else if(!list.length) h += '<div class="empty">لا توجد نتائج. جرّب اسماً آخر أو راسلنا واتساب نجيبها لك.</div>';
   list.forEach(function(g){ h += cardHTML(g); });
 
   h += '</div></main>';
   h += footerHTML();
-  var n = sel.size, tot = 0; sel.forEach(function(id){ var g=byId(id); if(g) tot += Number(g.sizeGB)||0; });
-  if(n) h += '<div class="basket"><div class="wrap"><div class="sum"><strong>اخترت '+(n===1?'لعبة واحدة':n===2?'لعبتين':n+' '+plural(n))+'</strong><div>الحجم الكلي تقريباً '+fmtSize(tot)+'</div></div><button class="btn" id="b-clear">مسح</button><button class="btn wa" id="b-send">'+WA+' إرسال الطلب واتساب</button></div></div>';
+  h += basketHTML();
   app.innerHTML = h;
   wire();
 }
@@ -361,8 +420,8 @@ function showDetail(id){
 
 function orderText(name){
   var lines=[], tot=0, i=0;
-  sel.forEach(function(id){ var g=byId(id); if(!g) return; i++; tot+=Number(g.sizeGB)||0; lines.push(i+"- "+g.name+(g.sizeGB?" ("+(Math.round(g.sizeGB*10)/10)+" GB)":"")); });
-  return "السلام عليكم "+(S.settings.brand||"")+"، أريد تنزيل هذه الألعاب على PS4:\n"+lines.join("\n")+"\n\nعدد الألعاب: "+i+"\nالحجم الكلي تقريباً: "+(Math.round(tot*10)/10)+" GB"+(name?"\nالاسم: "+name:"");
+  sel.forEach(function(id){ var g=byId(id); if(!g) return; i++; tot+=Number(g.sizeGB)||0; lines.push(i+"- ["+PL[pf(g)]+"] "+g.name+(g.sizeGB?" ("+(Math.round(g.sizeGB*10)/10)+" GB)":"")); });
+  return "السلام عليكم "+(S.settings.brand||"")+"، أريد تنزيل هذه الألعاب:\n"+lines.join("\n")+"\n\nعدد الألعاب: "+i+"\nالحجم الكلي تقريباً: "+(Math.round(tot*10)/10)+" GB"+(name?"\nالاسم: "+name:"");
 }
 function showSend(){
   var num=waNum();

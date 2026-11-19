@@ -28,7 +28,8 @@ window.SHOP = {
    "note": "ديمو رعب قصير",
    "youtube": "",
    "cover": "covers/n-pt.jpg",
-   "addedAt": "2026-11-19"
+   "addedAt": "2026-11-19",
+   "platform": "ps4"
   },
   {
    "id": "n-mafia3",
@@ -44,7 +45,8 @@ window.SHOP = {
    "note": "",
    "youtube": "",
    "cover": "covers/n-mafia3.jpg",
-   "addedAt": "2026-11-19"
+   "addedAt": "2026-11-19",
+   "platform": "ps4"
   },
   {
    "id": "n-blur",
@@ -60,7 +62,8 @@ window.SHOP = {
    "note": "نسخة كلاسيك محوّلة تعمل على PS4",
    "youtube": "",
    "cover": "covers/n-blur.jpg",
-   "addedAt": "2026-11-19"
+   "addedAt": "2026-11-19",
+   "platform": "ps4"
   },
   {
    "id": "n-watchdogs",
@@ -75,7 +78,8 @@ window.SHOP = {
    "desc": "الهاكر أيدن بيرس يتحكم بمدينة شيكاغو كلها من موبايله وياخذ ثأره.",
    "note": "",
    "cover": "covers/n-watchdogs.jpg",
-   "addedAt": "2026-11-18"
+   "addedAt": "2026-11-18",
+   "platform": "ps4"
   },
   {
    "id": "n-mkxl",
@@ -90,7 +94,8 @@ window.SHOP = {
    "desc": "مورتال كومبات X بالنسخة الكاملة ويا كل الشخصيات الإضافية وأزياء المقاتلين.",
    "note": "يدعم لاعبين على نفس الجهاز",
    "cover": "covers/n-mkxl.jpg",
-   "addedAt": "2026-11-18"
+   "addedAt": "2026-11-18",
+   "platform": "ps4"
   },
   {
    "id": "n-avengers",
@@ -105,7 +110,8 @@ window.SHOP = {
    "desc": "كابتن أمريكا وآيرون مان وهالك وثور وبلاك ويدو وكامالا خان بمغامرة الأفنجرز، النسخة الديلوكس.",
    "note": "",
    "cover": "covers/n-avengers.jpg",
-   "addedAt": "2026-11-18"
+   "addedAt": "2026-11-18",
+   "platform": "ps4"
   },
   {
    "id": "n-gow-sparta",
@@ -120,7 +126,8 @@ window.SHOP = {
    "desc": "كريتوس وأخوه ديموس بمغامرة كلاسيكية قصيرة بأسلوب ثنائي الأبعاد من أيام سبارطة.",
    "note": "من الاعاب الجديد نزولان على ps 4",
    "cover": "covers/n-gow-sparta.jpg",
-   "addedAt": "2026-11-18"
+   "addedAt": "2026-11-18",
+   "platform": "ps4"
   },
   {
    "id": "g76",
@@ -135,7 +142,8 @@ window.SHOP = {
    "desc": "وودي وباز في مغامرة قصة لعبة 3، مناسبة للأطفال.",
    "note": "نسخة كلاسيك محوّلة تعمل على PS4",
    "cover": "covers/g76.jpg",
-   "addedAt": "2026-11-17"
+   "addedAt": "2026-11-17",
+   "platform": "ps4"
   },
   {
    "id": "g55",
@@ -150,7 +158,8 @@ window.SHOP = {
    "desc": "سي جي وغروف ستريت، الكلاسيكية الأشهر على PS4.",
    "note": "نسخة PS2 كلاسيك",
    "cover": "covers/g55.jpg",
-   "addedAt": "2026-11-17"
+   "addedAt": "2026-11-17",
+   "platform": "ps4"
   },
   {
    "id": "g77",
@@ -165,7 +174,8 @@ window.SHOP = {
    "desc": "صراع عائلة ميشيما في أشهر سلسلة قتال.",
    "note": "يدعم لاعبين على نفس الجهاز",
    "cover": "covers/g77.jpg",
-   "addedAt": "2026-11-17"
+   "addedAt": "2026-11-17",
+   "platform": "ps4"
   },
   {
    "id": "g14",
@@ -180,7 +190,8 @@ window.SHOP = {
    "desc": "بيس محدّثة بباتش موسم 2027 بالانتقالات والأطقم الجديدة.",
    "note": "باتش محدّث على لعبة PES",
    "cover": "covers/g14.jpg",
-   "addedAt": "2026-11-17"
+   "addedAt": "2026-11-17",
+   "platform": "ps4"
   },
   {
    "id": "g28",
@@ -195,7 +206,8 @@ window.SHOP = {
    "desc": "ثلاث شخصيات وعالم لوس سانتوس المفتوح، مع قصة طويلة وطور GTA Online.",
    "note": "",
    "cover": "covers/g28.jpg",
-   "addedAt": "2026-11-17"
+   "addedAt": "2026-11-17",
+   "platform": "ps4"
   },
   {
    "id": "g83",
@@ -210,7 +222,8 @@ window.SHOP = {
    "desc": "قصة آرثر مورغان وعصابة فان دير ليندي في الغرب الأمريكي، من أضخم ألعاب الجيل.",
    "note": "",
    "cover": "covers/g83.jpg",
-   "addedAt": "2026-11-17"
+   "addedAt": "2026-11-17",
+   "platform": "ps4"
   },
   {
    "id": "g45",
@@ -225,7 +238,8 @@ window.SHOP = {
    "desc": "تأرجح بين مباني نيويورك وقاتل الأشرار في مغامرة سبايدر مان الأشهر.",
    "note": "",
    "cover": "covers/g45.jpg",
-   "addedAt": "2026-11-17"
+   "addedAt": "2026-11-17",
+   "platform": "ps4"
   },
   {
    "id": "g82",
@@ -240,7 +254,8 @@ window.SHOP = {
    "desc": "كريتوس وابنه أتريوس في رحلة عبر عوالم الأساطير الإسكندنافية.",
    "note": "",
    "cover": "covers/g82.jpg",
-   "addedAt": "2026-11-17"
+   "addedAt": "2026-11-17",
+   "platform": "ps4"
   },
   {
    "id": "g39",
@@ -255,7 +270,8 @@ window.SHOP = {
    "desc": "تكملة قصة كريتوس وأتريوس ومواجهة نهاية العالم الإسكندنافي.",
    "note": "",
    "cover": "covers/g39.jpg",
-   "addedAt": "2026-11-17"
+   "addedAt": "2026-11-17",
+   "platform": "ps4"
   },
   {
    "id": "g85",
@@ -270,7 +286,8 @@ window.SHOP = {
    "desc": "قصة إيلي في عالم ما بعد الوباء، رحلة انتقام قاسية ومؤثرة.",
    "note": "",
    "cover": "covers/g85.jpg",
-   "addedAt": "2026-11-17"
+   "addedAt": "2026-11-17",
+   "platform": "ps4"
   },
   {
    "id": "g59",
@@ -285,7 +302,8 @@ window.SHOP = {
    "desc": "جويل وإيلي في رحلة نجاة عبر أمريكا بعد انتشار الوباء، مع إضافة Left Behind.",
    "note": "",
    "cover": "covers/g59.jpg",
-   "addedAt": "2026-11-17"
+   "addedAt": "2026-11-17",
+   "platform": "ps4"
   },
   {
    "id": "g63",
@@ -300,7 +318,8 @@ window.SHOP = {
    "desc": "ساموراي يدافع عن جزيرة تسوشيما ضد غزو المغول، مع إضافة جزيرة إيكي.",
    "note": "",
    "cover": "covers/g63.jpg",
-   "addedAt": "2026-11-17"
+   "addedAt": "2026-11-17",
+   "platform": "ps4"
   },
   {
    "id": "g01",
@@ -315,7 +334,8 @@ window.SHOP = {
    "desc": "مدينة نايت سيتي المستقبلية بعالم مفتوح وقصة متفرعة حسب اختياراتك.",
    "note": "",
    "cover": "covers/g01.jpg",
-   "addedAt": "2026-11-17"
+   "addedAt": "2026-11-17",
+   "platform": "ps4"
   },
   {
    "id": "g02",
@@ -330,7 +350,8 @@ window.SHOP = {
    "desc": "جيرالت يبحث عن سيري في عالم مفتوح ضخم، النسخة الكاملة مع الإضافتين.",
    "note": "",
    "cover": "covers/g02.jpg",
-   "addedAt": "2026-11-17"
+   "addedAt": "2026-11-17",
+   "platform": "ps4"
   },
   {
    "id": "g44",
@@ -345,7 +366,8 @@ window.SHOP = {
    "desc": "عالم مفتوح صعب ومليء بالزعماء والأسرار من صناع Dark Souls.",
    "note": "",
    "cover": "covers/g44.jpg",
-   "addedAt": "2026-11-17"
+   "addedAt": "2026-11-17",
+   "platform": "ps4"
   },
   {
    "id": "g36",
@@ -360,7 +382,8 @@ window.SHOP = {
    "desc": "أحدث أجزاء بلاك أوبس، حملة تجسس في التسعينات وطور الزومبي والأونلاين.",
    "note": "",
    "cover": "covers/g36.jpg",
-   "addedAt": "2026-11-17"
+   "addedAt": "2026-11-17",
+   "platform": "ps4"
   },
   {
    "id": "g41",
@@ -375,7 +398,8 @@ window.SHOP = {
    "desc": "عودة ماكاروف وفرقة 141، حملة وأونلاين وطور الزومبي.",
    "note": "",
    "cover": "covers/g41.jpg",
-   "addedAt": "2026-11-17"
+   "addedAt": "2026-11-17",
+   "platform": "ps4"
   },
   {
    "id": "g48",
@@ -390,7 +414,8 @@ window.SHOP = {
    "desc": "فرقة 141 وغوست وسوب في عمليات حول العالم، حملة وأونلاين.",
    "note": "",
    "cover": "covers/g48.jpg",
-   "addedAt": "2026-11-17"
+   "addedAt": "2026-11-17",
+   "platform": "ps4"
   },
   {
    "id": "g43",
@@ -405,7 +430,8 @@ window.SHOP = {
    "desc": "حملة حرب باردة بالثمانينات مع طور الزومبي والأونلاين.",
    "note": "",
    "cover": "covers/g43.jpg",
-   "addedAt": "2026-11-17"
+   "addedAt": "2026-11-17",
+   "platform": "ps4"
   },
   {
    "id": "g91",
@@ -420,7 +446,8 @@ window.SHOP = {
    "desc": "إعادة إطلاق مودرن وارفير بحملة واقعية وأونلاين قوي.",
    "note": "",
    "cover": "covers/g91.jpg",
-   "addedAt": "2026-11-17"
+   "addedAt": "2026-11-17",
+   "platform": "ps4"
   },
   {
    "id": "g15",
@@ -435,7 +462,8 @@ window.SHOP = {
    "desc": "معارك الحرب العالمية الثانية على عدة جبهات، حملة وأونلاين وزومبي.",
    "note": "",
    "cover": "covers/g15.jpg",
-   "addedAt": "2026-11-17"
+   "addedAt": "2026-11-17",
+   "platform": "ps4"
   },
   {
    "id": "g16",
@@ -450,7 +478,8 @@ window.SHOP = {
    "desc": "عودة السلسلة للحرب العالمية الثانية من إنزال النورماندي إلى ألمانيا.",
    "note": "",
    "cover": "covers/g16.jpg",
-   "addedAt": "2026-11-17"
+   "addedAt": "2026-11-17",
+   "platform": "ps4"
   },
   {
    "id": "g04",
@@ -465,7 +494,8 @@ window.SHOP = {
    "desc": "النسخة المحسنة من مودرن وارفير الأول الكلاسيكي بحملته الشهيرة.",
    "note": "",
    "cover": "covers/g04.jpg",
-   "addedAt": "2026-11-17"
+   "addedAt": "2026-11-17",
+   "platform": "ps4"
   },
   {
    "id": "g92",
@@ -480,7 +510,8 @@ window.SHOP = {
    "desc": "الجزء الأول والثاني من بلاك أوبس بالحملة الكاملة.",
    "note": "نسخة محوّلة تعمل على PS4",
    "cover": "covers/g92.jpg",
-   "addedAt": "2026-11-17"
+   "addedAt": "2026-11-17",
+   "platform": "ps4"
   },
   {
    "id": "g18",
@@ -495,7 +526,8 @@ window.SHOP = {
    "desc": "معارك الحرب العالمية الثانية بخرائط ضخمة وتدمير واقعي.",
    "note": "",
    "cover": "covers/g18.jpg",
-   "addedAt": "2026-11-17"
+   "addedAt": "2026-11-17",
+   "platform": "ps4"
   },
   {
    "id": "g30",
@@ -510,7 +542,8 @@ window.SHOP = {
    "desc": "معارك الحرب العالمية الأولى، النسخة الكاملة مع كل الإضافات.",
    "note": "",
    "cover": "covers/g30.jpg",
-   "addedAt": "2026-11-17"
+   "addedAt": "2026-11-17",
+   "platform": "ps4"
   },
   {
    "id": "g49",
@@ -525,7 +558,8 @@ window.SHOP = {
    "desc": "حرب حديثة بخرائط كبيرة ومركبات، مع إضافة China Rising.",
    "note": "",
    "cover": "covers/g49.jpg",
-   "addedAt": "2026-11-17"
+   "addedAt": "2026-11-17",
+   "platform": "ps4"
   },
   {
    "id": "g24",
@@ -540,7 +574,8 @@ window.SHOP = {
    "desc": "شرطة ضد عصابات في معارك سرقة ومطاردات داخل المدن.",
    "note": "",
    "cover": "covers/g24.jpg",
-   "addedAt": "2026-11-17"
+   "addedAt": "2026-11-17",
+   "platform": "ps4"
   },
   {
    "id": "g27",
@@ -555,7 +590,8 @@ window.SHOP = {
    "desc": "المحارب الفايكنغي إيفور يغزو إنجلترا، النسخة الكاملة مع السيزون باس.",
    "note": "",
    "cover": "covers/g27.jpg",
-   "addedAt": "2026-11-17"
+   "addedAt": "2026-11-17",
+   "platform": "ps4"
   },
   {
    "id": "g50",
@@ -570,7 +606,8 @@ window.SHOP = {
    "desc": "أكبر إضافة لفالهالا، أودين في عالم سفارتالفهايم بقدرات جديدة.",
    "note": "إضافة تحتاج اللعبة الأساسية",
    "cover": "covers/g50.jpg",
-   "addedAt": "2026-11-17"
+   "addedAt": "2026-11-17",
+   "platform": "ps4"
   },
   {
    "id": "g32",
@@ -585,7 +622,8 @@ window.SHOP = {
    "desc": "إضافة حصار باريس لقصة فالهالا.",
    "note": "إضافة تحتاج اللعبة الأساسية",
    "cover": "covers/g32.jpg",
-   "addedAt": "2026-11-17"
+   "addedAt": "2026-11-17",
+   "platform": "ps4"
   },
   {
    "id": "g25",
@@ -600,7 +638,8 @@ window.SHOP = {
    "desc": "قصة باسم في بغداد العباسية، عودة لأسلوب الاغتيال والتسلل الكلاسيكي.",
    "note": "",
    "cover": "covers/g25.jpg",
-   "addedAt": "2026-11-17"
+   "addedAt": "2026-11-17",
+   "platform": "ps4"
   },
   {
    "id": "g47",
@@ -615,7 +654,8 @@ window.SHOP = {
    "desc": "ثلاثية إيتزيو كاملة: الجزء الثاني وبراذرهود وريفيليشنز.",
    "note": "",
    "cover": "covers/g47.jpg",
-   "addedAt": "2026-11-17"
+   "addedAt": "2026-11-17",
+   "platform": "ps4"
   },
   {
    "id": "g33",
@@ -630,7 +670,8 @@ window.SHOP = {
    "desc": "ثورة ضد الديكتاتور أنطون كاستيو في جزيرة يارا الاستوائية.",
    "note": "",
    "cover": "covers/g33.jpg",
-   "addedAt": "2026-11-17"
+   "addedAt": "2026-11-17",
+   "platform": "ps4"
   },
   {
    "id": "g34",
@@ -645,7 +686,8 @@ window.SHOP = {
    "desc": "بيس 2021 بتحديث الموسم، مع تعليق عربي وأطوار ماستر ليك.",
    "note": "",
    "cover": "covers/g34.jpg",
-   "addedAt": "2026-11-17"
+   "addedAt": "2026-11-17",
+   "platform": "ps4"
   },
   {
    "id": "g17",
@@ -660,7 +702,8 @@ window.SHOP = {
    "desc": "مصارعة WWE بأحدث النجوم وطور MyRise وGM.",
    "note": "",
    "cover": "covers/g17.jpg",
-   "addedAt": "2026-11-17"
+   "addedAt": "2026-11-17",
+   "platform": "ps4"
   },
   {
    "id": "g31",
@@ -675,7 +718,8 @@ window.SHOP = {
    "desc": "البطولة الرسمية للفورمولا 1 لموسم 2024 بكل الفرق والحلبات.",
    "note": "",
    "cover": "covers/g31.jpg",
-   "addedAt": "2026-11-17"
+   "addedAt": "2026-11-17",
+   "platform": "ps4"
   },
   {
    "id": "g35",
@@ -690,7 +734,8 @@ window.SHOP = {
    "desc": "سباقات الدراجات النارية الرسمية لموسم 2025.",
    "note": "",
    "cover": "covers/g35.jpg",
-   "addedAt": "2026-11-17"
+   "addedAt": "2026-11-17",
+   "platform": "ps4"
   },
   {
    "id": "g46",
@@ -705,7 +750,8 @@ window.SHOP = {
    "desc": "سباقات طرق وعرة بسيارات رالي، تدعم الشاشة المقسومة.",
    "note": "يدعم لعب لاعبين على نفس الشاشة",
    "cover": "covers/g46.jpg",
-   "addedAt": "2026-11-17"
+   "addedAt": "2026-11-17",
+   "platform": "ps4"
   },
   {
    "id": "g84",
@@ -720,7 +766,8 @@ window.SHOP = {
    "desc": "سباقات ومطاردات في عالم مفتوح وتعديل السيارات.",
    "note": "",
    "cover": "covers/g84.jpg",
-   "addedAt": "2026-11-17"
+   "addedAt": "2026-11-17",
+   "platform": "ps4"
   },
   {
    "id": "g00",
@@ -735,7 +782,8 @@ window.SHOP = {
    "desc": "محاكاة سباقات GT الرسمية بواقعية عالية.",
    "note": "",
    "cover": "covers/g00.jpg",
-   "addedAt": "2026-11-17"
+   "addedAt": "2026-11-17",
+   "platform": "ps4"
   },
   {
    "id": "g12",
@@ -750,7 +798,8 @@ window.SHOP = {
    "desc": "سباقات ناسكار الأمريكية بالفرق والسائقين الرسميين.",
    "note": "",
    "cover": "covers/g12.jpg",
-   "addedAt": "2026-11-17"
+   "addedAt": "2026-11-17",
+   "platform": "ps4"
   },
   {
    "id": "g08",
@@ -765,7 +814,8 @@ window.SHOP = {
    "desc": "سباقات موتوكروس ودراجات رباعية في مسارات وعالم مفتوح.",
    "note": "",
    "cover": "covers/g08.jpg",
-   "addedAt": "2026-11-17"
+   "addedAt": "2026-11-17",
+   "platform": "ps4"
   },
   {
    "id": "g57",
@@ -780,7 +830,8 @@ window.SHOP = {
    "desc": "نسخة سهلة من غران توريزمو مناسبة للمبتدئين والصغار.",
    "note": "",
    "cover": "covers/g57.jpg",
-   "addedAt": "2026-11-17"
+   "addedAt": "2026-11-17",
+   "platform": "ps4"
   },
   {
    "id": "g38",
@@ -795,7 +846,8 @@ window.SHOP = {
    "desc": "سيارات مسلحة في سباقات قتالية مع تطوير السيارة.",
    "note": "",
    "cover": "covers/g38.jpg",
-   "addedAt": "2026-11-17"
+   "addedAt": "2026-11-17",
+   "platform": "ps4"
   },
   {
    "id": "g93",
@@ -810,7 +862,8 @@ window.SHOP = {
    "desc": "سباقات ليغو بعالم مفتوح، تبني سيارتك وتتحول بين البر والماء.",
    "note": "يدعم لعب لاعبين على نفس الشاشة",
    "cover": "covers/g93.jpg",
-   "addedAt": "2026-11-17"
+   "addedAt": "2026-11-17",
+   "platform": "ps4"
   },
   {
    "id": "g13",
@@ -825,7 +878,8 @@ window.SHOP = {
    "desc": "سباق كارتات بشخصيات سبونج بوب والسلاحف والكرتون.",
    "note": "يدعم لعب لاعبين على نفس الشاشة",
    "cover": "covers/g13.jpg",
-   "addedAt": "2026-11-17"
+   "addedAt": "2026-11-17",
+   "platform": "ps4"
   },
   {
    "id": "g52",
@@ -840,7 +894,8 @@ window.SHOP = {
    "desc": "عيش قصة غوكو من أول دراغون بول زد لآخرها.",
    "note": "",
    "cover": "covers/g52.jpg",
-   "addedAt": "2026-11-17"
+   "addedAt": "2026-11-17",
+   "platform": "ps4"
   },
   {
    "id": "g51",
@@ -855,7 +910,8 @@ window.SHOP = {
    "desc": "لعبة القتال الشهيرة مع كل الشخصيات والإضافات.",
    "note": "يدعم لاعبين على نفس الجهاز",
    "cover": "covers/g51.jpg",
-   "addedAt": "2026-11-17"
+   "addedAt": "2026-11-17",
+   "platform": "ps4"
   },
   {
    "id": "g53",
@@ -870,7 +926,8 @@ window.SHOP = {
    "desc": "مغامرة تعاونية لشخصين فقط، من أفضل ألعاب اللعب الجماعي.",
    "note": "تحتاج لاعبين",
    "cover": "covers/g53.jpg",
-   "addedAt": "2026-11-17"
+   "addedAt": "2026-11-17",
+   "platform": "ps4"
   },
   {
    "id": "g54",
@@ -885,7 +942,8 @@ window.SHOP = {
    "desc": "قصة ثلاثة روبوتات أندرويد، وكل اختيار يغيّر النهاية.",
    "note": "",
    "cover": "covers/g54.jpg",
-   "addedAt": "2026-11-17"
+   "addedAt": "2026-11-17",
+   "platform": "ps4"
   },
   {
    "id": "g90",
@@ -900,7 +958,8 @@ window.SHOP = {
    "desc": "دراج يحاول النجاة في عالم مليء بقطعان الوحوش.",
    "note": "",
    "cover": "covers/g90.jpg",
-   "addedAt": "2026-11-17"
+   "addedAt": "2026-11-17",
+   "platform": "ps4"
   },
   {
    "id": "g74",
@@ -915,7 +974,8 @@ window.SHOP = {
    "desc": "آخر مغامرات نيثان دريك بحثاً عن كنز القراصنة.",
    "note": "",
    "cover": "covers/g74.jpg",
-   "addedAt": "2026-11-17"
+   "addedAt": "2026-11-17",
+   "platform": "ps4"
   },
   {
    "id": "g67",
@@ -930,7 +990,8 @@ window.SHOP = {
    "desc": "الأجزاء الثلاثة الأولى من أنتشارتد بنسخة محسنة.",
    "note": "",
    "cover": "covers/g67.jpg",
-   "addedAt": "2026-11-17"
+   "addedAt": "2026-11-17",
+   "platform": "ps4"
   },
   {
    "id": "g71",
@@ -945,7 +1006,8 @@ window.SHOP = {
    "desc": "لارا كروفت في غابات أمريكا اللاتينية، النسخة الكاملة.",
    "note": "",
    "cover": "covers/g71.jpg",
-   "addedAt": "2026-11-17"
+   "addedAt": "2026-11-17",
+   "platform": "ps4"
   },
   {
    "id": "g75",
@@ -960,7 +1022,8 @@ window.SHOP = {
    "desc": "لارا كروفت تبحث عن سر الخلود في سيبيريا، مع كل الإضافات.",
    "note": "",
    "cover": "covers/g75.jpg",
-   "addedAt": "2026-11-17"
+   "addedAt": "2026-11-17",
+   "platform": "ps4"
   },
   {
    "id": "g73",
@@ -975,7 +1038,8 @@ window.SHOP = {
    "desc": "إيثان يبحث عن ابنته في قرية مخيفة مليئة بالوحوش.",
    "note": "",
    "cover": "covers/g73.jpg",
-   "addedAt": "2026-11-17"
+   "addedAt": "2026-11-17",
+   "platform": "ps4"
   },
   {
    "id": "g72",
@@ -990,7 +1054,8 @@ window.SHOP = {
    "desc": "رعب من منظور الشخص الأول في بيت عائلة بيكر، مع كل الإضافات.",
    "note": "",
    "cover": "covers/g72.jpg",
-   "addedAt": "2026-11-17"
+   "addedAt": "2026-11-17",
+   "platform": "ps4"
   },
   {
    "id": "g42",
@@ -1005,7 +1070,8 @@ window.SHOP = {
    "desc": "ريميك رزدنت إيفل 4 مع إضافة آدا وونغ Separate Ways.",
    "note": "",
    "cover": "covers/g42.jpg",
-   "addedAt": "2026-11-17"
+   "addedAt": "2026-11-17",
+   "platform": "ps4"
   },
   {
    "id": "g68",
@@ -1020,7 +1086,8 @@ window.SHOP = {
    "desc": "نينجا بذراع صناعية في اليابان القديمة، قتال سيوف صعب ودقيق.",
    "note": "",
    "cover": "covers/g68.jpg",
-   "addedAt": "2026-11-17"
+   "addedAt": "2026-11-17",
+   "platform": "ps4"
   },
   {
    "id": "g26",
@@ -1035,7 +1102,8 @@ window.SHOP = {
    "desc": "عالم مظلم وزعماء صعبين في خاتمة سلسلة دارك سولز.",
    "note": "",
    "cover": "covers/g26.jpg",
-   "addedAt": "2026-11-17"
+   "addedAt": "2026-11-17",
+   "platform": "ps4"
   },
   {
    "id": "g20",
@@ -1050,7 +1118,8 @@ window.SHOP = {
    "desc": "قصة بينوكيو بشكل مظلم وقتال على طريقة سولز.",
    "note": "",
    "cover": "covers/g20.jpg",
-   "addedAt": "2026-11-17"
+   "addedAt": "2026-11-17",
+   "platform": "ps4"
   },
   {
    "id": "g78",
@@ -1065,7 +1134,8 @@ window.SHOP = {
    "desc": "ساموراي في اليابان القديمة من صناع ياكوزا.",
    "note": "",
    "cover": "covers/g78.jpg",
-   "addedAt": "2026-11-17"
+   "addedAt": "2026-11-17",
+   "platform": "ps4"
   },
   {
    "id": "g79",
@@ -1080,7 +1150,8 @@ window.SHOP = {
    "desc": "ريميك مافيا الأولى، صعود تومي في عالم المافيا بالثلاثينات.",
    "note": "",
    "cover": "covers/g79.jpg",
-   "addedAt": "2026-11-17"
+   "addedAt": "2026-11-17",
+   "platform": "ps4"
   },
   {
    "id": "g03",
@@ -1095,7 +1166,8 @@ window.SHOP = {
    "desc": "فيتو وجو في عالم المافيا بالأربعينات والخمسينات.",
    "note": "",
    "cover": "covers/g03.jpg",
-   "addedAt": "2026-11-17"
+   "addedAt": "2026-11-17",
+   "platform": "ps4"
   },
   {
    "id": "g80",
@@ -1110,7 +1182,8 @@ window.SHOP = {
    "desc": "قصة جون مارستون الكلاسيكية مع إضافة الزومبي.",
    "note": "",
    "cover": "covers/g80.jpg",
-   "addedAt": "2026-11-17"
+   "addedAt": "2026-11-17",
+   "platform": "ps4"
   },
   {
    "id": "g40",
@@ -1125,7 +1198,8 @@ window.SHOP = {
    "desc": "العميل 47 ومهمات اغتيال بطرق حرة، النسخة الكاملة.",
    "note": "",
    "cover": "covers/g40.jpg",
-   "addedAt": "2026-11-17"
+   "addedAt": "2026-11-17",
+   "platform": "ps4"
   },
   {
    "id": "g19",
@@ -1140,7 +1214,8 @@ window.SHOP = {
    "desc": "باتمان يحمي غوثام بسيارة الباتموبيل ضد فارس أركام.",
    "note": "",
    "cover": "covers/g19.jpg",
-   "addedAt": "2026-11-17"
+   "addedAt": "2026-11-17",
+   "platform": "ps4"
   },
   {
    "id": "g56",
@@ -1155,7 +1230,8 @@ window.SHOP = {
    "desc": "حارس في عالم سيد الخواتم ينتقم من جيش سورون.",
    "note": "",
    "cover": "covers/g56.jpg",
-   "addedAt": "2026-11-17"
+   "addedAt": "2026-11-17",
+   "platform": "ps4"
   },
   {
    "id": "g23",
@@ -1170,7 +1246,8 @@ window.SHOP = {
    "desc": "انتقام كريتوس من آلهة أوليمبوس بنسخة محسنة.",
    "note": "",
    "cover": "covers/g23.jpg",
-   "addedAt": "2026-11-17"
+   "addedAt": "2026-11-17",
+   "platform": "ps4"
   },
   {
    "id": "g22",
@@ -1185,7 +1262,8 @@ window.SHOP = {
    "desc": "الجزء الأول الكلاسيكي من إله الحرب باللغة العربية.",
    "note": "نسخة كلاسيك محوّلة تعمل على PS4",
    "cover": "covers/g22.jpg",
-   "addedAt": "2026-11-17"
+   "addedAt": "2026-11-17",
+   "platform": "ps4"
   },
   {
    "id": "g21",
@@ -1200,7 +1278,8 @@ window.SHOP = {
    "desc": "الجزء الثاني الكلاسيكي من إله الحرب باللغة العربية.",
    "note": "نسخة كلاسيك محوّلة تعمل على PS4",
    "cover": "covers/g21.jpg",
-   "addedAt": "2026-11-17"
+   "addedAt": "2026-11-17",
+   "platform": "ps4"
   },
   {
    "id": "g66",
@@ -1215,7 +1294,8 @@ window.SHOP = {
    "desc": "جيمي في مدرسة بولورث الداخلية، من روكستار.",
    "note": "نسخة PS2 كلاسيك",
    "cover": "covers/g66.jpg",
-   "addedAt": "2026-11-17"
+   "addedAt": "2026-11-17",
+   "platform": "ps4"
   },
   {
    "id": "g58",
@@ -1230,7 +1310,8 @@ window.SHOP = {
    "desc": "فرقة قوات خاصة في حرب الخليج، النسخة العربية.",
    "note": "نسخة كلاسيك محوّلة تعمل على PS4",
    "cover": "covers/g58.jpg",
-   "addedAt": "2026-11-17"
+   "addedAt": "2026-11-17",
+   "platform": "ps4"
   },
   {
    "id": "g60",
@@ -1245,7 +1326,8 @@ window.SHOP = {
    "desc": "الجزء الثاني من عاصفة الصحراء، النسخة العربية.",
    "note": "نسخة كلاسيك محوّلة تعمل على PS4",
    "cover": "covers/g60.jpg",
-   "addedAt": "2026-11-17"
+   "addedAt": "2026-11-17",
+   "platform": "ps4"
   },
   {
    "id": "g81",
@@ -1260,7 +1342,8 @@ window.SHOP = {
    "desc": "النينجا كورينوسوكي تنتقم لوالدها بسلاح التيتسوجين.",
    "note": "نسخة PS2 كلاسيك",
    "cover": "covers/g81.jpg",
-   "addedAt": "2026-11-17"
+   "addedAt": "2026-11-17",
+   "platform": "ps4"
   },
   {
    "id": "g37",
@@ -1275,7 +1358,8 @@ window.SHOP = {
    "desc": "ابنِ واستكشف عالماً من المكعبات، مع اللعب الجماعي.",
    "note": "",
    "cover": "covers/g37.jpg",
-   "addedAt": "2026-11-17"
+   "addedAt": "2026-11-17",
+   "platform": "ps4"
   },
   {
    "id": "g88",
@@ -1290,7 +1374,8 @@ window.SHOP = {
    "desc": "تسلل لبيت الجار الغامض واكشف أسراره.",
    "note": "",
    "cover": "covers/g88.jpg",
-   "addedAt": "2026-11-17"
+   "addedAt": "2026-11-17",
+   "platform": "ps4"
   },
   {
    "id": "g87",
@@ -1305,7 +1390,8 @@ window.SHOP = {
    "desc": "مصنع ألعاب مهجور وهاغي واغي يطاردك.",
    "note": "",
    "cover": "covers/g87.jpg",
-   "addedAt": "2026-11-17"
+   "addedAt": "2026-11-17",
+   "platform": "ps4"
   },
   {
    "id": "g89",
@@ -1320,7 +1406,8 @@ window.SHOP = {
    "desc": "كينا ترشد الأرواح بمساعدة مخلوقات الروت الصغيرة.",
    "note": "",
    "cover": "covers/g89.jpg",
-   "addedAt": "2026-11-17"
+   "addedAt": "2026-11-17",
+   "platform": "ps4"
   },
   {
    "id": "g62",
@@ -1335,7 +1422,8 @@ window.SHOP = {
    "desc": "تقمص أدوار بقتال أدوار بأسلوب ألعاب التسعينات.",
    "note": "",
    "cover": "covers/g62.jpg",
-   "addedAt": "2026-11-17"
+   "addedAt": "2026-11-17",
+   "platform": "ps4"
   },
   {
    "id": "g64",
@@ -1350,7 +1438,8 @@ window.SHOP = {
    "desc": "هورنت في مملكة جديدة، تكملة هولو نايت المنتظرة.",
    "note": "",
    "cover": "covers/g64.jpg",
-   "addedAt": "2026-11-17"
+   "addedAt": "2026-11-17",
+   "platform": "ps4"
   },
   {
    "id": "g65",
@@ -1365,7 +1454,8 @@ window.SHOP = {
    "desc": "فارس صغير يستكشف مملكة الحشرات المدمرة، مع كل الإضافات.",
    "note": "",
    "cover": "covers/g65.jpg",
-   "addedAt": "2026-11-17"
+   "addedAt": "2026-11-17",
+   "platform": "ps4"
   },
   {
    "id": "g86",
@@ -1380,7 +1470,8 @@ window.SHOP = {
    "desc": "صبي يهرب في عالم غامض ومظلم، ألغاز بدون كلام.",
    "note": "",
    "cover": "covers/g86.jpg",
-   "addedAt": "2026-11-17"
+   "addedAt": "2026-11-17",
+   "platform": "ps4"
   },
   {
    "id": "g70",
@@ -1395,7 +1486,8 @@ window.SHOP = {
    "desc": "روبوتان صغيران يحلان ألغازاً بالتعاون، مناسبة للعائلة.",
    "note": "تدعم لاعبين",
    "cover": "covers/g70.jpg",
-   "addedAt": "2026-11-17"
+   "addedAt": "2026-11-17",
+   "platform": "ps4"
   },
   {
    "id": "g61",
@@ -1410,7 +1502,8 @@ window.SHOP = {
    "desc": "كورا تتحكم بالعناصر الأربعة في قتال سريع.",
    "note": "",
    "cover": "covers/g61.jpg",
-   "addedAt": "2026-11-17"
+   "addedAt": "2026-11-17",
+   "platform": "ps4"
   },
   {
    "id": "g11",
@@ -1425,7 +1518,8 @@ window.SHOP = {
    "desc": "رعب نفسي في إيطاليا أثناء الحرب العالمية الثانية.",
    "note": "",
    "cover": "covers/g11.jpg",
-   "addedAt": "2026-11-17"
+   "addedAt": "2026-11-17",
+   "platform": "ps4"
   },
   {
    "id": "g06",
@@ -1440,7 +1534,8 @@ window.SHOP = {
    "desc": "تصويب وسيوف بأسلوب سريع ومجنون.",
    "note": "",
    "cover": "covers/g06.jpg",
-   "addedAt": "2026-11-17"
+   "addedAt": "2026-11-17",
+   "platform": "ps4"
   },
   {
    "id": "g09",
@@ -1455,7 +1550,8 @@ window.SHOP = {
    "desc": "تقمص أدوار واقعي في بوهيميا العصور الوسطى.",
    "note": "",
    "cover": "covers/g09.jpg",
-   "addedAt": "2026-11-17"
+   "addedAt": "2026-11-17",
+   "platform": "ps4"
   },
   {
    "id": "g05",
@@ -1470,7 +1566,8 @@ window.SHOP = {
    "desc": "محاكاة صيد في أمريكا وأوروبا مع كلب الصيد.",
    "note": "",
    "cover": "covers/g05.jpg",
-   "addedAt": "2026-11-17"
+   "addedAt": "2026-11-17",
+   "platform": "ps4"
   },
   {
    "id": "g69",
@@ -1485,7 +1582,8 @@ window.SHOP = {
    "desc": "قيادة شاحنات ضخمة في طرق ثلجية وطينية صعبة.",
    "note": "",
    "cover": "covers/g69.jpg",
-   "addedAt": "2026-11-17"
+   "addedAt": "2026-11-17",
+   "platform": "ps4"
   },
   {
    "id": "g10",
@@ -1500,6 +1598,1248 @@ window.SHOP = {
    "desc": "لعبة رعب ومغامرة. المعلومات تحتاج مراجعة.",
    "note": "راجع المعلومات",
    "cover": "covers/g10.jpg",
+   "addedAt": "2026-11-17",
+   "platform": "ps4"
+  },
+  {
+   "id": "p3-15",
+   "platform": "ps3",
+   "name": "Grand Theft Auto V",
+   "genre": "أكشن، عالم مفتوح",
+   "sizeGB": 18,
+   "releaseDate": "2013-09-17",
+   "developer": "Rockstar North",
+   "players": "لاعب واحد + أونلاين",
+   "rating": "PEGI 18",
+   "arabic": false,
+   "desc": "قصة مايكل وفرانكلين وتريفور بمدينة لوس سانتوس، أشهر لعبة عالم مفتوح.",
+   "note": "",
+   "youtube": "",
+   "cover": "covers/ps3-15.jpg",
+   "addedAt": "2026-11-17"
+  },
+  {
+   "id": "p3-54",
+   "platform": "ps3",
+   "name": "Red Dead Redemption",
+   "genre": "أكشن، عالم مفتوح",
+   "sizeGB": 10,
+   "releaseDate": "2010-05-18",
+   "developer": "Rockstar San Diego",
+   "players": "لاعب واحد + أونلاين",
+   "rating": "PEGI 18",
+   "arabic": false,
+   "desc": "جون مارستون بالغرب الأمريكي يطارد عصابته القديمة.",
+   "note": "",
+   "youtube": "",
+   "cover": "covers/ps3-54.jpg",
+   "addedAt": "2026-11-17"
+  },
+  {
+   "id": "p3-36",
+   "platform": "ps3",
+   "name": "The Last of Us",
+   "genre": "أكشن، رعب، قصة",
+   "sizeGB": 30,
+   "releaseDate": "2013-06-14",
+   "developer": "Naughty Dog",
+   "players": "لاعب واحد + أونلاين",
+   "rating": "PEGI 18",
+   "arabic": false,
+   "desc": "جويل وإيلي برحلة نجاة عبر أمريكا بعد انتشار الوباء.",
+   "note": "",
+   "youtube": "",
+   "cover": "covers/ps3-36.jpg",
+   "addedAt": "2026-11-17"
+  },
+  {
+   "id": "p3-14",
+   "platform": "ps3",
+   "name": "God of War III",
+   "genre": "أكشن، مغامرة",
+   "sizeGB": 35,
+   "releaseDate": "2010-03-16",
+   "developer": "Santa Monica Studio",
+   "players": "لاعب واحد",
+   "rating": "PEGI 18",
+   "arabic": false,
+   "desc": "انتقام كريتوس من آلهة أوليمبوس بالجزء الأقوى من الثلاثية.",
+   "note": "",
+   "youtube": "",
+   "cover": "covers/ps3-14.jpg",
+   "addedAt": "2026-11-17"
+  },
+  {
+   "id": "p3-42",
+   "platform": "ps3",
+   "name": "Grand Theft Auto: San Andreas",
+   "genre": "أكشن، عالم مفتوح",
+   "sizeGB": 4,
+   "releaseDate": "2015-12-01",
+   "developer": "Rockstar North",
+   "players": "لاعب واحد",
+   "rating": "PEGI 18",
+   "arabic": false,
+   "desc": "سي جي وغروف ستريت، الكلاسيكية الأشهر بنسخة PS3.",
+   "note": "",
+   "youtube": "",
+   "cover": "covers/ps3-42.jpg",
+   "addedAt": "2026-11-17"
+  },
+  {
+   "id": "p3-12",
+   "platform": "ps3",
+   "name": "FIFA 19 Legacy Edition",
+   "genre": "رياضة، كرة قدم",
+   "sizeGB": 9,
+   "releaseDate": "2018-09-28",
+   "developer": "EA Sports",
+   "players": "لاعب واحد + لاعبين على نفس الجهاز",
+   "rating": "PEGI 3",
+   "arabic": true,
+   "desc": "فيفا 19 بالفرق والانتقالات المحدّثة، ويا تعليق عربي.",
+   "note": "",
+   "youtube": "",
+   "cover": "covers/ps3-12.jpg",
+   "addedAt": "2026-11-17"
+  },
+  {
+   "id": "p3-48",
+   "platform": "ps3",
+   "name": "PES 2018",
+   "genre": "رياضة، كرة قدم",
+   "sizeGB": 10,
+   "releaseDate": "2017-09-12",
+   "developer": "Konami",
+   "players": "لاعب واحد + لاعبين على نفس الجهاز",
+   "rating": "PEGI 3",
+   "arabic": true,
+   "desc": "بيس 2018 بلعب واقعي وتعليق عربي.",
+   "note": "",
+   "youtube": "",
+   "cover": "covers/ps3-48.jpg",
+   "addedAt": "2026-11-17"
+  },
+  {
+   "id": "p3-47",
+   "platform": "ps3",
+   "name": "PES 2013",
+   "genre": "رياضة، كرة قدم",
+   "sizeGB": 8,
+   "releaseDate": "2012-09-20",
+   "developer": "Konami",
+   "players": "لاعب واحد + لاعبين على نفس الجهاز",
+   "rating": "PEGI 3",
+   "arabic": true,
+   "desc": "بيس 2013 الكلاسيكية المحبوبة ويا تعليق عربي.",
+   "note": "",
+   "youtube": "",
+   "cover": "covers/ps3-47.jpg",
+   "addedAt": "2026-11-17"
+  },
+  {
+   "id": "p3-00",
+   "platform": "ps3",
+   "name": "Call of Duty 4: Modern Warfare",
+   "genre": "تصويب، أكشن",
+   "sizeGB": 7,
+   "releaseDate": "2007-11-05",
+   "developer": "Infinity Ward",
+   "players": "لاعب واحد + أونلاين",
+   "rating": "PEGI 16",
+   "arabic": false,
+   "desc": "الجزء الأسطوري اللي غيّر السلسلة، ويا الكابتن برايس وسوب.",
+   "note": "",
+   "youtube": "",
+   "cover": "covers/ps3-00.jpg",
+   "addedAt": "2026-11-17"
+  },
+  {
+   "id": "p3-34",
+   "platform": "ps3",
+   "name": "Call of Duty: Black Ops",
+   "genre": "تصويب، أكشن",
+   "sizeGB": 12,
+   "releaseDate": "2010-11-09",
+   "developer": "Treyarch",
+   "players": "لاعب واحد + أونلاين",
+   "rating": "PEGI 18",
+   "arabic": false,
+   "desc": "مهمات سرية بالحرب الباردة ويا مايسون وطور الزومبي.",
+   "note": "",
+   "youtube": "",
+   "cover": "covers/ps3-34.jpg",
+   "addedAt": "2026-11-17"
+  },
+  {
+   "id": "p3-04",
+   "platform": "ps3",
+   "name": "Call of Duty: Ghosts",
+   "genre": "تصويب، أكشن",
+   "sizeGB": 15,
+   "releaseDate": "2013-11-05",
+   "developer": "Infinity Ward",
+   "players": "لاعب واحد + أونلاين",
+   "rating": "PEGI 18",
+   "arabic": false,
+   "desc": "فرقة الأشباح تقاتل بأمريكا بعد الكارثة، ويا الكلب رايلي.",
+   "note": "",
+   "youtube": "",
+   "cover": "covers/ps3-04.jpg",
+   "addedAt": "2026-11-17"
+  },
+  {
+   "id": "p3-72",
+   "platform": "ps3",
+   "name": "Call of Duty: Advanced Warfare",
+   "genre": "تصويب، أكشن",
+   "sizeGB": 15,
+   "releaseDate": "2014-11-04",
+   "developer": "Sledgehammer Games",
+   "players": "لاعب واحد + أونلاين",
+   "rating": "PEGI 18",
+   "arabic": false,
+   "desc": "حرب المستقبل ببدلات خارقة، وكيفن سبيسي بدور الشرير.",
+   "note": "",
+   "youtube": "",
+   "cover": "covers/ps3-72.jpg",
+   "addedAt": "2026-11-17"
+  },
+  {
+   "id": "p3-32",
+   "platform": "ps3",
+   "name": "Battlefield 4",
+   "genre": "تصويب، أكشن",
+   "sizeGB": 15,
+   "releaseDate": "2013-10-29",
+   "developer": "DICE",
+   "players": "لاعب واحد + أونلاين",
+   "rating": "PEGI 18",
+   "arabic": false,
+   "desc": "حرب حديثة بخرائط كبيرة ومركبات وتدمير.",
+   "note": "",
+   "youtube": "",
+   "cover": "covers/ps3-32.jpg",
+   "addedAt": "2026-11-17"
+  },
+  {
+   "id": "p3-25",
+   "platform": "ps3",
+   "name": "Medal of Honor",
+   "genre": "تصويب، أكشن",
+   "sizeGB": 9,
+   "releaseDate": "2010-10-12",
+   "developer": "Danger Close",
+   "players": "لاعب واحد + أونلاين",
+   "rating": "PEGI 18",
+   "arabic": false,
+   "desc": "قوات خاصة بمعارك حديثة بجبال أفغانستان.",
+   "note": "",
+   "youtube": "",
+   "cover": "covers/ps3-25.jpg",
+   "addedAt": "2026-11-17"
+  },
+  {
+   "id": "p3-59",
+   "platform": "ps3",
+   "name": "Spec Ops: The Line",
+   "genre": "تصويب، قصة",
+   "sizeGB": 8,
+   "releaseDate": "2012-06-26",
+   "developer": "Yager",
+   "players": "لاعب واحد + أونلاين",
+   "rating": "PEGI 18",
+   "arabic": false,
+   "desc": "فرقة دلتا بدبي المدفونة بالرمل، قصة قوية ومؤثرة.",
+   "note": "",
+   "youtube": "",
+   "cover": "covers/ps3-59.jpg",
+   "addedAt": "2026-11-17"
+  },
+  {
+   "id": "p3-65",
+   "platform": "ps3",
+   "name": "Rainbow Six Vegas 2",
+   "genre": "تصويب، تكتيك",
+   "sizeGB": 7,
+   "releaseDate": "2008-03-18",
+   "developer": "Ubisoft Montreal",
+   "players": "لاعب واحد + أونلاين",
+   "rating": "PEGI 16",
+   "arabic": false,
+   "desc": "فرقة رينبو تحارب الإرهابيين بلاس فيغاس.",
+   "note": "",
+   "youtube": "",
+   "cover": "covers/ps3-65.jpg",
+   "addedAt": "2026-11-17"
+  },
+  {
+   "id": "p3-03",
+   "platform": "ps3",
+   "name": "Sniper: Ghost Warrior",
+   "genre": "تصويب، قنص",
+   "sizeGB": 5,
+   "releaseDate": "2011-05-24",
+   "developer": "City Interactive",
+   "players": "لاعب واحد",
+   "rating": "PEGI 16",
+   "arabic": false,
+   "desc": "قناص بغابات أمريكا الجنوبية بمهمات تسلل وقنص.",
+   "note": "",
+   "youtube": "",
+   "cover": "covers/ps3-03.jpg",
+   "addedAt": "2026-11-17"
+  },
+  {
+   "id": "p3-58",
+   "platform": "ps3",
+   "name": "Sniper Elite III Ultimate Edition",
+   "genre": "تصويب، قنص",
+   "sizeGB": 10,
+   "releaseDate": "2014-07-01",
+   "developer": "Rebellion",
+   "players": "لاعب واحد + أونلاين",
+   "rating": "PEGI 16",
+   "arabic": false,
+   "desc": "قناص بشمال أفريقيا بالحرب العالمية الثانية ويا كاميرا الطلقة.",
+   "note": "",
+   "youtube": "",
+   "cover": "covers/ps3-58.jpg",
+   "addedAt": "2026-11-17"
+  },
+  {
+   "id": "p3-13",
+   "platform": "ps3",
+   "name": "Far Cry 4",
+   "genre": "تصويب، عالم مفتوح",
+   "sizeGB": 15,
+   "releaseDate": "2014-11-18",
+   "developer": "Ubisoft Montreal",
+   "players": "لاعب واحد + أونلاين",
+   "rating": "PEGI 18",
+   "arabic": false,
+   "desc": "أجاي بجبال كيرات ضد الديكتاتور باغان مين.",
+   "note": "",
+   "youtube": "",
+   "cover": "covers/ps3-13.jpg",
+   "addedAt": "2026-11-17"
+  },
+  {
+   "id": "p3-41",
+   "platform": "ps3",
+   "name": "Assassin's Creed Rogue",
+   "genre": "أكشن، عالم مفتوح",
+   "sizeGB": 12,
+   "releaseDate": "2014-11-11",
+   "developer": "Ubisoft Sofia",
+   "players": "لاعب واحد",
+   "rating": "PEGI 18",
+   "arabic": false,
+   "desc": "شاي كورماك يتحول من قاتل لصياد قتلة ببحار أمريكا الشمالية.",
+   "note": "",
+   "youtube": "",
+   "cover": "covers/ps3-41.jpg",
+   "addedAt": "2026-11-17"
+  },
+  {
+   "id": "p3-69",
+   "platform": "ps3",
+   "name": "Watch Dogs",
+   "genre": "أكشن، عالم مفتوح",
+   "sizeGB": 15,
+   "releaseDate": "2014-05-27",
+   "developer": "Ubisoft Montreal",
+   "players": "لاعب واحد + أونلاين",
+   "rating": "PEGI 18",
+   "arabic": false,
+   "desc": "الهاكر أيدن بيرس يتحكم بشيكاغو من موبايله.",
+   "note": "",
+   "youtube": "",
+   "cover": "covers/ps3-69.jpg",
+   "addedAt": "2026-11-17"
+  },
+  {
+   "id": "p3-18",
+   "platform": "ps3",
+   "name": "Just Cause 2",
+   "genre": "أكشن، عالم مفتوح",
+   "sizeGB": 7,
+   "releaseDate": "2010-03-23",
+   "developer": "Avalanche Studios",
+   "players": "لاعب واحد",
+   "rating": "PEGI 18",
+   "arabic": false,
+   "desc": "ريكو رودريغيز يفجّر جزيرة كاملة بالحبل والمظلة.",
+   "note": "",
+   "youtube": "",
+   "cover": "covers/ps3-18.jpg",
+   "addedAt": "2026-11-17"
+  },
+  {
+   "id": "p3-24",
+   "platform": "ps3",
+   "name": "Mafia II",
+   "genre": "أكشن، قصة",
+   "sizeGB": 10,
+   "releaseDate": "2010-08-24",
+   "developer": "2K Czech",
+   "players": "لاعب واحد",
+   "rating": "PEGI 18",
+   "arabic": false,
+   "desc": "فيتو يصعد بعالم المافيا بالأربعينات والخمسينات.",
+   "note": "",
+   "youtube": "",
+   "cover": "covers/ps3-24.jpg",
+   "addedAt": "2026-11-17"
+  },
+  {
+   "id": "p3-63",
+   "platform": "ps3",
+   "name": "The Godfather II",
+   "genre": "أكشن، عالم مفتوح",
+   "sizeGB": 8,
+   "releaseDate": "2009-04-07",
+   "developer": "EA Redwood Shores",
+   "players": "لاعب واحد",
+   "rating": "PEGI 18",
+   "arabic": false,
+   "desc": "ابنِ عائلة مافيا خاصة بيك بنيويورك وكوبا.",
+   "note": "",
+   "youtube": "",
+   "cover": "covers/ps3-63.jpg",
+   "addedAt": "2026-11-17"
+  },
+  {
+   "id": "p3-37",
+   "platform": "ps3",
+   "name": "Batman: Arkham City",
+   "genre": "أكشن، مغامرة",
+   "sizeGB": 12,
+   "releaseDate": "2011-10-18",
+   "developer": "Rocksteady Studios",
+   "players": "لاعب واحد",
+   "rating": "PEGI 16",
+   "arabic": false,
+   "desc": "باتمان محبوس داخل مدينة سجن كاملة ضد الجوكر.",
+   "note": "",
+   "youtube": "",
+   "cover": "covers/ps3-37.jpg",
+   "addedAt": "2026-11-17"
+  },
+  {
+   "id": "p3-60",
+   "platform": "ps3",
+   "name": "The Amazing Spider-Man 2",
+   "genre": "أكشن، أبطال خارقين",
+   "sizeGB": 9,
+   "releaseDate": "2014-04-29",
+   "developer": "Beenox",
+   "players": "لاعب واحد",
+   "rating": "PEGI 16",
+   "arabic": false,
+   "desc": "سبايدر مان بنيويورك ضد إلكترو والغرين غوبلن.",
+   "note": "",
+   "youtube": "",
+   "cover": "covers/ps3-60.jpg",
+   "addedAt": "2026-11-17"
+  },
+  {
+   "id": "p3-09",
+   "platform": "ps3",
+   "name": "Deadpool",
+   "genre": "أكشن، كوميدي",
+   "sizeGB": 9,
+   "releaseDate": "2013-06-25",
+   "developer": "High Moon Studios",
+   "players": "لاعب واحد",
+   "rating": "PEGI 18",
+   "arabic": false,
+   "desc": "ديدبول بمغامرة مجنونة ومضحكة بالسيوف والمسدسات.",
+   "note": "",
+   "youtube": "",
+   "cover": "covers/ps3-09.jpg",
+   "addedAt": "2026-11-17"
+  },
+  {
+   "id": "p3-16",
+   "platform": "ps3",
+   "name": "inFAMOUS 2",
+   "genre": "أكشن، أبطال خارقين",
+   "sizeGB": 11,
+   "releaseDate": "2011-06-07",
+   "developer": "Sucker Punch",
+   "players": "لاعب واحد",
+   "rating": "PEGI 16",
+   "arabic": false,
+   "desc": "كول ماكغراث بقوة الكهرباء ينقذ مدينة نيو ماريه.",
+   "note": "",
+   "youtube": "",
+   "cover": "covers/ps3-16.jpg",
+   "addedAt": "2026-11-17"
+  },
+  {
+   "id": "p3-66",
+   "platform": "ps3",
+   "name": "Tomb Raider",
+   "genre": "أكشن، مغامرة",
+   "sizeGB": 12,
+   "releaseDate": "2013-03-05",
+   "developer": "Crystal Dynamics",
+   "players": "لاعب واحد + أونلاين",
+   "rating": "PEGI 18",
+   "arabic": false,
+   "desc": "بداية لارا كروفت على جزيرة غامضة ورحلة نجاتها الأولى.",
+   "note": "",
+   "youtube": "",
+   "cover": "covers/ps3-66.jpg",
+   "addedAt": "2026-11-17"
+  },
+  {
+   "id": "p3-50",
+   "platform": "ps3",
+   "name": "Prince of Persia: The Forgotten Sands",
+   "genre": "أكشن، مغامرة",
+   "sizeGB": 7,
+   "releaseDate": "2010-05-18",
+   "developer": "Ubisoft Montreal",
+   "players": "لاعب واحد",
+   "rating": "PEGI 16",
+   "arabic": false,
+   "desc": "الأمير يقاتل جيش الرمل ويتحكم بالزمن والعناصر.",
+   "note": "",
+   "youtube": "",
+   "cover": "covers/ps3-50.jpg",
+   "addedAt": "2026-11-17"
+  },
+  {
+   "id": "p3-10",
+   "platform": "ps3",
+   "name": "DmC: Devil May Cry",
+   "genre": "أكشن، قتال",
+   "sizeGB": 9,
+   "releaseDate": "2013-01-15",
+   "developer": "Ninja Theory",
+   "players": "لاعب واحد",
+   "rating": "PEGI 18",
+   "arabic": false,
+   "desc": "دانتي يقاتل الشياطين بأسلوب سريع وكومبوهات قوية.",
+   "note": "",
+   "youtube": "",
+   "cover": "covers/ps3-10.jpg",
+   "addedAt": "2026-11-17"
+  },
+  {
+   "id": "p3-31",
+   "platform": "ps3",
+   "name": "Ninja Gaiden 3",
+   "genre": "أكشن، نينجا",
+   "sizeGB": 6,
+   "releaseDate": "2012-03-20",
+   "developer": "Team Ninja",
+   "players": "لاعب واحد + أونلاين",
+   "rating": "PEGI 18",
+   "arabic": false,
+   "desc": "النينجا ريو هايابوسا بقتال سيوف سريع وصعب.",
+   "note": "",
+   "youtube": "",
+   "cover": "covers/ps3-31.jpg",
+   "addedAt": "2026-11-17"
+  },
+  {
+   "id": "p3-19",
+   "platform": "ps3",
+   "name": "Killer is Dead",
+   "genre": "أكشن، قتال",
+   "sizeGB": 7,
+   "releaseDate": "2013-08-27",
+   "developer": "Grasshopper Manufacture",
+   "players": "لاعب واحد",
+   "rating": "PEGI 18",
+   "arabic": false,
+   "desc": "قاتل مأجور بسيف وذراع آلية، أسلوب ياباني غريب.",
+   "note": "",
+   "youtube": "",
+   "cover": "covers/ps3-19.jpg",
+   "addedAt": "2026-11-17"
+  },
+  {
+   "id": "p3-55",
+   "platform": "ps3",
+   "name": "Shadows of the Damned",
+   "genre": "أكشن، رعب",
+   "sizeGB": 8,
+   "releaseDate": "2011-06-21",
+   "developer": "Grasshopper Manufacture",
+   "players": "لاعب واحد",
+   "rating": "PEGI 18",
+   "arabic": false,
+   "desc": "غارسيا يدخل عالم الشياطين حتى ينقذ حبيبته.",
+   "note": "",
+   "youtube": "",
+   "cover": "covers/ps3-55.jpg",
+   "addedAt": "2026-11-17"
+  },
+  {
+   "id": "p3-70",
+   "platform": "ps3",
+   "name": "WET",
+   "genre": "أكشن، تصويب",
+   "sizeGB": 6,
+   "releaseDate": "2009-09-15",
+   "developer": "A2M",
+   "players": "لاعب واحد",
+   "rating": "PEGI 18",
+   "arabic": false,
+   "desc": "روبي المرتزقة بحركات بهلوانية وتصويب بالسلو موشن.",
+   "note": "",
+   "youtube": "",
+   "cover": "covers/ps3-70.jpg",
+   "addedAt": "2026-11-17"
+  },
+  {
+   "id": "p3-68",
+   "platform": "ps3",
+   "name": "Wanted: Weapons of Fate",
+   "genre": "أكشن، تصويب",
+   "sizeGB": 6,
+   "releaseDate": "2009-03-24",
+   "developer": "GRIN",
+   "players": "لاعب واحد",
+   "rating": "PEGI 18",
+   "arabic": false,
+   "desc": "تكملة فيلم Wanted ويا الرصاص اللي ينحني.",
+   "note": "",
+   "youtube": "",
+   "cover": "covers/ps3-68.jpg",
+   "addedAt": "2026-11-17"
+  },
+  {
+   "id": "p3-20",
+   "platform": "ps3",
+   "name": "Kane & Lynch 2: Dog Days",
+   "genre": "أكشن، تصويب",
+   "sizeGB": 8,
+   "releaseDate": "2010-08-17",
+   "developer": "IO Interactive",
+   "players": "لاعب واحد + أونلاين",
+   "rating": "PEGI 18",
+   "arabic": false,
+   "desc": "كين ولينش بشوارع شنغهاي بمطاردة دموية.",
+   "note": "",
+   "youtube": "",
+   "cover": "covers/ps3-20.jpg",
+   "addedAt": "2026-11-17"
+  },
+  {
+   "id": "p3-46",
+   "platform": "ps3",
+   "name": "PAYDAY 2",
+   "genre": "تصويب، تعاونية",
+   "sizeGB": 6,
+   "releaseDate": "2013-08-13",
+   "developer": "Overkill Software",
+   "players": "لاعب واحد + أونلاين",
+   "rating": "PEGI 18",
+   "arabic": false,
+   "desc": "عصابة سرقة بنوك ومهمات تعاونية ويا الأصدقاء.",
+   "note": "",
+   "youtube": "",
+   "cover": "covers/ps3-46.jpg",
+   "addedAt": "2026-11-17"
+  },
+  {
+   "id": "p3-51",
+   "platform": "ps3",
+   "name": "Rambo: The Video Game",
+   "genre": "تصويب، أكشن",
+   "sizeGB": 4,
+   "releaseDate": "2014-02-21",
+   "developer": "Teyon",
+   "players": "لاعب واحد",
+   "rating": "PEGI 18",
+   "arabic": false,
+   "desc": "عيش أشهر مشاهد أفلام رامبو.",
+   "note": "",
+   "youtube": "",
+   "cover": "covers/ps3-51.jpg",
+   "addedAt": "2026-11-17"
+  },
+  {
+   "id": "p3-71",
+   "platform": "ps3",
+   "name": "Shellshock 2: Blood Trails",
+   "genre": "تصويب، رعب",
+   "sizeGB": 6,
+   "releaseDate": "2009-02-24",
+   "developer": "Rebellion",
+   "players": "لاعب واحد",
+   "rating": "PEGI 18",
+   "arabic": false,
+   "desc": "جنود بحرب فيتنام ضد فيروس يحول الناس لوحوش.",
+   "note": "",
+   "youtube": "",
+   "cover": "covers/ps3-71.jpg",
+   "addedAt": "2026-11-17"
+  },
+  {
+   "id": "p3-49",
+   "platform": "ps3",
+   "name": "Painkiller: Hell & Damnation",
+   "genre": "تصويب، رعب",
+   "sizeGB": 4,
+   "releaseDate": "2013-07-30",
+   "developer": "The Farm 51",
+   "players": "لاعب واحد + أونلاين",
+   "rating": "PEGI 18",
+   "arabic": false,
+   "desc": "تصويب سريع ضد جيوش الشياطين بعالم الجحيم.",
+   "note": "",
+   "youtube": "",
+   "cover": "covers/ps3-49.jpg",
+   "addedAt": "2026-11-17"
+  },
+  {
+   "id": "p3-26",
+   "platform": "ps3",
+   "name": "Metro: Last Light",
+   "genre": "تصويب، رعب",
+   "sizeGB": 9,
+   "releaseDate": "2013-05-14",
+   "developer": "4A Games",
+   "players": "لاعب واحد",
+   "rating": "PEGI 18",
+   "arabic": false,
+   "desc": "آرتيوم بأنفاق مترو موسكو بعد الحرب النووية.",
+   "note": "",
+   "youtube": "",
+   "cover": "covers/ps3-26.jpg",
+   "addedAt": "2026-11-17"
+  },
+  {
+   "id": "p3-08",
+   "platform": "ps3",
+   "name": "Dead Space 3",
+   "genre": "رعب، أكشن",
+   "sizeGB": 12,
+   "releaseDate": "2013-02-05",
+   "developer": "Visceral Games",
+   "players": "لاعب واحد + أونلاين",
+   "rating": "PEGI 18",
+   "arabic": false,
+   "desc": "إيزاك كلارك على كوكب ثلجي ضد النيكرومورف، تدعم التعاوني.",
+   "note": "",
+   "youtube": "",
+   "cover": "covers/ps3-08.jpg",
+   "addedAt": "2026-11-17"
+  },
+  {
+   "id": "p3-53",
+   "platform": "ps3",
+   "name": "Resident Evil 6",
+   "genre": "رعب، أكشن",
+   "sizeGB": 13,
+   "releaseDate": "2012-10-02",
+   "developer": "Capcom",
+   "players": "لاعب واحد + أونلاين",
+   "rating": "PEGI 18",
+   "arabic": false,
+   "desc": "ليون وكريس وجيك بأربع قصص ضد فيروس C.",
+   "note": "",
+   "youtube": "",
+   "cover": "covers/ps3-53.jpg",
+   "addedAt": "2026-11-17"
+  },
+  {
+   "id": "p3-56",
+   "platform": "ps3",
+   "name": "Silent Hill: Downpour",
+   "genre": "رعب",
+   "sizeGB": 6,
+   "releaseDate": "2012-03-13",
+   "developer": "Vatra Games",
+   "players": "لاعب واحد",
+   "rating": "PEGI 18",
+   "arabic": false,
+   "desc": "سجين هارب يعلك بمدينة سايلنت هيل المرعبة.",
+   "note": "",
+   "youtube": "",
+   "cover": "covers/ps3-56.jpg",
+   "addedAt": "2026-11-17"
+  },
+  {
+   "id": "p3-22",
+   "platform": "ps3",
+   "name": "Metal Gear Solid V: Ground Zeroes",
+   "genre": "تسلل، أكشن",
+   "sizeGB": 5,
+   "releaseDate": "2014-03-18",
+   "developer": "Kojima Productions",
+   "players": "لاعب واحد",
+   "rating": "PEGI 18",
+   "arabic": false,
+   "desc": "سنيك يتسلل لقاعدة عسكرية، مقدمة The Phantom Pain.",
+   "note": "",
+   "youtube": "",
+   "cover": "covers/ps3-22.jpg",
+   "addedAt": "2026-11-17"
+  },
+  {
+   "id": "p3-23",
+   "platform": "ps3",
+   "name": "Metal Gear Solid HD Collection",
+   "genre": "تسلل، أكشن",
+   "sizeGB": 20,
+   "releaseDate": "2011-11-08",
+   "developer": "Konami",
+   "players": "لاعب واحد",
+   "rating": "PEGI 18",
+   "arabic": false,
+   "desc": "ميتل غير 2 و 3 و Peace Walker بنسخة HD.",
+   "note": "",
+   "youtube": "",
+   "cover": "covers/ps3-23.jpg",
+   "addedAt": "2026-11-17"
+  },
+  {
+   "id": "p3-07",
+   "platform": "ps3",
+   "name": "Dead Island: Riptide Special Edition",
+   "genre": "رعب، زومبي",
+   "sizeGB": 8,
+   "releaseDate": "2013-04-23",
+   "developer": "Techland",
+   "players": "لاعب واحد + أونلاين",
+   "rating": "PEGI 18",
+   "arabic": false,
+   "desc": "نجاة من الزومبي على جزيرة استوائية، تعاوني لـ 4 لاعبين.",
+   "note": "",
+   "youtube": "",
+   "cover": "covers/ps3-07.jpg",
+   "addedAt": "2026-11-17"
+  },
+  {
+   "id": "p3-43",
+   "platform": "ps3",
+   "name": "Bound by Flame",
+   "genre": "تقمص أدوار، أكشن",
+   "sizeGB": 7,
+   "releaseDate": "2014-05-09",
+   "developer": "Spiders",
+   "players": "لاعب واحد",
+   "rating": "PEGI 18",
+   "arabic": false,
+   "desc": "مرتزق يسكن جسده شيطان النار، وإنت تختار مصيره.",
+   "note": "",
+   "youtube": "",
+   "cover": "covers/ps3-43.jpg",
+   "addedAt": "2026-11-17"
+  },
+  {
+   "id": "p3-38",
+   "platform": "ps3",
+   "name": "Armored Core: Verdict Day",
+   "genre": "أكشن، روبوتات",
+   "sizeGB": 7,
+   "releaseDate": "2013-09-24",
+   "developer": "FromSoftware",
+   "players": "لاعب واحد + أونلاين",
+   "rating": "PEGI 12",
+   "arabic": false,
+   "desc": "قتال روبوتات عملاقة تبنيها وتعدلها بنفسك.",
+   "note": "",
+   "youtube": "",
+   "cover": "covers/ps3-38.jpg",
+   "addedAt": "2026-11-17"
+  },
+  {
+   "id": "p3-05",
+   "platform": "ps3",
+   "name": "Conan",
+   "genre": "أكشن، مغامرة",
+   "sizeGB": 5,
+   "releaseDate": "2007-10-23",
+   "developer": "Nihilistic Software",
+   "players": "لاعب واحد",
+   "rating": "PEGI 18",
+   "arabic": false,
+   "desc": "كونان البربري بقتال سيوف ضد الوحوش والسحرة.",
+   "note": "",
+   "youtube": "",
+   "cover": "covers/ps3-05.jpg",
+   "addedAt": "2026-11-17"
+  },
+  {
+   "id": "p3-62",
+   "platform": "ps3",
+   "name": "Tekken Tag Tournament 2",
+   "genre": "قتال",
+   "sizeGB": 8,
+   "releaseDate": "2012-09-11",
+   "developer": "Bandai Namco",
+   "players": "لاعب واحد + أونلاين",
+   "rating": "PEGI 16",
+   "arabic": false,
+   "desc": "قتال فرق من مقاتلين ويا أكبر عدد شخصيات بسلسلة تيكن.",
+   "note": "يدعم لاعبين على نفس الجهاز",
+   "youtube": "",
+   "cover": "covers/ps3-62.jpg",
+   "addedAt": "2026-11-17"
+  },
+  {
+   "id": "p3-29",
+   "platform": "ps3",
+   "name": "Mortal Kombat vs. DC Universe",
+   "genre": "قتال",
+   "sizeGB": 6,
+   "releaseDate": "2008-11-16",
+   "developer": "Midway",
+   "players": "لاعب واحد + أونلاين",
+   "rating": "PEGI 16",
+   "arabic": false,
+   "desc": "مقاتلين مورتال كومبات ضد باتمان وسوبرمان وأبطال DC.",
+   "note": "يدعم لاعبين على نفس الجهاز",
+   "youtube": "",
+   "cover": "covers/ps3-29.jpg",
+   "addedAt": "2026-11-17"
+  },
+  {
+   "id": "p3-11",
+   "platform": "ps3",
+   "name": "Dragon Ball: Raging Blast 2",
+   "genre": "قتال، أنمي",
+   "sizeGB": 4,
+   "releaseDate": "2010-11-02",
+   "developer": "Spike",
+   "players": "لاعب واحد + أونلاين",
+   "rating": "PEGI 12",
+   "arabic": false,
+   "desc": "قتال دراغون بول بالسماء ويا عشرات الشخصيات.",
+   "note": "يدعم لاعبين على نفس الجهاز",
+   "youtube": "",
+   "cover": "covers/ps3-11.jpg",
+   "addedAt": "2026-11-17"
+  },
+  {
+   "id": "p3-35",
+   "platform": "ps3",
+   "name": "Dragon Ball Z: Battle of Z",
+   "genre": "قتال، أنمي",
+   "sizeGB": 4,
+   "releaseDate": "2014-01-28",
+   "developer": "Artdink",
+   "players": "لاعب واحد + أونلاين",
+   "rating": "PEGI 12",
+   "arabic": false,
+   "desc": "معارك فرق دراغون بول زد لحد 8 مقاتلين.",
+   "note": "",
+   "youtube": "",
+   "cover": "covers/ps3-35.jpg",
+   "addedAt": "2026-11-17"
+  },
+  {
+   "id": "p3-44",
+   "platform": "ps3",
+   "name": "One Piece: Pirate Warriors 3",
+   "genre": "أكشن، أنمي",
+   "sizeGB": 8,
+   "releaseDate": "2015-02-26",
+   "developer": "Omega Force",
+   "players": "لاعب واحد + لاعبين على نفس الجهاز",
+   "rating": "PEGI 12",
+   "arabic": false,
+   "desc": "لوفي وطاقمه بمعارك ضد جيوش كاملة من قصة ون بيس.",
+   "note": "",
+   "youtube": "",
+   "cover": "covers/ps3-44.jpg",
+   "addedAt": "2026-11-17"
+  },
+  {
+   "id": "p3-30",
+   "platform": "ps3",
+   "name": "Need for Speed Rivals Complete Edition",
+   "genre": "سباق، مطاردات",
+   "sizeGB": 8,
+   "releaseDate": "2014-11-04",
+   "developer": "Ghost Games",
+   "players": "لاعب واحد + أونلاين",
+   "rating": "PEGI 7",
+   "arabic": false,
+   "desc": "سباقات ومطاردات بين المتسابقين والشرطة، ويا كل الإضافات.",
+   "note": "",
+   "youtube": "",
+   "cover": "covers/ps3-30.jpg",
+   "addedAt": "2026-11-17"
+  },
+  {
+   "id": "p3-27",
+   "platform": "ps3",
+   "name": "Midnight Club: Los Angeles Complete Edition",
+   "genre": "سباق، عالم مفتوح",
+   "sizeGB": 12,
+   "releaseDate": "2009-10-27",
+   "developer": "Rockstar San Diego",
+   "players": "لاعب واحد + أونلاين",
+   "rating": "PEGI 12",
+   "arabic": false,
+   "desc": "سباقات شوارع ليلية بلوس أنجلوس وتعديل السيارات.",
+   "note": "",
+   "youtube": "",
+   "cover": "covers/ps3-27.jpg",
+   "addedAt": "2026-11-17"
+  },
+  {
+   "id": "p3-01",
+   "platform": "ps3",
+   "name": "Blood Drive",
+   "genre": "سباق، زومبي",
+   "sizeGB": 4,
+   "releaseDate": "2010-11-02",
+   "developer": "Sidhe",
+   "players": "لاعب واحد + لاعبين على نفس الجهاز",
+   "rating": "PEGI 18",
+   "arabic": false,
+   "desc": "سباقات سيارات مسلحة تدعس الزومبي بالحلبات.",
+   "note": "",
+   "youtube": "",
+   "cover": "covers/ps3-01.jpg",
+   "addedAt": "2026-11-17"
+  },
+  {
+   "id": "p3-06",
+   "platform": "ps3",
+   "name": "Crash Time 4: The Syndicate",
+   "genre": "سباق، أكشن",
+   "sizeGB": 4,
+   "releaseDate": "2011-03-04",
+   "developer": "Synetic",
+   "players": "لاعب واحد",
+   "rating": "PEGI 12",
+   "arabic": false,
+   "desc": "شرطي الطرق السريعة ضد عصابة بمطاردات سيارات.",
+   "note": "",
+   "youtube": "",
+   "cover": "covers/ps3-06.jpg",
+   "addedAt": "2026-11-17"
+  },
+  {
+   "id": "p3-67",
+   "platform": "ps3",
+   "name": "Truck Racer",
+   "genre": "سباق، شاحنات",
+   "sizeGB": 3,
+   "releaseDate": "2013-04-26",
+   "developer": "Kylotonn",
+   "players": "لاعب واحد + لاعبين على نفس الجهاز",
+   "rating": "PEGI 3",
+   "arabic": false,
+   "desc": "سباقات شاحنات ضخمة بحلبات أوروبا.",
+   "note": "",
+   "youtube": "",
+   "cover": "covers/ps3-67.jpg",
+   "addedAt": "2026-11-17"
+  },
+  {
+   "id": "p3-17",
+   "platform": "ps3",
+   "name": "JASF: Jane's Advanced Strike Fighters",
+   "genre": "طيران، أكشن",
+   "sizeGB": 4,
+   "releaseDate": "2011-11-08",
+   "developer": "Trickstar Games",
+   "players": "لاعب واحد + أونلاين",
+   "rating": "PEGI 12",
+   "arabic": false,
+   "desc": "طيران حربي بطائرات حديثة ومعارك جوية.",
+   "note": "",
+   "youtube": "",
+   "cover": "covers/ps3-17.jpg",
+   "addedAt": "2026-11-17"
+  },
+  {
+   "id": "p3-39",
+   "platform": "ps3",
+   "name": "Air Conflicts: Secret Wars",
+   "genre": "طيران، حرب عالمية",
+   "sizeGB": 3,
+   "releaseDate": "2012-01-24",
+   "developer": "Games Farm",
+   "players": "لاعب واحد",
+   "rating": "PEGI 12",
+   "arabic": false,
+   "desc": "معارك جوية بالحرب العالمية بطائرات كلاسيكية.",
+   "note": "",
+   "youtube": "",
+   "cover": "covers/ps3-39.jpg",
+   "addedAt": "2026-11-17"
+  },
+  {
+   "id": "p3-33",
+   "platform": "ps3",
+   "name": "Apache: Air Assault",
+   "genre": "طيران، هليكوبتر",
+   "sizeGB": 4,
+   "releaseDate": "2010-11-16",
+   "developer": "Gaijin Entertainment",
+   "players": "لاعب واحد + أونلاين",
+   "rating": "PEGI 16",
+   "arabic": false,
+   "desc": "قيادة هليكوبتر الأباتشي بمهمات عسكرية واقعية.",
+   "note": "",
+   "youtube": "",
+   "cover": "covers/ps3-33.jpg",
+   "addedAt": "2026-11-17"
+  },
+  {
+   "id": "p3-02",
+   "platform": "ps3",
+   "name": "James Cameron's Avatar: The Game",
+   "genre": "أكشن، مغامرة",
+   "sizeGB": 6,
+   "releaseDate": "2009-12-01",
+   "developer": "Ubisoft Montreal",
+   "players": "لاعب واحد",
+   "rating": "PEGI 16",
+   "arabic": false,
+   "desc": "عالم باندورا من فيلم أفاتار، تختار تكون ويا البشر أو النافي.",
+   "note": "",
+   "youtube": "",
+   "cover": "covers/ps3-02.jpg",
+   "addedAt": "2026-11-17"
+  },
+  {
+   "id": "p3-28",
+   "platform": "ps3",
+   "name": "Minecraft: PlayStation 3 Edition",
+   "genre": "بناء، عائلية",
+   "sizeGB": 1,
+   "releaseDate": "2013-12-17",
+   "developer": "4J Studios",
+   "players": "لاعب واحد + لاعبين على نفس الجهاز",
+   "rating": "PEGI 7",
+   "arabic": false,
+   "desc": "ابنِ واستكشف عالم المكعبات، تدعم الشاشة المقسومة.",
+   "note": "",
+   "youtube": "",
+   "cover": "covers/ps3-28.jpg",
+   "addedAt": "2026-11-17"
+  },
+  {
+   "id": "p3-40",
+   "platform": "ps3",
+   "name": "Angry Birds Star Wars",
+   "genre": "ألغاز، عائلية",
+   "sizeGB": 1,
+   "releaseDate": "2013-10-29",
+   "developer": "Rovio",
+   "players": "لاعب واحد + لاعبين على نفس الجهاز",
+   "rating": "PEGI 3",
+   "arabic": false,
+   "desc": "الطيور الغاضبة بعالم حرب النجوم.",
+   "note": "",
+   "youtube": "",
+   "cover": "covers/ps3-40.jpg",
+   "addedAt": "2026-11-17"
+  },
+  {
+   "id": "p3-21",
+   "platform": "ps3",
+   "name": "Kung Fu Panda 2",
+   "genre": "مغامرة، أطفال",
+   "sizeGB": 3,
+   "releaseDate": "2011-05-24",
+   "developer": "Griptonite Games",
+   "players": "لاعب واحد",
+   "rating": "PEGI 7",
+   "arabic": false,
+   "desc": "بو والخمسة الأبطال بمغامرة فيلم كونغ فو باندا 2.",
+   "note": "",
+   "youtube": "",
+   "cover": "covers/ps3-21.jpg",
+   "addedAt": "2026-11-17"
+  },
+  {
+   "id": "p3-52",
+   "platform": "ps3",
+   "name": "Rango",
+   "genre": "مغامرة، أطفال",
+   "sizeGB": 4,
+   "releaseDate": "2011-03-01",
+   "developer": "Behaviour Interactive",
+   "players": "لاعب واحد",
+   "rating": "PEGI 7",
+   "arabic": false,
+   "desc": "الحرباء رانغو بمغامرة بالغرب الأمريكي.",
+   "note": "",
+   "youtube": "",
+   "cover": "covers/ps3-52.jpg",
+   "addedAt": "2026-11-17"
+  },
+  {
+   "id": "p3-57",
+   "platform": "ps3",
+   "name": "The Smurfs 2",
+   "genre": "منصات، أطفال",
+   "sizeGB": 3,
+   "releaseDate": "2013-07-30",
+   "developer": "WayForward",
+   "players": "لاعب واحد + لاعبين على نفس الجهاز",
+   "rating": "PEGI 3",
+   "arabic": false,
+   "desc": "السنافر بمغامرة منصات مناسبة للصغار.",
+   "note": "",
+   "youtube": "",
+   "cover": "covers/ps3-57.jpg",
+   "addedAt": "2026-11-17"
+  },
+  {
+   "id": "p3-61",
+   "platform": "ps3",
+   "name": "SpongeBob SquarePants: Plankton's Robotic Revenge",
+   "genre": "أكشن، أطفال",
+   "sizeGB": 3,
+   "releaseDate": "2013-10-22",
+   "developer": "Behaviour Interactive",
+   "players": "لاعب واحد + لاعبين على نفس الجهاز",
+   "rating": "PEGI 7",
+   "arabic": false,
+   "desc": "سبونج بوب وأصدقاؤه ضد روبوتات بلانكتون.",
+   "note": "",
+   "youtube": "",
+   "cover": "covers/ps3-61.jpg",
+   "addedAt": "2026-11-17"
+  },
+  {
+   "id": "p3-45",
+   "platform": "ps3",
+   "name": "Ben 10: Omniverse",
+   "genre": "أكشن، أطفال",
+   "sizeGB": 3,
+   "releaseDate": "2012-11-20",
+   "developer": "Vicious Cycle",
+   "players": "لاعب واحد + لاعبين على نفس الجهاز",
+   "rating": "PEGI 7",
+   "arabic": false,
+   "desc": "بن 10 يتحول لكائنات فضائية ويقاتل الأعداء.",
+   "note": "",
+   "youtube": "",
+   "cover": "covers/ps3-45.jpg",
+   "addedAt": "2026-11-17"
+  },
+  {
+   "id": "p3-64",
+   "platform": "ps3",
+   "name": "TMNT: Turtles in Time Re-Shelled",
+   "genre": "قتال، كلاسيك",
+   "sizeGB": 1,
+   "releaseDate": "2009-08-05",
+   "developer": "Ubisoft Singapore",
+   "players": "لاعب واحد + لاعبين على نفس الجهاز",
+   "rating": "PEGI 12",
+   "arabic": false,
+   "desc": "سلاحف النينجا الكلاسيكية بنسخة محسنة، تدعم 4 لاعبين.",
+   "note": "",
+   "youtube": "",
+   "cover": "covers/ps3-64.jpg",
    "addedAt": "2026-11-17"
   }
  ]
