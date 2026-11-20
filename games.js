@@ -19,7 +19,7 @@ window.SHOP = {
    "platform": "ps4",
    "name": "EA SPORTS FC 27",
    "genre": "رياضة، كرة قدم",
-   "sizeGB": 50,
+   "sizeGB": 95,
    "releaseDate": "2026-09-26",
    "developer": "EA Vancouver",
    "players": "1-4 لاعبين على نفس الجهاز + أونلاين",
