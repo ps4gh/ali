@@ -15,6 +15,23 @@ window.SHOP = {
  },
  "games": [
   {
+   "id": "n-fc27",
+   "platform": "ps4",
+   "name": "EA SPORTS FC 27",
+   "genre": "رياضة، كرة قدم",
+   "sizeGB": 50,
+   "releaseDate": "2026-09-26",
+   "developer": "EA Vancouver",
+   "players": "1-4 لاعبين على نفس الجهاز + أونلاين",
+   "rating": "PEGI 16",
+   "arabic": true,
+   "desc": "أحدث لعبة كرة قدم من EA ويا الدوريات والفرق الرسمية لموسم 2026/27، والتعليق العربي، وأطوار Ultimate Team والمهنة.",
+   "note": "",
+   "youtube": "",
+   "cover": "covers/n-fc27.jpg",
+   "addedAt": "2026-11-20"
+  },
+  {
    "id": "n-pt",
    "name": "P.T. (Silent Hills)",
    "genre": "رعب، ألغاز",
