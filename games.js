@@ -11,7 +11,11 @@ window.SHOP = {
   "tiktok": "https://www.tiktok.com/@axis.it?_r=1&_t=ZS-9BWjuiRT6Q8",
   "facebook": "https://www.facebook.com/share/1CGzSkU9dG/?mibextid=wwXIfr",
   "logo": "logo.jpg",
-  "launch": "2026-11-17"
+  "launch": "2026-11-17",
+  "prices": {
+   "ps4": 3000,
+   "ps3": 2000
+  }
  },
  "games": [
   {
@@ -92,7 +96,8 @@ window.SHOP = {
    "desc": "أحدث لعبة كرة قدم من EA ويا الدوريات والفرق الرسمية لموسم 2026/27، والتعليق العربي، وأطوار Ultimate Team والمهنة.",
    "note": "",
    "cover": "covers/n-fc27.jpg",
-   "addedAt": "2026-11-20"
+   "addedAt": "2026-11-20",
+   "hot": true
   },
   {
    "id": "n-pt",
@@ -268,7 +273,8 @@ window.SHOP = {
    "note": "باتش محدّث على لعبة PES",
    "cover": "covers/g14.jpg",
    "addedAt": "2026-11-17",
-   "platform": "ps4"
+   "platform": "ps4",
+   "hot": true
   },
   {
    "id": "g28",
@@ -284,7 +290,8 @@ window.SHOP = {
    "note": "",
    "cover": "covers/g28.jpg",
    "addedAt": "2026-11-17",
-   "platform": "ps4"
+   "platform": "ps4",
+   "hot": true
   },
   {
    "id": "g83",
@@ -300,7 +307,8 @@ window.SHOP = {
    "note": "",
    "cover": "covers/g83.jpg",
    "addedAt": "2026-11-17",
-   "platform": "ps4"
+   "platform": "ps4",
+   "hot": true
   },
   {
    "id": "g45",
@@ -316,7 +324,8 @@ window.SHOP = {
    "note": "",
    "cover": "covers/g45.jpg",
    "addedAt": "2026-11-17",
-   "platform": "ps4"
+   "platform": "ps4",
+   "hot": true
   },
   {
    "id": "g82",
@@ -332,7 +341,8 @@ window.SHOP = {
    "note": "",
    "cover": "covers/g82.jpg",
    "addedAt": "2026-11-17",
-   "platform": "ps4"
+   "platform": "ps4",
+   "hot": true
   },
   {
    "id": "g39",
@@ -364,7 +374,8 @@ window.SHOP = {
    "note": "",
    "cover": "covers/g85.jpg",
    "addedAt": "2026-11-17",
-   "platform": "ps4"
+   "platform": "ps4",
+   "hot": true
   },
   {
    "id": "g59",
@@ -460,7 +471,8 @@ window.SHOP = {
    "note": "",
    "cover": "covers/g36.jpg",
    "addedAt": "2026-11-17",
-   "platform": "ps4"
+   "platform": "ps4",
+   "hot": true
   },
   {
    "id": "g41",
@@ -1692,7 +1704,8 @@ window.SHOP = {
    "desc": "قصة مايكل وفرانكلين وتريفور بمدينة لوس سانتوس، أشهر لعبة عالم مفتوح.",
    "note": "",
    "cover": "covers/ps3-15.jpg",
-   "addedAt": "2026-11-17"
+   "addedAt": "2026-11-17",
+   "hot": true
   },
   {
    "id": "p3-54",
@@ -1708,7 +1721,8 @@ window.SHOP = {
    "desc": "جون مارستون بالغرب الأمريكي يطارد عصابته القديمة.",
    "note": "",
    "cover": "covers/ps3-54.jpg",
-   "addedAt": "2026-11-17"
+   "addedAt": "2026-11-17",
+   "hot": true
   },
   {
    "id": "p3-36",
@@ -1724,7 +1738,8 @@ window.SHOP = {
    "desc": "جويل وإيلي برحلة نجاة عبر أمريكا بعد انتشار الوباء.",
    "note": "",
    "cover": "covers/ps3-36.jpg",
-   "addedAt": "2026-11-17"
+   "addedAt": "2026-11-17",
+   "hot": true
   },
   {
    "id": "p3-14",
@@ -1740,7 +1755,8 @@ window.SHOP = {
    "desc": "انتقام كريتوس من آلهة أوليمبوس بالجزء الأقوى من الثلاثية.",
    "note": "",
    "cover": "covers/ps3-14.jpg",
-   "addedAt": "2026-11-17"
+   "addedAt": "2026-11-17",
+   "hot": true
   },
   {
    "id": "p3-42",
@@ -1772,7 +1788,8 @@ window.SHOP = {
    "desc": "فيفا 19 بالفرق والانتقالات المحدّثة، ويا تعليق عربي.",
    "note": "",
    "cover": "covers/ps3-12.jpg",
-   "addedAt": "2026-11-17"
+   "addedAt": "2026-11-17",
+   "hot": true
   },
   {
    "id": "p3-48",
@@ -1788,7 +1805,8 @@ window.SHOP = {
    "desc": "بيس 2018 بلعب واقعي وتعليق عربي.",
    "note": "",
    "cover": "covers/ps3-48.jpg",
-   "addedAt": "2026-11-17"
+   "addedAt": "2026-11-17",
+   "hot": true
   },
   {
    "id": "p3-47",
