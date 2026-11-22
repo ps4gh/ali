@@ -27,7 +27,6 @@ window.SHOP = {
    "arabic": false,
    "desc": "قتال روبوتات عملاقة سريع من صناع Elden Ring، تبني روبوتك وتعدله على كوكب روبيكون.",
    "note": "",
-   "youtube": "",
    "cover": "covers/n-acvi.jpg",
    "addedAt": "2026-11-22"
   },
@@ -44,7 +43,6 @@ window.SHOP = {
    "arabic": true,
    "desc": "بايك يأسس جماعة القتلة بمصر القديمة، عالم مفتوح ضخم بين الأهرامات والصحراء والنيل.",
    "note": "",
-   "youtube": "",
    "cover": "covers/n-acorigins.jpg",
    "addedAt": "2026-11-22"
   },
@@ -61,7 +59,6 @@ window.SHOP = {
    "arabic": true,
    "desc": "أحدث لعبة كرة قدم من EA ويا الدوريات والفرق الرسمية لموسم 2026/27، والتعليق العربي، وأطوار Ultimate Team والمهنة.",
    "note": "",
-   "youtube": "",
    "cover": "covers/n-fc27.jpg",
    "addedAt": "2026-11-20"
   },
@@ -77,7 +74,6 @@ window.SHOP = {
    "arabic": true,
    "desc": "الديمو الأسطوري من هيديو كوجيما لـ Silent Hills، ممر بيت واحد يتكرر ويصير أرعب كل مرة. انحذف من متجر بلايستيشن.",
    "note": "ديمو رعب قصير",
-   "youtube": "",
    "cover": "covers/n-pt.jpg",
    "addedAt": "2026-11-19",
    "platform": "ps4"
@@ -94,7 +90,6 @@ window.SHOP = {
    "arabic": true,
    "desc": "لينكولن كلاي يرجع من حرب فيتنام وينتقم من المافيا بمدينة نيو بوردو بالستينات، النسخة الكاملة ويا كل الإضافات.",
    "note": "",
-   "youtube": "",
    "cover": "covers/n-mafia3.jpg",
    "addedAt": "2026-11-19",
    "platform": "ps4"
@@ -111,7 +106,6 @@ window.SHOP = {
    "arabic": false,
    "desc": "سباق سيارات حقيقية ويا قدرات وأسلحة مثل ماريو كارت، أجواء نيون وسرعة عالية.",
    "note": "نسخة كلاسيك محوّلة تعمل على PS4",
-   "youtube": "",
    "cover": "covers/n-blur.jpg",
    "addedAt": "2026-11-19",
    "platform": "ps4"
@@ -1665,7 +1659,6 @@ window.SHOP = {
    "arabic": false,
    "desc": "قصة مايكل وفرانكلين وتريفور بمدينة لوس سانتوس، أشهر لعبة عالم مفتوح.",
    "note": "",
-   "youtube": "",
    "cover": "covers/ps3-15.jpg",
    "addedAt": "2026-11-17"
   },
@@ -1682,7 +1675,6 @@ window.SHOP = {
    "arabic": false,
    "desc": "جون مارستون بالغرب الأمريكي يطارد عصابته القديمة.",
    "note": "",
-   "youtube": "",
    "cover": "covers/ps3-54.jpg",
    "addedAt": "2026-11-17"
   },
@@ -1699,7 +1691,6 @@ window.SHOP = {
    "arabic": false,
    "desc": "جويل وإيلي برحلة نجاة عبر أمريكا بعد انتشار الوباء.",
    "note": "",
-   "youtube": "",
    "cover": "covers/ps3-36.jpg",
    "addedAt": "2026-11-17"
   },
@@ -1716,7 +1707,6 @@ window.SHOP = {
    "arabic": false,
    "desc": "انتقام كريتوس من آلهة أوليمبوس بالجزء الأقوى من الثلاثية.",
    "note": "",
-   "youtube": "",
    "cover": "covers/ps3-14.jpg",
    "addedAt": "2026-11-17"
   },
@@ -1733,7 +1723,6 @@ window.SHOP = {
    "arabic": false,
    "desc": "سي جي وغروف ستريت، الكلاسيكية الأشهر بنسخة PS3.",
    "note": "",
-   "youtube": "",
    "cover": "covers/ps3-42.jpg",
    "addedAt": "2026-11-17"
   },
@@ -1750,7 +1739,6 @@ window.SHOP = {
    "arabic": true,
    "desc": "فيفا 19 بالفرق والانتقالات المحدّثة، ويا تعليق عربي.",
    "note": "",
-   "youtube": "",
    "cover": "covers/ps3-12.jpg",
    "addedAt": "2026-11-17"
   },
@@ -1767,7 +1755,6 @@ window.SHOP = {
    "arabic": true,
    "desc": "بيس 2018 بلعب واقعي وتعليق عربي.",
    "note": "",
-   "youtube": "",
    "cover": "covers/ps3-48.jpg",
    "addedAt": "2026-11-17"
   },
@@ -1784,7 +1771,6 @@ window.SHOP = {
    "arabic": true,
    "desc": "بيس 2013 الكلاسيكية المحبوبة ويا تعليق عربي.",
    "note": "",
-   "youtube": "",
    "cover": "covers/ps3-47.jpg",
    "addedAt": "2026-11-17"
   },
@@ -1801,7 +1787,6 @@ window.SHOP = {
    "arabic": false,
    "desc": "الجزء الأسطوري اللي غيّر السلسلة، ويا الكابتن برايس وسوب.",
    "note": "",
-   "youtube": "",
    "cover": "covers/ps3-00.jpg",
    "addedAt": "2026-11-17"
   },
@@ -1818,7 +1803,6 @@ window.SHOP = {
    "arabic": false,
    "desc": "مهمات سرية بالحرب الباردة ويا مايسون وطور الزومبي.",
    "note": "",
-   "youtube": "",
    "cover": "covers/ps3-34.jpg",
    "addedAt": "2026-11-17"
   },
@@ -1835,7 +1819,6 @@ window.SHOP = {
    "arabic": false,
    "desc": "فرقة الأشباح تقاتل بأمريكا بعد الكارثة، ويا الكلب رايلي.",
    "note": "",
-   "youtube": "",
    "cover": "covers/ps3-04.jpg",
    "addedAt": "2026-11-17"
   },
@@ -1852,7 +1835,6 @@ window.SHOP = {
    "arabic": false,
    "desc": "حرب المستقبل ببدلات خارقة، وكيفن سبيسي بدور الشرير.",
    "note": "",
-   "youtube": "",
    "cover": "covers/ps3-72.jpg",
    "addedAt": "2026-11-17"
   },
@@ -1869,7 +1851,6 @@ window.SHOP = {
    "arabic": false,
    "desc": "حرب حديثة بخرائط كبيرة ومركبات وتدمير.",
    "note": "",
-   "youtube": "",
    "cover": "covers/ps3-32.jpg",
    "addedAt": "2026-11-17"
   },
@@ -1886,7 +1867,6 @@ window.SHOP = {
    "arabic": false,
    "desc": "قوات خاصة بمعارك حديثة بجبال أفغانستان.",
    "note": "",
-   "youtube": "",
    "cover": "covers/ps3-25.jpg",
    "addedAt": "2026-11-17"
   },
@@ -1903,7 +1883,6 @@ window.SHOP = {
    "arabic": false,
    "desc": "فرقة دلتا بدبي المدفونة بالرمل، قصة قوية ومؤثرة.",
    "note": "",
-   "youtube": "",
    "cover": "covers/ps3-59.jpg",
    "addedAt": "2026-11-17"
   },
@@ -1920,7 +1899,6 @@ window.SHOP = {
    "arabic": false,
    "desc": "فرقة رينبو تحارب الإرهابيين بلاس فيغاس.",
    "note": "",
-   "youtube": "",
    "cover": "covers/ps3-65.jpg",
    "addedAt": "2026-11-17"
   },
@@ -1937,7 +1915,6 @@ window.SHOP = {
    "arabic": false,
    "desc": "قناص بغابات أمريكا الجنوبية بمهمات تسلل وقنص.",
    "note": "",
-   "youtube": "",
    "cover": "covers/ps3-03.jpg",
    "addedAt": "2026-11-17"
   },
@@ -1954,7 +1931,6 @@ window.SHOP = {
    "arabic": false,
    "desc": "قناص بشمال أفريقيا بالحرب العالمية الثانية ويا كاميرا الطلقة.",
    "note": "",
-   "youtube": "",
    "cover": "covers/ps3-58.jpg",
    "addedAt": "2026-11-17"
   },
@@ -1971,7 +1947,6 @@ window.SHOP = {
    "arabic": false,
    "desc": "أجاي بجبال كيرات ضد الديكتاتور باغان مين.",
    "note": "",
-   "youtube": "",
    "cover": "covers/ps3-13.jpg",
    "addedAt": "2026-11-17"
   },
@@ -1988,7 +1963,6 @@ window.SHOP = {
    "arabic": false,
    "desc": "شاي كورماك يتحول من قاتل لصياد قتلة ببحار أمريكا الشمالية.",
    "note": "",
-   "youtube": "",
    "cover": "covers/ps3-41.jpg",
    "addedAt": "2026-11-17"
   },
@@ -2005,7 +1979,6 @@ window.SHOP = {
    "arabic": false,
    "desc": "الهاكر أيدن بيرس يتحكم بشيكاغو من موبايله.",
    "note": "",
-   "youtube": "",
    "cover": "covers/ps3-69.jpg",
    "addedAt": "2026-11-17"
   },
@@ -2022,7 +1995,6 @@ window.SHOP = {
    "arabic": false,
    "desc": "ريكو رودريغيز يفجّر جزيرة كاملة بالحبل والمظلة.",
    "note": "",
-   "youtube": "",
    "cover": "covers/ps3-18.jpg",
    "addedAt": "2026-11-17"
   },
@@ -2039,7 +2011,6 @@ window.SHOP = {
    "arabic": false,
    "desc": "فيتو يصعد بعالم المافيا بالأربعينات والخمسينات.",
    "note": "",
-   "youtube": "",
    "cover": "covers/ps3-24.jpg",
    "addedAt": "2026-11-17"
   },
@@ -2056,7 +2027,6 @@ window.SHOP = {
    "arabic": false,
    "desc": "ابنِ عائلة مافيا خاصة بيك بنيويورك وكوبا.",
    "note": "",
-   "youtube": "",
    "cover": "covers/ps3-63.jpg",
    "addedAt": "2026-11-17"
   },
@@ -2073,7 +2043,6 @@ window.SHOP = {
    "arabic": false,
    "desc": "باتمان محبوس داخل مدينة سجن كاملة ضد الجوكر.",
    "note": "",
-   "youtube": "",
    "cover": "covers/ps3-37.jpg",
    "addedAt": "2026-11-17"
   },
@@ -2090,7 +2059,6 @@ window.SHOP = {
    "arabic": false,
    "desc": "سبايدر مان بنيويورك ضد إلكترو والغرين غوبلن.",
    "note": "",
-   "youtube": "",
    "cover": "covers/ps3-60.jpg",
    "addedAt": "2026-11-17"
   },
@@ -2107,7 +2075,6 @@ window.SHOP = {
    "arabic": false,
    "desc": "ديدبول بمغامرة مجنونة ومضحكة بالسيوف والمسدسات.",
    "note": "",
-   "youtube": "",
    "cover": "covers/ps3-09.jpg",
    "addedAt": "2026-11-17"
   },
@@ -2124,7 +2091,6 @@ window.SHOP = {
    "arabic": false,
    "desc": "كول ماكغراث بقوة الكهرباء ينقذ مدينة نيو ماريه.",
    "note": "",
-   "youtube": "",
    "cover": "covers/ps3-16.jpg",
    "addedAt": "2026-11-17"
   },
@@ -2141,7 +2107,6 @@ window.SHOP = {
    "arabic": false,
    "desc": "بداية لارا كروفت على جزيرة غامضة ورحلة نجاتها الأولى.",
    "note": "",
-   "youtube": "",
    "cover": "covers/ps3-66.jpg",
    "addedAt": "2026-11-17"
   },
@@ -2158,7 +2123,6 @@ window.SHOP = {
    "arabic": false,
    "desc": "الأمير يقاتل جيش الرمل ويتحكم بالزمن والعناصر.",
    "note": "",
-   "youtube": "",
    "cover": "covers/ps3-50.jpg",
    "addedAt": "2026-11-17"
   },
@@ -2175,7 +2139,6 @@ window.SHOP = {
    "arabic": false,
    "desc": "دانتي يقاتل الشياطين بأسلوب سريع وكومبوهات قوية.",
    "note": "",
-   "youtube": "",
    "cover": "covers/ps3-10.jpg",
    "addedAt": "2026-11-17"
   },
@@ -2192,7 +2155,6 @@ window.SHOP = {
    "arabic": false,
    "desc": "النينجا ريو هايابوسا بقتال سيوف سريع وصعب.",
    "note": "",
-   "youtube": "",
    "cover": "covers/ps3-31.jpg",
    "addedAt": "2026-11-17"
   },
@@ -2209,7 +2171,6 @@ window.SHOP = {
    "arabic": false,
    "desc": "قاتل مأجور بسيف وذراع آلية، أسلوب ياباني غريب.",
    "note": "",
-   "youtube": "",
    "cover": "covers/ps3-19.jpg",
    "addedAt": "2026-11-17"
   },
@@ -2226,7 +2187,6 @@ window.SHOP = {
    "arabic": false,
    "desc": "غارسيا يدخل عالم الشياطين حتى ينقذ حبيبته.",
    "note": "",
-   "youtube": "",
    "cover": "covers/ps3-55.jpg",
    "addedAt": "2026-11-17"
   },
@@ -2243,7 +2203,6 @@ window.SHOP = {
    "arabic": false,
    "desc": "روبي المرتزقة بحركات بهلوانية وتصويب بالسلو موشن.",
    "note": "",
-   "youtube": "",
    "cover": "covers/ps3-70.jpg",
    "addedAt": "2026-11-17"
   },
@@ -2260,7 +2219,6 @@ window.SHOP = {
    "arabic": false,
    "desc": "تكملة فيلم Wanted ويا الرصاص اللي ينحني.",
    "note": "",
-   "youtube": "",
    "cover": "covers/ps3-68.jpg",
    "addedAt": "2026-11-17"
   },
@@ -2277,7 +2235,6 @@ window.SHOP = {
    "arabic": false,
    "desc": "كين ولينش بشوارع شنغهاي بمطاردة دموية.",
    "note": "",
-   "youtube": "",
    "cover": "covers/ps3-20.jpg",
    "addedAt": "2026-11-17"
   },
@@ -2294,7 +2251,6 @@ window.SHOP = {
    "arabic": false,
    "desc": "عصابة سرقة بنوك ومهمات تعاونية ويا الأصدقاء.",
    "note": "",
-   "youtube": "",
    "cover": "covers/ps3-46.jpg",
    "addedAt": "2026-11-17"
   },
@@ -2311,7 +2267,6 @@ window.SHOP = {
    "arabic": false,
    "desc": "عيش أشهر مشاهد أفلام رامبو.",
    "note": "",
-   "youtube": "",
    "cover": "covers/ps3-51.jpg",
    "addedAt": "2026-11-17"
   },
@@ -2328,7 +2283,6 @@ window.SHOP = {
    "arabic": false,
    "desc": "جنود بحرب فيتنام ضد فيروس يحول الناس لوحوش.",
    "note": "",
-   "youtube": "",
    "cover": "covers/ps3-71.jpg",
    "addedAt": "2026-11-17"
   },
@@ -2345,7 +2299,6 @@ window.SHOP = {
    "arabic": false,
    "desc": "تصويب سريع ضد جيوش الشياطين بعالم الجحيم.",
    "note": "",
-   "youtube": "",
    "cover": "covers/ps3-49.jpg",
    "addedAt": "2026-11-17"
   },
@@ -2362,7 +2315,6 @@ window.SHOP = {
    "arabic": false,
    "desc": "آرتيوم بأنفاق مترو موسكو بعد الحرب النووية.",
    "note": "",
-   "youtube": "",
    "cover": "covers/ps3-26.jpg",
    "addedAt": "2026-11-17"
   },
@@ -2379,7 +2331,6 @@ window.SHOP = {
    "arabic": false,
    "desc": "إيزاك كلارك على كوكب ثلجي ضد النيكرومورف، تدعم التعاوني.",
    "note": "",
-   "youtube": "",
    "cover": "covers/ps3-08.jpg",
    "addedAt": "2026-11-17"
   },
@@ -2396,7 +2347,6 @@ window.SHOP = {
    "arabic": false,
    "desc": "ليون وكريس وجيك بأربع قصص ضد فيروس C.",
    "note": "",
-   "youtube": "",
    "cover": "covers/ps3-53.jpg",
    "addedAt": "2026-11-17"
   },
@@ -2413,7 +2363,6 @@ window.SHOP = {
    "arabic": false,
    "desc": "سجين هارب يعلك بمدينة سايلنت هيل المرعبة.",
    "note": "",
-   "youtube": "",
    "cover": "covers/ps3-56.jpg",
    "addedAt": "2026-11-17"
   },
@@ -2430,7 +2379,6 @@ window.SHOP = {
    "arabic": false,
    "desc": "سنيك يتسلل لقاعدة عسكرية، مقدمة The Phantom Pain.",
    "note": "",
-   "youtube": "",
    "cover": "covers/ps3-22.jpg",
    "addedAt": "2026-11-17"
   },
@@ -2447,7 +2395,6 @@ window.SHOP = {
    "arabic": false,
    "desc": "ميتل غير 2 و 3 و Peace Walker بنسخة HD.",
    "note": "",
-   "youtube": "",
    "cover": "covers/ps3-23.jpg",
    "addedAt": "2026-11-17"
   },
@@ -2464,7 +2411,6 @@ window.SHOP = {
    "arabic": false,
    "desc": "نجاة من الزومبي على جزيرة استوائية، تعاوني لـ 4 لاعبين.",
    "note": "",
-   "youtube": "",
    "cover": "covers/ps3-07.jpg",
    "addedAt": "2026-11-17"
   },
@@ -2481,7 +2427,6 @@ window.SHOP = {
    "arabic": false,
    "desc": "مرتزق يسكن جسده شيطان النار، وإنت تختار مصيره.",
    "note": "",
-   "youtube": "",
    "cover": "covers/ps3-43.jpg",
    "addedAt": "2026-11-17"
   },
@@ -2498,7 +2443,6 @@ window.SHOP = {
    "arabic": false,
    "desc": "قتال روبوتات عملاقة تبنيها وتعدلها بنفسك.",
    "note": "",
-   "youtube": "",
    "cover": "covers/ps3-38.jpg",
    "addedAt": "2026-11-17"
   },
@@ -2515,7 +2459,6 @@ window.SHOP = {
    "arabic": false,
    "desc": "كونان البربري بقتال سيوف ضد الوحوش والسحرة.",
    "note": "",
-   "youtube": "",
    "cover": "covers/ps3-05.jpg",
    "addedAt": "2026-11-17"
   },
@@ -2532,7 +2475,6 @@ window.SHOP = {
    "arabic": false,
    "desc": "قتال فرق من مقاتلين ويا أكبر عدد شخصيات بسلسلة تيكن.",
    "note": "يدعم لاعبين على نفس الجهاز",
-   "youtube": "",
    "cover": "covers/ps3-62.jpg",
    "addedAt": "2026-11-17"
   },
@@ -2549,7 +2491,6 @@ window.SHOP = {
    "arabic": false,
    "desc": "مقاتلين مورتال كومبات ضد باتمان وسوبرمان وأبطال DC.",
    "note": "يدعم لاعبين على نفس الجهاز",
-   "youtube": "",
    "cover": "covers/ps3-29.jpg",
    "addedAt": "2026-11-17"
   },
@@ -2566,7 +2507,6 @@ window.SHOP = {
    "arabic": false,
    "desc": "قتال دراغون بول بالسماء ويا عشرات الشخصيات.",
    "note": "يدعم لاعبين على نفس الجهاز",
-   "youtube": "",
    "cover": "covers/ps3-11.jpg",
    "addedAt": "2026-11-17"
   },
@@ -2583,7 +2523,6 @@ window.SHOP = {
    "arabic": false,
    "desc": "معارك فرق دراغون بول زد لحد 8 مقاتلين.",
    "note": "",
-   "youtube": "",
    "cover": "covers/ps3-35.jpg",
    "addedAt": "2026-11-17"
   },
@@ -2600,7 +2539,6 @@ window.SHOP = {
    "arabic": false,
    "desc": "لوفي وطاقمه بمعارك ضد جيوش كاملة من قصة ون بيس.",
    "note": "",
-   "youtube": "",
    "cover": "covers/ps3-44.jpg",
    "addedAt": "2026-11-17"
   },
@@ -2617,7 +2555,6 @@ window.SHOP = {
    "arabic": false,
    "desc": "سباقات ومطاردات بين المتسابقين والشرطة، ويا كل الإضافات.",
    "note": "",
-   "youtube": "",
    "cover": "covers/ps3-30.jpg",
    "addedAt": "2026-11-17"
   },
@@ -2634,7 +2571,6 @@ window.SHOP = {
    "arabic": false,
    "desc": "سباقات شوارع ليلية بلوس أنجلوس وتعديل السيارات.",
    "note": "",
-   "youtube": "",
    "cover": "covers/ps3-27.jpg",
    "addedAt": "2026-11-17"
   },
@@ -2651,7 +2587,6 @@ window.SHOP = {
    "arabic": false,
    "desc": "سباقات سيارات مسلحة تدعس الزومبي بالحلبات.",
    "note": "",
-   "youtube": "",
    "cover": "covers/ps3-01.jpg",
    "addedAt": "2026-11-17"
   },
@@ -2668,7 +2603,6 @@ window.SHOP = {
    "arabic": false,
    "desc": "شرطي الطرق السريعة ضد عصابة بمطاردات سيارات.",
    "note": "",
-   "youtube": "",
    "cover": "covers/ps3-06.jpg",
    "addedAt": "2026-11-17"
   },
@@ -2685,7 +2619,6 @@ window.SHOP = {
    "arabic": false,
    "desc": "سباقات شاحنات ضخمة بحلبات أوروبا.",
    "note": "",
-   "youtube": "",
    "cover": "covers/ps3-67.jpg",
    "addedAt": "2026-11-17"
   },
@@ -2702,7 +2635,6 @@ window.SHOP = {
    "arabic": false,
    "desc": "طيران حربي بطائرات حديثة ومعارك جوية.",
    "note": "",
-   "youtube": "",
    "cover": "covers/ps3-17.jpg",
    "addedAt": "2026-11-17"
   },
@@ -2719,7 +2651,6 @@ window.SHOP = {
    "arabic": false,
    "desc": "معارك جوية بالحرب العالمية بطائرات كلاسيكية.",
    "note": "",
-   "youtube": "",
    "cover": "covers/ps3-39.jpg",
    "addedAt": "2026-11-17"
   },
@@ -2736,7 +2667,6 @@ window.SHOP = {
    "arabic": false,
    "desc": "قيادة هليكوبتر الأباتشي بمهمات عسكرية واقعية.",
    "note": "",
-   "youtube": "",
    "cover": "covers/ps3-33.jpg",
    "addedAt": "2026-11-17"
   },
@@ -2753,7 +2683,6 @@ window.SHOP = {
    "arabic": false,
    "desc": "عالم باندورا من فيلم أفاتار، تختار تكون ويا البشر أو النافي.",
    "note": "",
-   "youtube": "",
    "cover": "covers/ps3-02.jpg",
    "addedAt": "2026-11-17"
   },
@@ -2770,7 +2699,6 @@ window.SHOP = {
    "arabic": false,
    "desc": "ابنِ واستكشف عالم المكعبات، تدعم الشاشة المقسومة.",
    "note": "",
-   "youtube": "",
    "cover": "covers/ps3-28.jpg",
    "addedAt": "2026-11-17"
   },
@@ -2787,7 +2715,6 @@ window.SHOP = {
    "arabic": false,
    "desc": "الطيور الغاضبة بعالم حرب النجوم.",
    "note": "",
-   "youtube": "",
    "cover": "covers/ps3-40.jpg",
    "addedAt": "2026-11-17"
   },
@@ -2804,7 +2731,6 @@ window.SHOP = {
    "arabic": false,
    "desc": "بو والخمسة الأبطال بمغامرة فيلم كونغ فو باندا 2.",
    "note": "",
-   "youtube": "",
    "cover": "covers/ps3-21.jpg",
    "addedAt": "2026-11-17"
   },
@@ -2821,7 +2747,6 @@ window.SHOP = {
    "arabic": false,
    "desc": "الحرباء رانغو بمغامرة بالغرب الأمريكي.",
    "note": "",
-   "youtube": "",
    "cover": "covers/ps3-52.jpg",
    "addedAt": "2026-11-17"
   },
@@ -2838,7 +2763,6 @@ window.SHOP = {
    "arabic": false,
    "desc": "السنافر بمغامرة منصات مناسبة للصغار.",
    "note": "",
-   "youtube": "",
    "cover": "covers/ps3-57.jpg",
    "addedAt": "2026-11-17"
   },
@@ -2855,7 +2779,6 @@ window.SHOP = {
    "arabic": false,
    "desc": "سبونج بوب وأصدقاؤه ضد روبوتات بلانكتون.",
    "note": "",
-   "youtube": "",
    "cover": "covers/ps3-61.jpg",
    "addedAt": "2026-11-17"
   },
@@ -2872,7 +2795,6 @@ window.SHOP = {
    "arabic": false,
    "desc": "بن 10 يتحول لكائنات فضائية ويقاتل الأعداء.",
    "note": "",
-   "youtube": "",
    "cover": "covers/ps3-45.jpg",
    "addedAt": "2026-11-17"
   },
@@ -2889,7 +2811,6 @@ window.SHOP = {
    "arabic": false,
    "desc": "سلاحف النينجا الكلاسيكية بنسخة محسنة، تدعم 4 لاعبين.",
    "note": "",
-   "youtube": "",
    "cover": "covers/ps3-64.jpg",
    "addedAt": "2026-11-17"
   }

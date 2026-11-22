@@ -201,7 +201,6 @@ var PL={ps4:"PS4",ps3:"PS3"};
 var root=document.getElementById("adm");
 
 function esc(s){ return String(s==null?"":s).replace(/[&<>"']/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c];}); }
-function ytId(u){ u=String(u||"").trim(); var m=u.match(/(?:youtu\.be\/|youtube(?:-nocookie)?\.com\/(?:watch\?(?:.*&)?v=|embed\/|shorts\/|live\/|v\/))([A-Za-z0-9_-]{11})/); return m?m[1]:""; }
 function today(){ var d=new Date(); return d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0"); }
 function toast(msg,err){ var o=document.querySelector(".toast"); if(o) o.remove(); var t=document.createElement("div"); t.className="toast"+(err?" err":""); t.textContent=msg; document.body.appendChild(t); setTimeout(function(){ t.remove(); }, err?7000:5000); }
 function b64enc(str){ var bytes=new TextEncoder().encode(str), s=""; for(var i=0;i<bytes.length;i+=0x8000) s+=String.fromCharCode.apply(null, bytes.subarray(i,i+0x8000)); return btoa(s); }
@@ -262,7 +261,7 @@ function showMain(){
     '<p class="hint" style="margin:0 0 10px">'+S.games.filter(function(g){return pf(g)===tab;}).length+' لعبة '+PL[tab]+' · بعد أي حفظ، الموقع يتحدث خلال دقيقة أو دقيقتين.</p><div class="rows">';
   list.forEach(function(g){
     var nw = g.addedAt && g.addedAt>L && (Date.now()-new Date(g.addedAt+"T00:00:00"))<30*864e5;
-    h+='<div class="rowg">'+(g.cover?'<img src="'+esc(g.cover)+'" alt="" loading="lazy" data-raw="https://raw.githubusercontent.com/'+OWNER+'/'+REPO+'/main/'+esc(g.cover)+'">':'<span class="mini"></span>')+'<div class="nm"><b>'+esc(g.name)+'</b><span>'+(g.sizeGB?g.sizeGB+' GB · ':'')+esc(g.genre||"")+'</span>'+(nw?'<span class="tag">جديد</span>':'')+(g.youtube?'<span class="tag" style="background:#c4002b">▶ فيديو</span>':'')+'</div><button class="btn sm" data-ed="'+esc(g.id)+'">تعديل</button></div>';
+    h+='<div class="rowg">'+(g.cover?'<img src="'+esc(g.cover)+'" alt="" loading="lazy" data-raw="https://raw.githubusercontent.com/'+OWNER+'/'+REPO+'/main/'+esc(g.cover)+'">':'<span class="mini"></span>')+'<div class="nm"><b>'+esc(g.name)+'</b><span>'+(g.sizeGB?g.sizeGB+' GB · ':'')+esc(g.genre||"")+'</span>'+(nw?'<span class="tag">جديد</span>':'')+'</div><button class="btn sm" data-ed="'+esc(g.id)+'">تعديل</button></div>';
   });
   if(!list.length) h+='<div class="empty">ماكو نتائج.</div>';
   h+='</div></main>';
@@ -314,17 +313,12 @@ function showEditor(id){
     '<label class="row" style="gap:8px"><input type="checkbox" id="e-arabic"'+(g.arabic?' checked':'')+'> تدعم اللغة العربية</label>'+
     (isNewG?'':'<label class="row" style="gap:8px"><input type="checkbox" id="e-bump"> اعرضها بقسم «وصلت حديثاً»</label>')+
     '<div class="field"><label for="e-desc">الوصف</label><textarea id="e-desc">'+esc(g.desc||"")+'</textarea></div>'+
-    '<div class="field"><label for="e-youtube">▶ رابط يوتيوب (عرض أو شرح طريقة اللعب)</label><input id="e-youtube" type="url" dir="ltr" inputmode="url" value="'+esc(g.youtube||"")+'" placeholder="الصق رابط الفيديو من يوتيوب"><span class="hint" id="e-ythint"></span></div>'+
     '<div class="row"><button class="btn primary" id="e-save">'+(isNewG?'إضافة ونشر':'حفظ ونشر')+'</button>'+(isNewG?'':'<button class="btn danger" id="e-del">حذف اللعبة</button>')+'<span class="status" id="e-st"></span></div>'+
     (isNewG?'<p class="hint" style="margin:0">اللعبة الجديدة تطلع بأول الموقع وبقسم «وصلت حديثاً» لمدة 30 يوم.</p>':''));
   var pv=v.querySelector("#e-pv"), st=v.querySelector("#e-st");
   function showPv(){ var src=newCover||g.cover; pv.innerHTML=src?'<img src="'+esc(src)+'" alt="">':'<span class="ph" style="font-size:13px">بدون صورة</span>'; }
   showPv();
   v.querySelector("#e-img").onchange=function(e){ var f=e.target.files&&e.target.files[0]; if(!f) return; readImage(f,340).then(function(u){ newCover=u; showPv(); }).catch(function(){ st.className="status err"; st.textContent="تعذّر قراءة الصورة."; }); };
-  var yi=v.querySelector("#e-youtube"), yh=v.querySelector("#e-ythint");
-  function ytCheck(){ var u=yi.value.trim(); if(!u){ yh.textContent="اختياري. انسخ الرابط من يوتيوب (زر مشاركة ← نسخ الرابط) والصقه هنا."; yh.style.color=""; return; }
-    if(ytId(u)){ yh.textContent="✓ رابط صحيح، الفيديو راح يطلع بصفحة اللعبة."; yh.style.color="#7ce3a6"; } else { yh.textContent="⚠ هذا مو رابط فيديو يوتيوب. راح يطلع زر يفتح الرابط بس."; yh.style.color="var(--danger)"; } }
-  yi.oninput=ytCheck; ytCheck();
   v.querySelectorAll("input:not([type=file]):not([type=checkbox])").forEach(function(inp){ inp.addEventListener("keydown",function(e){ if(e.key==="Enter"){ e.preventDefault(); v.querySelector("#e-save").click(); } }); });
   v.querySelector("#e-save").onclick=function(){
     var name=v.querySelector("#e-name").value.trim();
@@ -332,7 +326,7 @@ function showEditor(id){
     if(isNewG && !newCover){ st.className="status err"; st.textContent="ارفع صورة الغلاف."; return; }
     g.name=name;
     FIELDS.forEach(function(f){ var val=v.querySelector("#e-"+f[0]).value.trim(); g[f[0]]= f[2]==="number" ? (val?Number(val):"") : val; });
-    g.arabic=v.querySelector("#e-arabic").checked; g.desc=v.querySelector("#e-desc").value.trim(); g.youtube=v.querySelector("#e-youtube").value.trim(); g.platform=v.querySelector("#e-plat").value;
+    g.arabic=v.querySelector("#e-arabic").checked; g.desc=v.querySelector("#e-desc").value.trim(); g.platform=v.querySelector("#e-plat").value;
     var bump=v.querySelector("#e-bump"); if(bump&&bump.checked) g.addedAt=today();
     busy(v,true); st.className="status"; st.textContent="جارٍ الرفع…";
     var path="covers/"+g.id+"-"+Date.now().toString(36)+".jpg";

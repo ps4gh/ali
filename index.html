@@ -137,10 +137,12 @@ footer p{margin:2px 0;color:var(--muted)}
 .strip{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(150px,170px);gap:12px;overflow-x:auto;padding-bottom:10px;scroll-snap-type:x proximity}
 .strip .card{scroll-snap-align:start}
 .newb{position:absolute;top:8px;inset-inline-end:8px;background:var(--pink);color:#fff;font-weight:600;font-size:11px;border-radius:6px;padding:1px 8px;box-shadow:0 0 12px rgb(255 61 115 / .6)}
-.yt{position:relative;width:100%;aspect-ratio:16/9;max-width:100%;border-radius:12px;overflow:hidden;background:#000;border:1px solid var(--line)}
-.yt iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
-.vid-h{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap}
-.vid-h b{font-size:15px}
+.yt-btn{display:flex;align-items:center;justify-content:center;gap:10px;background:#e0002a;color:#fff;border-radius:12px;padding:12px 16px;text-decoration:none;font-weight:600;text-align:center}
+.yt-btn:hover{background:#ff1744}
+.yt-btn small{display:block;font-weight:400;opacity:.85;font-size:12px}
+.acts{margin-top:auto;display:flex;align-items:center;justify-content:space-between;gap:6px}
+.acts .more{margin-top:0}
+.yt-s{font-size:12px;color:#ff8095;text-decoration:none;white-space:nowrap}
 .chip.vid{background:rgb(255 0 51 / .18);color:#ff8095}
 
 /* platform chooser */
@@ -222,7 +224,7 @@ var plat = hashPlat();
 var PL={ps4:"PS4",ps3:"PS3"}, PLF={ps4:"بلايستيشن 4",ps3:"بلايستيشن 3"};
 function pf(g){ return g.platform==="ps3"?"ps3":"ps4"; }
 function pool(){ return plat?S.games.filter(function(g){ return pf(g)===plat; }):S.games; }
-window.addEventListener("hashchange",function(){ var np=hashPlat(); if(np===plat) return; plat=np; genreF=""; q=""; render(); window.scrollTo(0,0); });
+window.addEventListener("hashchange",function(){ var np=hashPlat(); if(np===plat) return; plat=np; closeSheet(); genreF=""; q=""; render(); window.scrollTo(0,0); });
 
 function loadSel(){ try { return new Set(JSON.parse(localStorage.getItem("axissel")||"[]")); } catch(e){ return new Set(); } }
 function saveSel(){ try { localStorage.setItem("axissel", JSON.stringify(Array.from(sel))); } catch(e){} }
@@ -241,9 +243,9 @@ function cardHTML(g){
   h += '<button class="cover" data-tog="'+esc(g.id)+'" aria-pressed="'+on+'" aria-label="اختيار '+esc(g.name)+'">'+(g.cover?'<img src="'+g.cover+'" alt="" loading="lazy">':'<span class="ph">'+esc(g.name)+'</span>')+'<span class="tick">✓</span>'+(isNew(g)?'<span class="newb">جديد</span>':'')+(g.note?'<span class="badge">'+esc(g.note)+'</span>':'')+'</button>';
   h += '<div class="info"><h3>'+esc(g.name)+'</h3>';
   h += '<div class="meta"><span>الحجم</span><b>'+fmtSize(g.sizeGB)+'</b><span>الإصدار</span><b>'+fmtDate(g.releaseDate)+'</b></div>';
-  var chips = ''; if(g.genre) chips+='<span class="chip">'+esc(String(g.genre).split(/[،,]/)[0].trim())+'</span>'; if(g.arabic) chips+='<span class="chip ar">عربي</span>'; if(g.youtube) chips+='<span class="chip vid">▶ فيديو</span>';
+  var chips = ''; if(g.genre) chips+='<span class="chip">'+esc(String(g.genre).split(/[،,]/)[0].trim())+'</span>'; if(g.arabic) chips+='<span class="chip ar">عربي</span>';
   if(chips) h += '<div class="chips">'+chips+'</div>';
-  h += '<button class="more" data-det="'+esc(g.id)+'">'+(g.youtube?'المواصفات والفيديو ←':'المواصفات ←')+'</button></div></article>';
+  h += '<div class="acts"><button class="more" data-det="'+esc(g.id)+'">المواصفات ←</button><a class="yt-s" href="'+ytSearch(g)+'" target="_blank" rel="noopener">▶ يوتيوب</a></div></div></article>';
   return h;
 }
 // ---------- install as app ----------
@@ -262,7 +264,7 @@ function doInstall(){
   openSheet('<div class="row"><h2>تنزيل التطبيق على الآيفون</h2><button class="btn x sm" data-close>إغلاق</button></div>'+
     '<ol class="steps"><li>افتح الموقع من متصفح <b>Safari</b>.</li><li>اضغط زر <b>المشاركة</b> <span aria-hidden="true">⬆️</span> (المربع بيه سهم لفوك) أسفل الشاشة.</li><li>انزل بالقائمة واختار <b>إضافة إلى الشاشة الرئيسية</b> (Add to Home Screen).</li><li>اضغط <b>إضافة</b> (Add) بالأعلى. يطلع شعار AXIS على شاشتك مثل أي تطبيق.</li></ol>');
 }
-function ytId(u){ u=String(u||"").trim(); var m=u.match(/(?:youtu\.be\/|youtube(?:-nocookie)?\.com\/(?:watch\?(?:.*&)?v=|embed\/|shorts\/|live\/|v\/))([A-Za-z0-9_-]{11})/); return m?m[1]:""; }
+function ytSearch(g){ var n=String(g.name||"").replace(/\s*\([^)]*\)\s*/g," ").trim()||g.name; return "https://www.youtube.com/results?search_query="+encodeURIComponent("تختيم "+n+" بالعربي"); }
 function waNum(){ return String(S.settings.whatsapp||"").replace(/\D/g,""); }
 function plural(n){ return n===1?"لعبة":(n===2?"لعبتين":(n>2&&n<11?"ألعاب":"لعبة")); }
 var PIN='<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 22s7-6.2 7-12a7 7 0 1 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg>';
@@ -410,10 +412,8 @@ function showDetail(id){
     '<div class="detail"><div class="detail-cover">'+(g.cover?'<img src="'+g.cover+'" alt="">':'<span class="ph">'+esc(g.name)+'</span>')+'</div><div style="display:flex;flex-direction:column;gap:12px;min-width:0">'+
     (g.desc?'<p style="margin:0">'+esc(g.desc)+'</p>':'')+
     '<div class="meta" style="font-size:14px;gap:6px 14px">'+rows.map(function(r){return '<span>'+r[0]+'</span><b>'+esc(r[1]||"—")+'</b>';}).join("")+'</div></div></div>'+
-    (g.youtube?(function(){ var vid=ytId(g.youtube), link=vid?'https://www.youtube.com/watch?v='+vid:g.youtube;
-      return '<div class="vid-h"><b>▶ شاهد اللعبة وطريقة اللعب</b><a class="btn sm" href="'+esc(link)+'" target="_blank" rel="noopener">فتح بيوتيوب</a></div>'+
-      (vid?'<div class="yt"><iframe src="https://www.youtube-nocookie.com/embed/'+vid+'?rel=0" title="فيديو '+esc(g.name)+'" loading="lazy" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen></iframe></div>':''); })():'')+
-    '<div class="row"><button class="btn primary" id="d-tog">'+(on?'إزالة من طلبي':'أضف إلى طلبي')+'</button>'+(isOwner?'<button class="btn" id="d-edit">تعديل</button>':'')+'</div>');
+    '<a class="yt-btn" href="'+ytSearch(g)+'" target="_blank" rel="noopener"><svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23 7.2a3 3 0 0 0-2.1-2.1C19 4.6 12 4.6 12 4.6s-7 0-8.9.5A3 3 0 0 0 1 7.2 31 31 0 0 0 .5 12a31 31 0 0 0 .5 4.8 3 3 0 0 0 2.1 2.1c1.9.5 8.9.5 8.9.5s7 0 8.9-.5a3 3 0 0 0 2.1-2.1 31 31 0 0 0 .5-4.8 31 31 0 0 0-.5-4.8zM9.7 15.1V8.9L15.5 12z"/></svg><span>شاهد تختيم وشرح اللعبة بالعربي<small>يفتح يوتيوب على فيديوهات هذي اللعبة</small></span></a>'+
+'<div class="row"><button class="btn primary" id="d-tog">'+(on?'إزالة من طلبي':'أضف إلى طلبي')+'</button>'+(isOwner?'<button class="btn" id="d-edit">تعديل</button>':'')+'</div>');
   v.querySelector("#d-tog").onclick=function(){ if(sel.has(id)) sel.delete(id); else sel.add(id); saveSel(); closeSheet(); keep(render); };
   var e=v.querySelector("#d-edit"); if(e) e.onclick=function(){ showEditor(id); };
 }
