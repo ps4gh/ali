@@ -15,6 +15,38 @@ window.SHOP = {
  },
  "games": [
   {
+   "id": "n-hogwarts",
+   "platform": "ps4",
+   "name": "Hogwarts Legacy",
+   "genre": "تقمص أدوار، عالم مفتوح",
+   "sizeGB": 80,
+   "releaseDate": "2023-05-05",
+   "developer": "Avalanche Software",
+   "players": "لاعب واحد",
+   "rating": "PEGI 12",
+   "arabic": false,
+   "desc": "عيش كطالب بمدرسة هوغوورتس بعالم هاري بوتر، تتعلم السحر وتستكشف القلعة والقرى المحيطة.",
+   "note": "",
+   "cover": "covers/n-hogwarts.jpg",
+   "addedAt": "2026-11-22"
+  },
+  {
+   "id": "n-op-odyssey",
+   "platform": "ps4",
+   "name": "One Piece Odyssey",
+   "genre": "تقمص أدوار، أنمي",
+   "sizeGB": 30,
+   "releaseDate": "2023-01-13",
+   "developer": "ILCA",
+   "players": "لاعب واحد",
+   "rating": "PEGI 12",
+   "arabic": false,
+   "desc": "لوفي وطاقم قبعة القش على جزيرة غامضة بمغامرة تقمص أدوار بنظام قتال أدوار.",
+   "note": "",
+   "cover": "covers/n-op-odyssey.jpg",
+   "addedAt": "2026-11-22"
+  },
+  {
    "id": "n-acvi",
    "platform": "ps4",
    "name": "Armored Core VI: Fires of Rubicon",
